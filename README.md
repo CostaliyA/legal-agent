@@ -1,6 +1,6 @@
 # Selected 10 Legal Agent Tasks
 
-本目录保存从已生成任务中筛选出的 10 道法律 Agent 任务，以及题目、材料、rubric、证据图谱和评测记录。设计依据与完整案例见 [REPORT.pdf](REPORT.pdf)，可复用的分阶段流程见 [skills/](skills/README.md)。
+本目录保存从已生成任务中筛选出的 10 道法律 Agent 任务，以及题目、材料、rubric、证据图谱和评测记录。设计依据与完整案例见 [REPORT.pdf](REPORT.pdf)，可复用的分阶段流程见 [skills/](skills/README.md)。deepseek-flash的正确率为1/10。
 
 ## 核心设计目标
 
@@ -38,9 +38,7 @@ LAB benchmark 只用于了解任务分布和真实工作表达风格；**LAB 原
 | B10-great-lakes-policy | Identify Great Lakes coverage open items | identify | 26/32 | 81.25% | 否 |
 | H-FUSION-01 | Telehealth Ad-Tech Data Sharing: HBNR Notification and FTC Section 5 Response Plan | draft | 23/39 | 58.97% | 否 |
 
-**评测口径：** Batch10 的 no-hint DeepSeek Flash solver 输出被复用并由 Flash judge 重新评测；H-FUSION-01 使用 batch15 的 no-hint Flash rollout 与逐项评分。成绩是本批自动 rubric 评测结果，不是独立法律认证。完整逐题信息见 [manifest.json](manifest.json) 和各题 `evaluation/` 文件。
 
-H-FUSION-15 未纳入本选集：其当前 32/32 是删除原来失败的 8 条 rubric 后重算，原始评测为 32/40，不能当作原始 rubric 下的全通过题。
 
 ## 数据与 Skill 目录
 
