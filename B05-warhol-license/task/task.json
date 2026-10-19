@@ -1,0 +1,26 @@
+{
+  "id": "B05-warhol-license",
+  "title": "Draft Warhol licensing clearance note",
+  "operation": "draft",
+  "domain": "intellectual-property",
+  "jurisdiction": "United States; federal Copyright Act fair use",
+  "law_as_of": "2023-05-18",
+  "family_id": "warhol-goldsmith-21-869",
+  "lineage": {
+    "authentic_materials_from": "R06-warhol-license",
+    "criterion_seed_from": "R06-warhol-license",
+    "independent_holdout": false
+  },
+  "instructions": "Draft a clearance note for the Foundation's licensing team. Trace the Goldsmith license chain, explain the Supreme Court's use-specific fair-use reasoning, address the competing arguments, and separate the 2016 magazine license from future uses. Output: `licensing-clearance.docx`.",
+  "deliverables": {
+    "licensing-clearance.docx": "licensing-clearance.docx"
+  },
+  "documents": [
+    "documents/warhol-goldsmith-supreme-court-opinion.pdf",
+    "documents/warhol-petitioner-brief.pdf",
+    "documents/warhol-respondent-brief.pdf",
+    "documents/warhol-reply-brief.pdf",
+    "documents/warhol-word-count.pdf",
+    "documents/warhol-service-certificate.pdf"
+  ]
+}

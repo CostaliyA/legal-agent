@@ -1,0 +1,185 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": true,
+      "reason": "Correctly identifies Microsoft as Parent, Anchorage Merger Sub Inc. as Merger Sub, and Activision Blizzard as Company, citing p. 216."
+    },
+    {
+      "id": "C-002",
+      "pass": true,
+      "reason": "Describes a reverse triangular merger with Merger Sub merging into the Company and Activision surviving as a Microsoft subsidiary, citing p. 231."
+    },
+    {
+      "id": "C-003",
+      "pass": true,
+      "reason": "States the $95.00 cash per-share merger consideration and distinguishes the $68.7 billion transaction valuation."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "Mentions that consideration is without interest but omits the applicable withholding treatment for merger consideration."
+    },
+    {
+      "id": "C-005",
+      "pass": true,
+      "reason": "Excludes Owned Company Shares from the $95 conversion, avoiding payment on treasury/intercompany shares, though it does not fully describe their separate cancellation treatment."
+    },
+    {
+      "id": "C-006",
+      "pass": true,
+      "reason": "Excludes Dissenting Company Shares from automatic conversion, preserving the appraisal route rather than treating them as fixed $95 consideration."
+    },
+    {
+      "id": "C-007",
+      "pass": false,
+      "reason": "Does not address the separate treatment of Company Options and stock-based awards, including assumption, surrender, or payment mechanics."
+    },
+    {
+      "id": "C-008",
+      "pass": true,
+      "reason": "Identifies Requisite Stockholder Approval as an express mutual closing condition under Section 7.1(a)."
+    },
+    {
+      "id": "C-009",
+      "pass": false,
+      "reason": "Identifies HSR waiting periods and competition clearances but omits the contractual timing agreements or commitments with the FTC/DOJ."
+    },
+    {
+      "id": "C-010",
+      "pass": true,
+      "reason": "Recognizes the separate Section 7.1(c) regulatory approvals identified through the Company Disclosure Letter."
+    },
+    {
+      "id": "C-011",
+      "pass": true,
+      "reason": "Notes that temporary restraining orders and preliminary injunctions can impede closing while separately discussing final nonappealable restraints for termination."
+    },
+    {
+      "id": "C-012",
+      "pass": true,
+      "reason": "Includes the Burdensome Condition qualification for competition and regulatory approvals."
+    },
+    {
+      "id": "C-013",
+      "pass": true,
+      "reason": "Separates representation bringdown standards from covenant performance and notes materiality, MAE, and de minimis qualifications."
+    },
+    {
+      "id": "C-014",
+      "pass": true,
+      "reason": "Identifies the Company officer’s certificate as required satisfaction evidence for Sections 7.2(a) and 7.2(b)."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "Addresses January 18 and July 18 but does not explain the conditional April 18 extension under the original outside-date mechanics."
+    },
+    {
+      "id": "C-016",
+      "pass": false,
+      "reason": "Applies the primary-cause/material-breach limitation to other termination routes but does not clearly apply it to the Section 8.1(c) outside-date right."
+    },
+    {
+      "id": "C-017",
+      "pass": true,
+      "reason": "Distinguishes the final/nonappealable injunction termination route from interim closing restraints."
+    },
+    {
+      "id": "C-018",
+      "pass": true,
+      "reason": "Identifies the failed stockholder-vote termination route and its causative-breach qualification."
+    },
+    {
+      "id": "C-019",
+      "pass": true,
+      "reason": "Explains the written notice/cure mechanism and the terminating party’s own-breach limitations for material breach terminations."
+    },
+    {
+      "id": "C-020",
+      "pass": true,
+      "reason": "Identifies Parent’s termination right upon a Company Board Recommendation Change under Section 8.1(f)."
+    },
+    {
+      "id": "C-021",
+      "pass": true,
+      "reason": "Requires the Superior Proposal process with Board authorization, Alternative Acquisition Agreement, fee payment, and Section 5.3(d)(ii) compliance."
+    },
+    {
+      "id": "C-022",
+      "pass": true,
+      "reason": "States that termination requires prompt written notice identifying the Section 8.1 ground and supporting facts."
+    },
+    {
+      "id": "C-023",
+      "pass": true,
+      "reason": "Identifies the $2,270,100,000 Company Termination Fee."
+    },
+    {
+      "id": "C-024",
+      "pass": true,
+      "reason": "Separates the recommendation-change, superior-proposal, and contingent acquisition-tail triggers for the Company Termination Fee."
+    },
+    {
+      "id": "C-025",
+      "pass": true,
+      "reason": "Identifies the original $2.0 billion Parent Termination Fee tier before January 18, 2023, with contractual conditions."
+    },
+    {
+      "id": "C-026",
+      "pass": true,
+      "reason": "Identifies the $2.5 billion tier between January 18, 2023 and April 18, 2023."
+    },
+    {
+      "id": "C-027",
+      "pass": true,
+      "reason": "Identifies the $3.0 billion tier after April 18, 2023, without inventing later amended fee terms."
+    },
+    {
+      "id": "C-028",
+      "pass": true,
+      "reason": "Links the Parent Termination Fee to the specified antitrust injunction/outside-date circumstances and Company non-breach condition."
+    },
+    {
+      "id": "C-029",
+      "pass": true,
+      "reason": "Recognizes the single-payment limitation on the Company and Parent Termination Fees."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "Does not address the specific-performance framework or explain that fee payment is not an unrestricted walk-away right."
+    },
+    {
+      "id": "C-031",
+      "pass": true,
+      "reason": "Requires a signed written extension/amendment and does not infer waiver merely from delay."
+    },
+    {
+      "id": "C-032",
+      "pass": true,
+      "reason": "Recognizes the issuer’s disclosure that the merger agreement was extended through October 18, 2023."
+    },
+    {
+      "id": "C-033",
+      "pass": true,
+      "reason": "Requests the executed extension/amendment before treating amended fee and waiver terms as established."
+    },
+    {
+      "id": "C-034",
+      "pass": true,
+      "reason": "Distinguishes the FTC pretrial record and preliminary-injunction ruling from a final merits adjudication."
+    },
+    {
+      "id": "C-035",
+      "pass": true,
+      "reason": "Does not infer worldwide regulatory clearance from the U.S. preliminary-injunction result and flags remaining regulatory approvals."
+    },
+    {
+      "id": "C-036",
+      "pass": true,
+      "reason": "Requests the Company Disclosure Letter and missing definitions needed to verify qualifications and remaining approvals."
+    }
+  ],
+  "unsupported_material_claims": []
+}

@@ -1,0 +1,1 @@
+Compare Tesla's proposed Texas governing documents with its current Delaware instruments as of April 29, 2024. Show the approval mechanics and changes to director, shareholder, litigation, and economic rights; distinguish proposals from effective terms. Output: `rights-comparison.docx`.

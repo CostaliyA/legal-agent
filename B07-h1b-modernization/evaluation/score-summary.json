@@ -1,0 +1,23 @@
+{
+  "task_id": "B07-h1b-modernization",
+  "title": "Draft H-1B filing checklist",
+  "operation": "draft",
+  "domain": "immigration",
+  "source_batch": "batch10_v1",
+  "source_family": "h1b-modernization-2023-2025",
+  "solver_model": "deepseek-flash (no hint, reused from run_auto_review.py)",
+  "judge_model": "deepseek-flash",
+  "hint_type": "none",
+  "criteria_passed": 34,
+  "criteria_total": 36,
+  "criterion_pass_rate": 0.9444444444444444,
+  "task_all_criteria_pass": false,
+  "answer_file": "output.md",
+  "evaluation_files": [
+    "rubric.json",
+    "nohint-flashjudge-result.json",
+    "batch-judge-verdict.json",
+    "negative-control-verdict.json"
+  ],
+  "trajectory_included": false
+}

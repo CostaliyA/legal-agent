@@ -1,0 +1,1010 @@
+{
+  "task_id": "B09-moore-attribution",
+  "family_id": "moore-united-states-22-800",
+  "criterion_count": 32,
+  "minimum_criteria": 30,
+  "source": "generated from frozen evidence graph; graph bootstrapped from v3 source-anchored criteria",
+  "status": "candidate; guided independent rollout and counterchecks pending",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Actual tax",
+      "issue_group": "tax-record-and-posture",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:tax-record-and-posture",
+        "prop:C-001",
+        "span:C-001:1"
+      ],
+      "pass_condition": "identifies the section 965 Mandatory Repatriation Tax as the challenged tax",
+      "fail_condition": "substitutes a proposed general wealth tax for the actual MRT",
+      "match_criteria": "PASS if the deliverable identifies the section 965 Mandatory Repatriation Tax as the challenged tax. FAIL if omitted, contradicted, or it substitutes a proposed general wealth tax for the actual MRT. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10
+          ],
+          "anchor": "965"
+        }
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "Transition mechanism",
+      "issue_group": "tax-record-and-posture",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:tax-record-and-posture",
+        "prop:C-002",
+        "span:C-002:1"
+      ],
+      "pass_condition": "explains the one-time backward-looking attribution of accumulated foreign corporate income",
+      "fail_condition": "describes an annual tax on the market price of stock",
+      "match_criteria": "PASS if the deliverable explains the one-time backward-looking attribution of accumulated foreign corporate income. FAIL if omitted, contradicted, or it describes an annual tax on the market price of stock. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10
+          ],
+          "anchor": "backward-looking"
+        }
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "Foreign corporation",
+      "issue_group": "tax-record-and-posture",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:tax-record-and-posture",
+        "prop:C-003",
+        "span:C-003:1"
+      ],
+      "pass_condition": "identifies KisanKraft as the relevant foreign corporation with earned income",
+      "fail_condition": "describes the entity as having no realized operating income",
+      "match_criteria": "PASS if the deliverable identifies KisanKraft as the relevant foreign corporation with earned income. FAIL if omitted, contradicted, or it describes the entity as having no realized operating income. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10,
+            11
+          ],
+          "anchor": "KisanKraft"
+        }
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "Undistributed earnings",
+      "issue_group": "tax-record-and-posture",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:tax-record-and-posture",
+        "prop:C-004",
+        "span:C-004:1"
+      ],
+      "pass_condition": "recognizes no distribution of the relevant income to the Moores before the challenged tax",
+      "fail_condition": "assumes an actual cash dividend to the Moores",
+      "match_criteria": "PASS if the deliverable recognizes no distribution of the relevant income to the Moores before the challenged tax. FAIL if omitted, contradicted, or it assumes an actual cash dividend to the Moores. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            8,
+            9,
+            10
+          ],
+          "anchor": "distributed"
+        }
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Ownership record",
+      "issue_group": "tax-record-and-posture",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:tax-record-and-posture",
+        "prop:C-005",
+        "span:C-005:1"
+      ],
+      "pass_condition": "reports the 13% interest rather than assuming complete control",
+      "fail_condition": "states the Moores were sole owners",
+      "match_criteria": "PASS if the deliverable reports the 13% interest rather than assuming complete control. FAIL if omitted, contradicted, or it states the Moores were sole owners. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10
+          ],
+          "anchor": "13-percent"
+        }
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "Included amount",
+      "issue_group": "tax-record-and-posture",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:tax-record-and-posture",
+        "prop:C-006",
+        "span:C-006:1"
+      ],
+      "pass_condition": "reports $132,512 of declared MRT income and distinguishes it from the larger pre-deduction accumulated share",
+      "fail_condition": "uses $132,512 as the tax paid",
+      "match_criteria": "PASS if the deliverable reports $132,512 of declared MRT income and distinguishes it from the larger pre-deduction accumulated share. FAIL if omitted, contradicted, or it uses $132,512 as the tax paid. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10
+          ],
+          "anchor": "132,512"
+        }
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "Refund amount",
+      "issue_group": "tax-record-and-posture",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:tax-record-and-posture",
+        "prop:C-007",
+        "span:C-007:1"
+      ],
+      "pass_condition": "reports the $14,729 tax paid and sought as refund",
+      "fail_condition": "uses $14,729 as a Supreme Court refund award",
+      "match_criteria": "PASS if the deliverable reports the $14,729 tax paid and sought as refund. FAIL if omitted, contradicted, or it uses $14,729 as a Supreme Court refund award. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10
+          ],
+          "anchor": "14,729"
+        }
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "Different tax outside case",
+      "issue_group": "tax-record-and-posture",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:tax-record-and-posture",
+        "prop:C-008",
+        "span:C-008:1"
+      ],
+      "pass_condition": "does not conflate the MRT with section 951A GILTI, which was not at issue",
+      "fail_condition": "reports the case as directly invalidating or upholding every GILTI application",
+      "match_criteria": "PASS if the deliverable does not conflate the MRT with section 951A GILTI, which was not at issue. FAIL if omitted, contradicted, or it reports the case as directly invalidating or upholding every GILTI application. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10
+          ],
+          "anchor": "951A"
+        }
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "Apportionment issue",
+      "issue_group": "constitutional-and-attribution-analysis",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:constitutional-and-attribution-analysis",
+        "prop:C-009",
+        "span:C-009:1"
+      ],
+      "pass_condition": "distinguishes direct-tax apportionment from the income-tax power under the Sixteenth Amendment",
+      "fail_condition": "assumes every federal tax must be apportioned",
+      "match_criteria": "PASS if the deliverable distinguishes direct-tax apportionment from the income-tax power under the Sixteenth Amendment. FAIL if omitted, contradicted, or it assumes every federal tax must be apportioned. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10,
+            12,
+            13,
+            14,
+            15,
+            20
+          ],
+          "anchor": "apportion"
+        }
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "Realization level",
+      "issue_group": "constitutional-and-attribution-analysis",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:constitutional-and-attribution-analysis",
+        "prop:C-010",
+        "span:C-010:1"
+      ],
+      "pass_condition": "distinguishes entity realization from shareholder receipt",
+      "fail_condition": "states no income had been realized by anyone",
+      "match_criteria": "PASS if the deliverable distinguishes entity realization from shareholder receipt. FAIL if omitted, contradicted, or it states no income had been realized by anyone. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            14,
+            18,
+            26
+          ],
+          "anchor": "realized income"
+        }
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Attribution holding",
+      "issue_group": "constitutional-and-attribution-analysis",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:constitutional-and-attribution-analysis",
+        "prop:C-011",
+        "span:C-011:1"
+      ],
+      "pass_condition": "explains Congress ability in the circumstances decided to attribute realized entity income to shareholders",
+      "fail_condition": "requires a cash distribution as an absolute condition",
+      "match_criteria": "PASS if the deliverable explains Congress ability in the circumstances decided to attribute realized entity income to shareholders. FAIL if omitted, contradicted, or it requires a cash distribution as an absolute condition. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            14,
+            19,
+            25,
+            26
+          ],
+          "anchor": "attribute"
+        }
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Partnership precedent",
+      "issue_group": "constitutional-and-attribution-analysis",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:constitutional-and-attribution-analysis",
+        "prop:C-012",
+        "span:C-012:1"
+      ],
+      "pass_condition": "uses partnership taxation as an attribution analogue without treating all entities as legally identical",
+      "fail_condition": "asserts partnership income is constitutionally untaxable before distribution",
+      "match_criteria": "PASS if the deliverable uses partnership taxation as an attribution analogue without treating all entities as legally identical. FAIL if omitted, contradicted, or it asserts partnership income is constitutionally untaxable before distribution. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            15,
+            16,
+            20,
+            21,
+            23,
+            24
+          ],
+          "anchor": "partnership"
+        }
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "S-corporation analogue",
+      "issue_group": "constitutional-and-attribution-analysis",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:constitutional-and-attribution-analysis",
+        "prop:C-013",
+        "span:C-013:1"
+      ],
+      "pass_condition": "addresses S-corporation attribution and why shareholder consent does not alone explain constitutional authority",
+      "fail_condition": "treats unanimous continuing consent as constitutionally necessary",
+      "match_criteria": "PASS if the deliverable addresses S-corporation attribution and why shareholder consent does not alone explain constitutional authority. FAIL if omitted, contradicted, or it treats unanimous continuing consent as constitutionally necessary. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            21,
+            23,
+            25,
+            26,
+            27
+          ],
+          "anchor": "S corporation"
+        }
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "Subpart F analogue",
+      "issue_group": "constitutional-and-attribution-analysis",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:constitutional-and-attribution-analysis",
+        "prop:C-014",
+        "span:C-014:1"
+      ],
+      "pass_condition": "explains the longstanding foreign-corporation attribution comparison",
+      "fail_condition": "states the MRT was the first foreign-income attribution tax",
+      "match_criteria": "PASS if the deliverable explains the longstanding foreign-corporation attribution comparison. FAIL if omitted, contradicted, or it states the MRT was the first foreign-income attribution tax. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10,
+            17,
+            21,
+            22,
+            23,
+            25
+          ],
+          "anchor": "subpart F"
+        }
+      ]
+    },
+    {
+      "id": "C-015",
+      "title": "Macomber distinction",
+      "issue_group": "constitutional-and-attribution-analysis",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:constitutional-and-attribution-analysis",
+        "prop:C-015",
+        "span:C-015:1"
+      ],
+      "pass_condition": "distinguishes the stock-dividend realization issue from this entity-income attribution question",
+      "fail_condition": "reads Macomber as directly prohibiting all undistributed corporate-income attribution",
+      "match_criteria": "PASS if the deliverable distinguishes the stock-dividend realization issue from this entity-income attribution question. FAIL if omitted, contradicted, or it reads Macomber as directly prohibiting all undistributed corporate-income attribution. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            17,
+            18,
+            19
+          ],
+          "anchor": "Macomber"
+        }
+      ]
+    },
+    {
+      "id": "C-016",
+      "title": "Constructive-realization argument",
+      "issue_group": "constitutional-and-attribution-analysis",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:constitutional-and-attribution-analysis",
+        "prop:C-016",
+        "span:C-016:1"
+      ],
+      "pass_condition": "states and addresses the Moores constructive-realization/control distinction and the majority response",
+      "fail_condition": "reports constructive realization as a newly adopted mandatory constitutional test",
+      "match_criteria": "PASS if the deliverable states and addresses the Moores constructive-realization/control distinction and the majority response. FAIL if omitted, contradicted, or it reports constructive realization as a newly adopted mandatory constitutional test. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            23,
+            25,
+            26
+          ],
+          "anchor": "constructive"
+        }
+      ]
+    },
+    {
+      "id": "C-017",
+      "title": "Shareholder-tax setting",
+      "issue_group": "express-holding-limits",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:express-holding-limits",
+        "prop:C-017",
+        "span:C-017:1"
+      ],
+      "pass_condition": "identifies shareholder taxation as the first express boundary of the holding",
+      "fail_condition": "extends the holding without analysis to a tax on every kind of property holder",
+      "match_criteria": "PASS if the deliverable identifies shareholder taxation as the first express boundary of the holding. FAIL if omitted, contradicted, or it extends the holding without analysis to a tax on every kind of property holder. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28,
+            29
+          ],
+          "anchor": "shareholders"
+        }
+      ]
+    },
+    {
+      "id": "C-018",
+      "title": "Entity income realized",
+      "issue_group": "express-holding-limits",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:express-holding-limits",
+        "prop:C-018",
+        "span:C-018:1"
+      ],
+      "pass_condition": "retains the express limitation to undistributed income realized by the entity",
+      "fail_condition": "uses the holding as direct approval of taxing unrealized appreciation",
+      "match_criteria": "PASS if the deliverable retains the express limitation to undistributed income realized by the entity. FAIL if omitted, contradicted, or it uses the holding as direct approval of taxing unrealized appreciation. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28,
+            29
+          ],
+          "anchor": "realized by the entity"
+        }
+      ]
+    },
+    {
+      "id": "C-019",
+      "title": "Income attributed",
+      "issue_group": "express-holding-limits",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:express-holding-limits",
+        "prop:C-019",
+        "span:C-019:1"
+      ],
+      "pass_condition": "retains the express attribution-to-shareholders feature",
+      "fail_condition": "treats any unrelated shareholder property levy as the same tax",
+      "match_criteria": "PASS if the deliverable retains the express attribution-to-shareholders feature. FAIL if omitted, contradicted, or it treats any unrelated shareholder property levy as the same tax. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28
+          ],
+          "anchor": "attributed to the shareholders"
+        }
+      ]
+    },
+    {
+      "id": "C-020",
+      "title": "Untaxed entity limitation",
+      "issue_group": "express-holding-limits",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:express-holding-limits",
+        "prop:C-020",
+        "span:C-020:1"
+      ],
+      "pass_condition": "retains the express feature that the entity itself had not been taxed on that income",
+      "fail_condition": "states the opinion expressly approves taxing the same undistributed income at both levels",
+      "match_criteria": "PASS if the deliverable retains the express feature that the entity itself had not been taxed on that income. FAIL if omitted, contradicted, or it states the opinion expressly approves taxing the same undistributed income at both levels. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28
+          ],
+          "anchor": "entity itself has not been taxed"
+        }
+      ]
+    },
+    {
+      "id": "C-021",
+      "title": "Realization question reserved",
+      "issue_group": "express-holding-limits",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:express-holding-limits",
+        "prop:C-021",
+        "span:C-021:1"
+      ],
+      "pass_condition": "states whether realization is constitutionally required was not decided",
+      "fail_condition": "states the Court held realization never matters constitutionally",
+      "match_criteria": "PASS if the deliverable states whether realization is constitutionally required was not decided. FAIL if omitted, contradicted, or it states the Court held realization never matters constitutionally. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28
+          ],
+          "anchor": "do not decide that question"
+        }
+      ]
+    },
+    {
+      "id": "C-022",
+      "title": "Wealth tax reserved",
+      "issue_group": "express-holding-limits",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:express-holding-limits",
+        "prop:C-022",
+        "span:C-022:1"
+      ],
+      "pass_condition": "does not present a hypothetical wealth/net-worth tax as upheld by this decision",
+      "fail_condition": "certifies a general wealth tax as constitutional under Moore",
+      "match_criteria": "PASS if the deliverable does not present a hypothetical wealth/net-worth tax as upheld by this decision. FAIL if omitted, contradicted, or it certifies a general wealth tax as constitutional under Moore. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            29
+          ],
+          "anchor": "wealth"
+        }
+      ]
+    },
+    {
+      "id": "C-023",
+      "title": "Appreciation tax reserved",
+      "issue_group": "express-holding-limits",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:express-holding-limits",
+        "prop:C-023",
+        "span:C-023:1"
+      ],
+      "pass_condition": "does not present an unapportioned appreciation tax as resolved",
+      "fail_condition": "states the Court directly upheld a tax on unrealized stock appreciation",
+      "match_criteria": "PASS if the deliverable does not present an unapportioned appreciation tax as resolved. FAIL if omitted, contradicted, or it states the Court directly upheld a tax on unrealized stock appreciation. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            29
+          ],
+          "anchor": "another day"
+        }
+      ]
+    },
+    {
+      "id": "C-024",
+      "title": "Arbitrary attribution limit",
+      "issue_group": "express-holding-limits",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:express-holding-limits",
+        "prop:C-024",
+        "span:C-024:1"
+      ],
+      "pass_condition": "identifies the due-process constraint on arbitrary attribution",
+      "fail_condition": "treats attribution power as unlimited and immune from due-process review",
+      "match_criteria": "PASS if the deliverable identifies the due-process constraint on arbitrary attribution. FAIL if omitted, contradicted, or it treats attribution power as unlimited and immune from due-process review. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            29
+          ],
+          "anchor": "Due Process"
+        }
+      ]
+    },
+    {
+      "id": "C-025",
+      "title": "Double-tax caveat",
+      "issue_group": "opinions-outcome-and-tax-advice",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:opinions-outcome-and-tax-advice",
+        "prop:C-025",
+        "span:C-025:1"
+      ],
+      "pass_condition": "distinguishes the reserved hypothetical double taxation of the same undistributed income from ordinary corporate income tax followed by dividend tax",
+      "fail_condition": "says Moore invalidates ordinary corporate/dividend taxation",
+      "match_criteria": "PASS if the deliverable distinguishes the reserved hypothetical double taxation of the same undistributed income from ordinary corporate income tax followed by dividend tax. FAIL if omitted, contradicted, or it says Moore invalidates ordinary corporate/dividend taxation. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            29,
+            32,
+            34,
+            37,
+            38,
+            43
+          ],
+          "anchor": "dividend"
+        }
+      ]
+    },
+    {
+      "id": "C-026",
+      "title": "Ninth Circuit judgment",
+      "issue_group": "opinions-outcome-and-tax-advice",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:opinions-outcome-and-tax-advice",
+        "prop:C-026",
+        "span:C-026:1"
+      ],
+      "pass_condition": "states the Ninth Circuit judgment was affirmed and the MRT challenge failed",
+      "fail_condition": "reports the Moores obtained the refund",
+      "match_criteria": "PASS if the deliverable states the Ninth Circuit judgment was affirmed and the MRT challenge failed. FAIL if omitted, contradicted, or it reports the Moores obtained the refund. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28,
+            30,
+            34,
+            35,
+            36,
+            37
+          ],
+          "anchor": "judgment"
+        }
+      ]
+    },
+    {
+      "id": "C-027",
+      "title": "Jackson concurrence",
+      "issue_group": "opinions-outcome-and-tax-advice",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:opinions-outcome-and-tax-advice",
+        "prop:C-027",
+        "span:C-027:1"
+      ],
+      "pass_condition": "distinguishes the broader view of tax power in Jackson concurrence from the majority narrow resolution",
+      "fail_condition": "attributes every Jackson constitutional proposition to the majority",
+      "match_criteria": "PASS if the deliverable distinguishes the broader view of tax power in Jackson concurrence from the majority narrow resolution. FAIL if omitted, contradicted, or it attributes every Jackson constitutional proposition to the majority. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            30,
+            31,
+            32,
+            33,
+            37
+          ],
+          "anchor": "Jackson"
+        }
+      ]
+    },
+    {
+      "id": "C-028",
+      "title": "Barrett concurrence",
+      "issue_group": "opinions-outcome-and-tax-advice",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:opinions-outcome-and-tax-advice",
+        "prop:C-028",
+        "span:C-028:1"
+      ],
+      "pass_condition": "distinguishes concurrence in the judgment and its realization/attribution reservations from the majority analysis",
+      "fail_condition": "describes all Justices voting for the result as sharing one rationale",
+      "match_criteria": "PASS if the deliverable distinguishes concurrence in the judgment and its realization/attribution reservations from the majority analysis. FAIL if omitted, contradicted, or it describes all Justices voting for the result as sharing one rationale. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            29,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "anchor": "Barrett"
+        }
+      ]
+    },
+    {
+      "id": "C-029",
+      "title": "Thomas dissent",
+      "issue_group": "opinions-outcome-and-tax-advice",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:opinions-outcome-and-tax-advice",
+        "prop:C-029",
+        "span:C-029:1"
+      ],
+      "pass_condition": "identifies the contrary realization/attribution position as dissent",
+      "fail_condition": "reports the dissent as controlling",
+      "match_criteria": "PASS if the deliverable identifies the contrary realization/attribution position as dissent. FAIL if omitted, contradicted, or it reports the dissent as controlling. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            33,
+            35,
+            36,
+            37,
+            40,
+            50
+          ],
+          "anchor": "dissenting"
+        }
+      ]
+    },
+    {
+      "id": "C-030",
+      "title": "Argument source discipline",
+      "issue_group": "opinions-outcome-and-tax-advice",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:opinions-outcome-and-tax-advice",
+        "prop:C-030",
+        "span:C-030:1"
+      ],
+      "pass_condition": "uses petitioners/reply assertions as litigated positions rather than judicial findings",
+      "fail_condition": "quotes a petitioner proposition as the holding",
+      "match_criteria": "PASS if the deliverable uses petitioners/reply assertions as litigated positions rather than judicial findings. FAIL if omitted, contradicted, or it quotes a petitioner proposition as the holding. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-petitioner-brief",
+          "file": "moore-petitioner-brief.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4,
+            5,
+            13,
+            14,
+            17,
+            18
+          ],
+          "anchor": "realization"
+        }
+      ]
+    },
+    {
+      "id": "C-031",
+      "title": "Client comparison facts",
+      "issue_group": "opinions-outcome-and-tax-advice",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:opinions-outcome-and-tax-advice",
+        "prop:C-031",
+        "span:C-031:1"
+      ],
+      "pass_condition": "requests entity realization, ownership, attribution and prior entity-level tax facts before analogizing another tax",
+      "fail_condition": "offers an unconditional result without these features",
+      "match_criteria": "PASS if the deliverable requests entity realization, ownership, attribution and prior entity-level tax facts before analogizing another tax. FAIL if omitted, contradicted, or it offers an unconditional result without these features. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28,
+            32,
+            33,
+            43,
+            46,
+            47
+          ],
+          "anchor": "limited"
+        }
+      ]
+    },
+    {
+      "id": "C-032",
+      "title": "Claim-specific recommendation",
+      "issue_group": "opinions-outcome-and-tax-advice",
+      "deliverables": [
+        "refund-advice-letter.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:opinions-outcome-and-tax-advice",
+        "prop:C-032",
+        "span:C-032:1"
+      ],
+      "pass_condition": "separates the foreclosed matching MRT theory from questions expressly reserved and independently supportable claims",
+      "fail_condition": "promises a refund based solely on lack of distribution",
+      "match_criteria": "PASS if the deliverable separates the foreclosed matching MRT theory from questions expressly reserved and independently supportable claims. FAIL if omitted, contradicted, or it promises a refund based solely on lack of distribution. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "moore-opinion",
+          "file": "moore-tax-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28,
+            30,
+            31,
+            47,
+            48,
+            51
+          ],
+          "anchor": "undistributed"
+        }
+      ]
+    }
+  ]
+}

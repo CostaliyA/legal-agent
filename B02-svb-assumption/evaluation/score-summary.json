@@ -1,0 +1,23 @@
+{
+  "task_id": "B02-svb-assumption",
+  "title": "Extract SVB transfer and assumption terms",
+  "operation": "extract",
+  "domain": "banking-finance",
+  "source_batch": "batch10_v1",
+  "source_family": "svb-first-citizens-resolution-2023",
+  "solver_model": "deepseek-flash (no hint, reused from run_auto_review.py)",
+  "judge_model": "deepseek-flash",
+  "hint_type": "none",
+  "criteria_passed": 34,
+  "criteria_total": 34,
+  "criterion_pass_rate": 1.0,
+  "task_all_criteria_pass": true,
+  "answer_file": "output.md",
+  "evaluation_files": [
+    "rubric.json",
+    "nohint-flashjudge-result.json",
+    "batch-judge-verdict.json",
+    "negative-control-verdict.json"
+  ],
+  "trajectory_included": false
+}

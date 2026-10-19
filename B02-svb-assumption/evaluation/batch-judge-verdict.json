@@ -1,0 +1,175 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": true,
+      "reason": "Names the FDIC in receiver and corporate capacities and identifies First-Citizens as the assuming institution."
+    },
+    {
+      "id": "C-002",
+      "pass": true,
+      "reason": "Uses Section 2.1’s enumerated Liabilities Assumed rather than treating all liabilities as transferred."
+    },
+    {
+      "id": "C-003",
+      "pass": true,
+      "reason": "States Assumed Deposits are subject to the Schedule 2.1(a) exclusion."
+    },
+    {
+      "id": "C-004",
+      "pass": true,
+      "reason": "Identifies the public-money deposit collateral requirement and fallback to assuming-institution assets."
+    },
+    {
+      "id": "C-005",
+      "pass": true,
+      "reason": "Applies the market-value cap specifically to secured indebtedness and notes it is not Article VIII adjustable."
+    },
+    {
+      "id": "C-006",
+      "pass": true,
+      "reason": "Limits assumed standby letters of credit to acquired-asset-related ones and excludes other standby credits."
+    },
+    {
+      "id": "C-007",
+      "pass": true,
+      "reason": "Links commitment liabilities to Loans actually purchased under the agreement."
+    },
+    {
+      "id": "C-008",
+      "pass": true,
+      "reason": "Identifies Schedule 2.2 Excluded Contracts and preclosing tax liabilities as outside the general assumption."
+    },
+    {
+      "id": "C-009",
+      "pass": true,
+      "reason": "Distinguishes Transferred QFCs from Excluded QFCs using the definitions and Schedule 3.5(l)."
+    },
+    {
+      "id": "C-010",
+      "pass": true,
+      "reason": "Applies Schedule 3.5(l)’s qualification for QFCs where First-Citizens did not acquire the underlying asset or assume the liability."
+    },
+    {
+      "id": "C-011",
+      "pass": true,
+      "reason": "States transferred QFC liabilities are assumed in full and not subject to other Section 2.1 amount caps."
+    },
+    {
+      "id": "C-012",
+      "pass": true,
+      "reason": "Covers loan-servicing duties including GSE servicer cooperation or transfer qualifications."
+    },
+    {
+      "id": "C-013",
+      "pass": true,
+      "reason": "Limits assumed litigation to shared-loss Acquired Assets and notes retained defensive and credit-card class actions."
+    },
+    {
+      "id": "C-014",
+      "pass": true,
+      "reason": "Preserves receivership administrative claims and statutory defenses as excluded liabilities."
+    },
+    {
+      "id": "C-015",
+      "pass": true,
+      "reason": "Identifies retained insurance policies, bonds, premiums, refunds, and proceeds."
+    },
+    {
+      "id": "C-016",
+      "pass": true,
+      "reason": "Identifies retained preclosing claims against officers, directors, professionals, and similar counterparties."
+    },
+    {
+      "id": "C-017",
+      "pass": true,
+      "reason": "Lists legal or equitable interests in tax receivables as excluded assets."
+    },
+    {
+      "id": "C-018",
+      "pass": true,
+      "reason": "Covers excluded or optional Bank Premises and the hazardous-substances qualification."
+    },
+    {
+      "id": "C-019",
+      "pass": true,
+      "reason": "Recognizes goodwill and intangibles exclusion while preserving the intellectual-property qualification."
+    },
+    {
+      "id": "C-020",
+      "pass": true,
+      "reason": "Uses Schedule 3.5 exclusions for securities and other assets rather than relying on a headline."
+    },
+    {
+      "id": "C-021",
+      "pass": true,
+      "reason": "Describes First-Citizens’ rate-setting power and the nontransaction-deposit minimum-rate floor."
+    },
+    {
+      "id": "C-022",
+      "pass": true,
+      "reason": "States penalty-free withdrawal while preserving restrictions for pledged deposits."
+    },
+    {
+      "id": "C-023",
+      "pass": true,
+      "reason": "Tracks the 14-month unclaimed-deposit list, receiver authorization, and 15-day final-notice mailing."
+    },
+    {
+      "id": "C-024",
+      "pass": true,
+      "reason": "Identifies the 90-day full-service banking commitment and branch-closure consent requirements."
+    },
+    {
+      "id": "C-025",
+      "pass": true,
+      "reason": "Explains Section 4.8’s agreement-by-agreement election and deemed-assumption process."
+    },
+    {
+      "id": "C-026",
+      "pass": true,
+      "reason": "Covers depositor notices and records transfer/return obligations tied to operational handoff."
+    },
+    {
+      "id": "C-027",
+      "pass": true,
+      "reason": "States the exact 0.00% deposit premium and $16,450,000,000 asset discount bid terms."
+    },
+    {
+      "id": "C-028",
+      "pass": true,
+      "reason": "Separates the bid and initial payment from the post-closing Pro Forma Statement adjustment process."
+    },
+    {
+      "id": "C-029",
+      "pass": true,
+      "reason": "Treats Section 3.4 as a Put Notice process and notes eligibility conditions are not fully shown."
+    },
+    {
+      "id": "C-030",
+      "pass": true,
+      "reason": "Distinguishes the Section 3.4 transfer date from the later 20-Business-Day payment obligation."
+    },
+    {
+      "id": "C-031",
+      "pass": true,
+      "reason": "Recognizes the Shared-Loss Agreement’s conflict priority and flags that its execution and terms are unresolved."
+    },
+    {
+      "id": "C-032",
+      "pass": true,
+      "reason": "Separates the initial SVB closure and the Signature/Flagstar announcement from the SVB bridge-bank deal."
+    },
+    {
+      "id": "C-033",
+      "pass": true,
+      "reason": "Provides separate assumed, excluded, conditional, and unresolved classifications with clause support."
+    },
+    {
+      "id": "C-034",
+      "pass": true,
+      "reason": "Requests or flags missing schedules, QFC/asset-linkage details, and the Shared-Loss instrument before final resolution."
+    }
+  ],
+  "unsupported_material_claims": []
+}

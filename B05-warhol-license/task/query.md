@@ -1,0 +1,1 @@
+Draft a clearance note for the Foundation's licensing team. Trace the Goldsmith license chain, explain the Supreme Court's use-specific fair-use reasoning, address the competing arguments, and separate the 2016 magazine license from future uses. Output: `licensing-clearance.docx`.

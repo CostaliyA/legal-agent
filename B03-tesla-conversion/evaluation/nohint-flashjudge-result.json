@@ -1,0 +1,51 @@
+{
+  "task_id": "B03-tesla-conversion",
+  "solver_model": "deepseek-flash (no hint, reused from run_auto_review.py)",
+  "judge_model": "deepseek-flash",
+  "hint_type": "none",
+  "evaluated_at_utc": "2026-10-18T06:03:35.384833+00:00",
+  "batch_judge_meta": {
+    "model": "deepseek-flash",
+    "response_id": "52eea5d7-f954-4e79-b94f-850b9439481f",
+    "usage": {
+      "prompt_tokens": 50960,
+      "completion_tokens": 6602,
+      "total_tokens": 57562,
+      "prompt_tokens_details": {
+        "cached_tokens": 41216
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5578
+      },
+      "prompt_cache_hit_tokens": 41216,
+      "prompt_cache_miss_tokens": 9744
+    }
+  },
+  "negative_control_meta": {
+    "model": "deepseek-flash",
+    "response_id": "c39faeba-831b-4d04-981b-6c12ce47d89c",
+    "usage": {
+      "prompt_tokens": 44733,
+      "completion_tokens": 995,
+      "total_tokens": 45728,
+      "prompt_tokens_details": {
+        "cached_tokens": 41216
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 140
+      },
+      "prompt_cache_hit_tokens": 41216,
+      "prompt_cache_miss_tokens": 3517
+    }
+  },
+  "guided_answer_sha256": "b6f2b20f2d6042211cc1a200d7c0d211a6a3af185a3eed10265881ad24f96896",
+  "solver_packet_sha256": "c803090482e9a06b434c2cb12bb4106804eb06da9508cb81c766fc0264ff6a95",
+  "batch_judging": {
+    "criteria_passed": 30,
+    "criteria_total": 32,
+    "pass_rate": 0.9375,
+    "unsupported_material_claims": [],
+    "negative_control_passed": 0
+  },
+  "interpretation": "DeepSeek Flash solver (no hint) answers re-judged by DeepSeek Flash. Answers reused from batch10_v1/rollouts/<task>/guided-answer.md. Not legal certification."
+}

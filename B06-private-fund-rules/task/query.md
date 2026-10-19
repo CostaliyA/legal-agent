@@ -1,0 +1,1 @@
+Check our private-fund rule tracker against the Fifth Circuit judgment and the November 2024 amendments. Mark each challenged requirement's status, explain the authority and timing, and identify residual adviser duties that need separate analysis. Output: `rule-status-review.docx`.

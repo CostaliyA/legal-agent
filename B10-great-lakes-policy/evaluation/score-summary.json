@@ -1,0 +1,23 @@
+{
+  "task_id": "B10-great-lakes-policy",
+  "title": "Identify Great Lakes coverage open items",
+  "operation": "identify",
+  "domain": "insurance",
+  "source_batch": "batch10_v1",
+  "source_family": "great-lakes-raiders-retreat-22-500",
+  "solver_model": "deepseek-flash (no hint, reused from run_auto_review.py)",
+  "judge_model": "deepseek-flash",
+  "hint_type": "none",
+  "criteria_passed": 26,
+  "criteria_total": 32,
+  "criterion_pass_rate": 0.8125,
+  "task_all_criteria_pass": false,
+  "answer_file": "output.md",
+  "evaluation_files": [
+    "rubric.json",
+    "nohint-flashjudge-result.json",
+    "batch-judge-verdict.json",
+    "negative-control-verdict.json"
+  ],
+  "trajectory_included": false
+}

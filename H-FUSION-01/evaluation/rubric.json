@@ -1,0 +1,794 @@
+{
+  "task_id": "H-FUSION-01",
+  "criterion_count": 39,
+  "minimum_criteria": 30,
+  "source": "fusion pipeline: real documents -> Flash evidence graph -> criterion-specific rubric",
+  "status": "candidate; guided rollout and judge pending",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Identify 16 CFR Part 318 and 42 U.S.C. 17937 as the governing notification regime",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable names 16 CFR Part 318 (or 'Health Breach Notification Rule') as the operative notification rule AND attributes it to 42 U.S.C. 17937 and/or ARRA section 13407. FAIL if the only notification authority cited is HIPAA (45 CFR 164.400-414), state breach statutes, or HHS/OCR, or if no statutory basis is given. Accept 'section 13407 of ARRA' or '§ 318.1' as equivalent to the 42 U.S.C. 17937 citation."
+    },
+    {
+      "id": "C-002",
+      "title": "Apply all three covered-entity categories in Part 318",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable lists at least two of the three covered categories (vendor of personal health records, PHR related entity, third-party service provider) and applies them to the app's own conduct and to its ad-tech vendors. FAIL if it uses only HIPAA terminology ('covered entity'/'business associate') with no reference to Part 318 categories, or if it treats the app as outside the Rule without category analysis. Accept 'PHR related entity' being described functionally (e.g., an entity that offers products through a PHR)."
+    },
+    {
+      "id": "C-003",
+      "title": "Coverage does not depend on an FTC Act jurisdictional test",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states that Part 318 applies regardless of the FTC Act's jurisdictional test (or words to that effect: 'no commerce threshold', 'jurisdiction-free coverage'). FAIL if it suggests a jurisdictional defense to HBNR coverage exists or is worth asserting. Accept phrasing that the Rule applies to entities 'to the extent they maintain information of U.S. citizens or residents' as an equivalent statement of the coverage trigger."
+    },
+    {
+      "id": "C-004",
+      "title": "The app meets the 'vendor of personal health records' definition",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable quotes or paraphrases the definition ('any entity, other than a HIPAA-covered entity, that offers or maintains a personal health record') AND applies it to conclude the app is a covered vendor. FAIL if the absence of HIPAA status is used as a reason the app has no notification duty. Accept an analysis that concludes the app is a 'PHR related entity' instead, so long as coverage under Part 318 is the conclusion."
+    },
+    {
+      "id": "C-005",
+      "title": "Shared ad-targeting data is 'PHR identifiable health information'",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable applies both prongs (health-related information + identifies the individual or reasonably can be used to identify) to the ad-tech data set, including hashed email/phone or mobile advertising IDs as identifying elements. FAIL if it categorizes the shared data as non-health data merely because it lived in an app/SDK rather than an EHR, or applies only one prong. Accept analysis that reaches the same conclusion via the 'reasonable basis to believe the information can be used to identify the individual' clause."
+    },
+    {
+      "id": "C-006",
+      "title": "60-calendar-day outer limit measured from discovery",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states a 60-calendar-day outer limit running from discovery of the breach AND separately states a 'without unreasonable delay' standard. FAIL if the deadline is stated as 30 days, 72 hours, or 'as soon as practicable' with no 60-day backstop. Tolerance: '60 days' without the word 'calendar' passes; a range such as '60 calendar days (14 days recommended for high-risk incidents)' also passes provided the 60-day statutory ceiling is stated."
+    },
+    {
+      "id": "C-007",
+      "title": "FTC notice contemporaneous where 500+ individuals affected",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states the 500-individual threshold AND that FTC notice is contemporaneous with individual notice above that threshold. FAIL if the deliverable treats FTC reporting as uniformly annual, or if it states the contemporaneous trigger at a different number (e.g., 1,000 or 5,000). Accept a statement that the contemporaneous obligation 'runs with' the individual notice."
+    },
+    {
+      "id": "C-008",
+      "title": "Sub-500 incidents are logged and reported annually to the FTC",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states both that sub-500 FTC notices are annual (60 days after calendar year end) AND that they must still be logged/reported to the Commission. FAIL if it says sub-500 breaches are exempt from FTC reporting entirely, or if it converts the annual deadline into a 60-day-from-discovery deadline. Accept 'no later than 60 days after year end' or 'by March 1' as equivalent."
+    },
+    {
+      "id": "C-009",
+      "title": "Media notice triggered at 500+ residents of a State",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable identifies media notice as a mandatory notification channel triggered at 500 residents of a single State/jurisdiction and directs it to prominent outlets serving that jurisdiction. FAIL if media notice is missing, described as optional, or triggered by a national (rather than per-State) 500-person count. Accept 'press release to statewide media' as an equivalent of 'prominent media outlets'."
+    },
+    {
+      "id": "C-010",
+      "title": "Fix and document the discovery date that starts the clock",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable expressly ties the 60-day clock to a 'discovery' date, requires that date to be memorialized, and does not substitute another trigger. FAIL if the clock is measured from the first unauthorized transfer, from the end of forensic review, or from a regulator's inquiry. Accept 'date the incident was confirmed' only if the deliverable simultaneously notes the Rule's discovery standard and the risk of a later legal conclusion of discovery."
+    },
+    {
+      "id": "C-011",
+      "title": "GoodRx is the first HBNR enforcement action",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable labels GoodRx as the first (or first-ever) enforcement under the Health Breach Notification Rule AND ties the action to the failure to notify. FAIL if GoodRx is described only as a Section 5/unfairness case, or if the enforcement agency or statute is misidentified. Accept 'first HBNR case' without naming GoodRx Holdings Inc. so long as the company is named elsewhere in the deliverable."
+    },
+    {
+      "id": "C-012",
+      "title": "Section 5 of the FTC Act is the operative deception authority",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable cites Section 5 of the FTC Act with the 15 U.S.C. 45 codification AND states that it reaches unfair or deceptive acts or practices. FAIL if the only authority discussed is the HBNR, or if Section 5 is cited without the statute number or without the deception/unfairness standard. Accept 'Section 5(a)' or 'FTC Act § 5' as equivalent."
+    },
+    {
+      "id": "C-013",
+      "title": "Promise-then-share is the core deception theory",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable articulates the mismatch between a privacy representation (promise, policy, seal, or marketing claim) and the actual disclosure to ad platforms as the deception theory, and names Facebook or similar ad platforms as recipients. FAIL if the analysis frames the exposure only as a 'breach' or 'unauthorized access' without any representation/conduct mismatch, or if it concedes the disclosures were consistent with the privacy policy. Accept references to 'material misrepresentation' or 'deceptive omission' as equivalent framing."
+    },
+    {
+      "id": "C-014",
+      "title": "False HIPAA seals and ad-industry certifications are separate misrepresentations",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable identifies at least one non-policy representation (HIPAA seal/logo, DAA or similar ad-industry certification, 'bank-level security' badge) as an independent deception vector and directs it be audited or removed. FAIL if only the privacy policy is reviewed, or if the deliverable states that a HIPAA seal is lawful for a non-covered entity. Accept a general instruction to audit 'all trust badges, seals, and certifications' as equivalent so long as a concrete example is given."
+    },
+    {
+      "id": "C-015",
+      "title": "Absence of any privacy or data-sharing policy is an aggravating fact",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable treats the absence of privacy/data-sharing policies as a risk factor (not a defense) and recommends creating written policies and a data-flow inventory promptly. FAIL if the deliverable states or implies that the lack of a written policy avoids Section 5 exposure. Accept 'no documented controls' / 'no data governance' phrasing; the February 2020 reference is not required so long as the control gap is flagged."
+    },
+    {
+      "id": "C-016",
+      "title": "Identify the specific ad-targeting mechanics at issue",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable names at least two of the identifying data elements transmitted (email, phone, mobile advertising ID/MAID, device ID) AND describes audience construction or ad-targeting/matching as the purpose. FAIL if the data flow is described only as 'sharing health data with advertisers' with no identifying-element or matching detail, or if the deliverable assumes no identifiers left the platform. Accept references to pixels, SDKs, or Conversions API as equivalent transmission mechanisms."
+    },
+    {
+      "id": "C-017",
+      "title": "Map the three ordered prohibitions to the client's facts",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable covers all three prongs (advertising disclosure, re-targeting/re-marketing, misrepresentation of data-sharing practices) and connects each to a concrete fact about the client. FAIL if any prong is missing, or if re-targeting is treated as materially different from advertising without explanation. Accept 'remarketing' or 'custom/lookalike audience building' as equivalent to re-targeting."
+    },
+    {
+      "id": "C-018",
+      "title": "BetterHelp final order required a $7.8 million payment",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states $7.8 million in connection with BetterHelp and dates the final order to July 14, 2023 (a July 2023 reference is sufficient). FAIL if the BetterHelp figure is stated as $1.5 million, $7.8 billion, or any other amount outside $7.5M-$8.0M, or if the date given is 2022 or 2024. Accept '$7.8M' as equivalent."
+    },
+    {
+      "id": "C-019",
+      "title": "GoodRx paid a $1.5 million civil penalty for failure to notify",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states $1.5 million in connection with GoodRx AND characterizes the payment as a civil penalty tied to the failure to notify/report. FAIL if the amount is outside $1.4M-$1.6M, if it is described as restitution to consumers, or if it is attributed to BetterHelp. Accept '$1.5M penalty' as equivalent; acceptance of 'proposed order' framing is fine since the action was announced on a proposed-order basis."
+    },
+    {
+      "id": "C-020",
+      "title": "BetterHelp order was finalized 3-0 after 123 public comments",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states the vote was 3-0 (or unanimous) AND references the 123 public comments reviewed before finalization. FAIL if the vote or the comment count is stated with a different number (e.g., 5-0, 4-1, 100 comments), or if the order is described as a contested adjudication. Accept 'unanimous' for 3-0; the comment count may be omitted only if the deliverable still notes that the order followed a public comment period."
+    },
+    {
+      "id": "C-021",
+      "title": "Distinguish the GoodRx HBNR track from the BetterHelp Section 5 track",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable contrasts the two matters on both the legal basis (HBNR vs. Section 5) and the focus (failure to notify vs. deceptive sharing), with the correct dollar figure attached to each company. FAIL if the authorities or figures are swapped, or if the deliverable asserts that timely notification alone resolves the Section 5 exposure. Accept a table or side-by-side comparison as equivalent."
+    },
+    {
+      "id": "C-022",
+      "title": "Both tracks are cumulative, not alternative",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states that the notification duty and the Section 5 deception exposure are separate obligations that must each be satisfied, expressly grounded in the failure-to-notify focus of GoodRx and the deceptive-sharing focus of BetterHelp. FAIL if the deliverable treats notification as a cure for the deception exposure, or addresses only one authority. Accept 'parallel' or 'two-track' framing as equivalent to 'cumulative'."
+    },
+    {
+      "id": "C-023",
+      "title": "Both orders share a common five-part remedy package",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable lists at least four of the five shared remedy elements (ad ban, affirmative consent, privacy program, third-party deletion, retention schedule) and frames them as the expected settlement baseline. FAIL if the deliverable presents the outcome as fine-only, or if it names fewer than three of the elements. A monetary component alone, without injunctive terms, is a FAIL."
+    },
+    {
+      "id": "C-024",
+      "title": "The 2021 FTC policy statement put health apps on notice",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable references the September 2021 FTC policy statement on HBNR compliance for health apps and draws a notice/expectations consequence from it (e.g., heightened culpability for post-2021 conduct). FAIL if the policy statement is absent from the chronology, or if the deliverable asserts the client had no notice of the Rule's application. Accept '2021 FTC health-app policy statement' without an exact date."
+    },
+    {
+      "id": "C-025",
+      "title": "Adopt a permanent bar on sharing health data for advertising",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable recommends an outright cessation of health-data disclosure for advertising and describes it as a permanent or indefinite bar rather than a temporary suspension. FAIL if it preserves advertising use of health data subject only to notice, opt-out, or anonymization-by-contract without addressing the ordered prohibition. Accept 'prohibit' / 'hard stop' / 'no health data in ad audiences' as equivalent."
+    },
+    {
+      "id": "C-026",
+      "title": "Affirmative express consent, not opt-out, for any residual sharing",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable mandates affirmative express consent (opt-in) as the standard for residual third-party disclosure of health data AND requires clear description of the categories of data shared. FAIL if the consent mechanism described is opt-out, implied by continued use, or satisfied by updating the privacy policy. Accept 'explicit opt-in consent, unbundled from general terms' as equivalent."
+    },
+    {
+      "id": "C-027",
+      "title": "Direct ad platforms to delete already-shared data",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable includes an affirmative instruction to third parties to delete previously shared health/personal data AND a step to verify or obtain confirmation of deletion. FAIL if remediation addresses only prospective data flows, or if deletion is requested only from internal systems. Accept 'deletion/erasure request letters to vendors and demand-side platforms' as equivalent."
+    },
+    {
+      "id": "C-028",
+      "title": "Adopt a data retention schedule for personal and health information",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable requires a documented retention schedule with defined maximum retention periods for personal and health information, including vendor-side retention. FAIL if retention is left to default practice, or if the schedule covers only account data and excludes health-derived attributes. A statement that data will be 'retained as long as necessary' without a defined schedule is a FAIL."
+    },
+    {
+      "id": "C-029",
+      "title": "Stand up a comprehensive privacy program with strong safeguards",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable requires a standing privacy program (ongoing, with governance/ownership) rather than a one-off policy revision, and describes it as encompassing safeguards for consumer data. FAIL if the only remediation is updating the privacy policy, posting a notice, or a single training session. Accept 'privacy compliance program', 'data protection program', or 'information security program' as equivalent."
+    },
+    {
+      "id": "C-030",
+      "title": "Specify the eight privacy-program components",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable names at least five of the eight program components (risk assessments, data inventory/classification, access controls, encryption, training, audit/testing, vendor management, incident response). FAIL if fewer than three components are named, or if the program is described only by outcome ('strong safeguards') with no building blocks. Accept a table of controls as equivalent to a narrative list."
+    },
+    {
+      "id": "C-031",
+      "title": "Benchmark the privacy program against the FTC Safeguards Rule",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable cites 16 CFR Part 314 (the Safeguards Rule) as an analogue or reference model for the privacy/security program, framed as a benchmark rather than unqualified direct legal obligation. FAIL if Part 314 is cited as directly binding on the telehealth app with no analysis, or if no existing FTC program model is referenced at all. Accept 'Safeguards Rule-style' or 'GLBA Safeguards Rule analogy' as equivalent."
+    },
+    {
+      "id": "C-032",
+      "title": "Business-associate workstreams fall outside Part 318",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states that Part 318 does not apply to HIPAA-covered entities or to business-associate activities, and scopes the HBNR analysis accordingly (separating DTC data from BAA data). FAIL if the deliverable applies the HBNR to business-associate data without qualification, or if it states that HIPAA-covered status provides no carve-out at all. Accept 'BAA data is out of HBNR scope' phrasing as equivalent."
+    },
+    {
+      "id": "C-033",
+      "title": "Do not misstate the HBNR's conditional sunset as a fixed 2026 date",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable either omits a sunset discussion or accurately describes § 318.9 as conditional on new applicable legislation and implementing regulations. FAIL if it states that the Rule automatically expires on February 17, 2026 or that Congress must extend it by that date.",
+      "statement": "If the deliverable discusses expiration, describe the 16 CFR § 318.9 sunset as conditional on new applicable breach-notification legislation and implementing regulations; otherwise no sunset discussion is required.",
+      "contradiction": "States that the Rule automatically expires on February 17, 2026 or that Congress must extend it by that date."
+    },
+    {
+      "id": "C-034",
+      "title": "The Rule reaches breaches discovered on or after September 24, 2009",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states the September 24, 2009 applicability date (or the equivalent statement that the Rule applies to breaches discovered on or after that date) and concludes the current incident is covered. FAIL if the date is stated as 2024 (the amendment date), 2009-02-17 (the sunset's mirror date), or if applicability is left unresolved. Accept a reference to 'the Rule's original 2009 applicability date' as equivalent."
+    },
+    {
+      "id": "C-035",
+      "title": "Telephone notice may only supplement written notice",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable states that alternative channels (phone, in-app message) supplement rather than replace written individual notice, and commits to issuing written notice. FAIL if the plan substitutes a call center, email, or website posting for written individual notice, or if it presents telephone notice as a stand-alone compliance option. Accept 'written notice remains the primary channel' phrasing."
+    },
+    {
+      "id": "C-036",
+      "title": "Audit ad-tech data flows before drafting any public statement",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable sequences a data-sharing audit (explicitly covering advertising platforms and identifying SDKs/pixels/audience uploads) ahead of notification and public statements. FAIL if notification or public disclosure is recommended before the scope of ad-platform sharing is established, or if no audit step is included. Accept 'data mapping exercise' or 'third-party inventory' as equivalent to an audit."
+    },
+    {
+      "id": "C-037",
+      "title": "Sequence notification first, then negotiated remediation",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable presents an explicit ordering in which statutory notification occurs within the 60-day window and is not conditioned on completing the consent/privacy-program remediation. FAIL if the plan makes notification contingent on remediation milestones, or if no timing relationship is stated between notification and remediation. Accept parallel workstreams only if the deliverable expressly states that notification will not slip past the 60-day deadline."
+    },
+    {
+      "id": "C-038",
+      "title": "Adopt the strictest reading of the consent scope",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable expressly recommends the broader/stricter consent standard ('any third party, any purpose') and explains the risk-adjustment rationale for choosing it over the narrower reading. FAIL if the deliverable silently adopts a narrow reading, or if it declines to resolve the ambiguity and leaves consent scope undefined. Accept 'conservative reading' or 'most protective interpretation' as equivalent framing."
+    },
+    {
+      "id": "C-039",
+      "title": "Audit all privacy policies, seals, and public claims for accuracy",
+      "deliverables": [
+        "breach-response-plan.docx"
+      ],
+      "match_criteria": "PASS if the deliverable requires a retrospective review of existing privacy policies and public representations (including seals/badges and marketing claims) for accuracy, and directs that prior versions be preserved. FAIL if the deliverable addresses only new policy drafting, or if prior public statements are not preserved. Accept 'website and app store listing audit' as within scope so long as existing claims are corrected."
+    }
+  ],
+  "evidence_map": {
+    "C-001": {
+      "statement": "State that the Health Breach Notification Rule, 16 CFR Part 318, implements section 13407 of the American Recovery and Reinvestment Act of 2009 (42 U.S.C. 17937) and is the operative federal breach-notification regime for the platform's unauthorized disclosures of health data to ad platforms.",
+      "contradiction": "Treats HIPAA/HHS breach notification (45 CFR Part 164) as the governing rule for this incident and never identifies Part 318 or 42 U.S.C. 17937 as the applicable authority.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-002": {
+      "statement": "Explain that Part 318 reaches vendors of personal health records, PHR related entities, and third-party service providers, and assess the telehealth app against each of the three categories rather than assuming only one applies.",
+      "contradiction": "Discusses coverage only in terms of 'covered entities' or 'business associates', collapsing the three Part 318 categories into the HIPAA framework.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-003": {
+      "statement": "Note that Part 318 applies regardless of any jurisdictional test in the FTC Act, so the platform cannot argue it escapes the Rule because it falls outside FTC Act commerce jurisdiction or is too small to be an FTC Act actor.",
+      "contradiction": "Advises that the app can avoid HBNR obligations by arguing it lacks the interstate-commerce nexus the FTC Act requires.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-004": {
+      "statement": "Conclude that a direct-to-consumer telehealth app that is not a HIPAA-covered entity and is not acting as a business associate falls within the Part 318 definition of 'vendor of personal health records' because it offers or maintains a personal health record.",
+      "contradiction": "Concludes the app is outside the HBNR on the ground that it is not a HIPAA-covered provider and therefore has no federal notification duty at all.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-005": {
+      "statement": "Establish that the data pushed to ad platforms — health or medication context combined with email, phone, or advertising identifiers — satisfies the two prongs of 'PHR identifiable health information' because it relates to the individual's physical or mental health and identifies the individual.",
+      "contradiction": "Treats the disclosed data as ordinary marketing or device data outside the Rule because it was never stored in a clinical record or EHR.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-006": {
+      "statement": "State the general timing rule: notices must be made without unreasonable delay and in no event later than 60 calendar days after discovery of the breach of security.",
+      "contradiction": "States a 30-day or 72-hour deadline, or states only a 'reasonable promptness' standard with no 60-day outer limit.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-007": {
+      "statement": "Explain that where the breach involves unsecured PHR identifiable health information of 500 or more individuals, notice to the FTC must be provided contemporaneously with the notice to affected individuals rather than held back for a periodic filing.",
+      "contradiction": "Advises that FTC notice can always be deferred to an annual filing regardless of the number of affected individuals.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-008": {
+      "statement": "For breaches involving fewer than 500 individuals, explain that FTC notification may be logged and submitted annually no later than 60 calendar days after the end of the calendar year — the obligation is deferred, not eliminated.",
+      "contradiction": "States that breaches affecting fewer than 500 individuals need not be reported to the FTC at all.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-009": {
+      "statement": "Identify the media-notice obligation: if unsecured PHR identifiable health information of 500 or more residents of a State or jurisdiction was or is reasonably believed to have been accessed or disclosed, the platform must notify prominent media outlets serving that State or jurisdiction.",
+      "contradiction": "Omits media notice entirely, or states that press notice is discretionary and only a public-relations choice.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-010": {
+      "statement": "Ground the deadline analysis in the Rule's 'discovery' trigger: the plan must identify, fix, and contemporaneously document the date the platform discovered the unauthorized disclosure to advertising platforms, since every Part 318 deadline runs from that date.",
+      "contradiction": "Measures the notification deadline from the date the sharing began, the date of an internal investigation's conclusion, or the date of public reporting.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-011": {
+      "statement": "Cite GoodRx Holdings Inc. as the FTC's first enforcement action under the Health Breach Notification Rule against a telehealth and prescription-discount provider, premised on its failure to notify consumers and others of unauthorized disclosures of health data to third parties.",
+      "contradiction": "Characterizes GoodRx solely as a Section 5 deception case or attributes the action to HIPAA enforcement by HHS.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-012": {
+      "statement": "Frame the deceptive-practices exposure under Section 5 of the FTC Act, 15 U.S.C. 45, which prohibits unfair or deceptive acts or practices and is the authority the Commission used in the BetterHelp matter.",
+      "contradiction": "Analyzes only the HBNR notification duty and never identifies Section 5 as an independent basis of liability for the sharing itself.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-013": {
+      "statement": "Explain that the core deception theory is that the app held itself out as keeping health data private and then shared consumers' sensitive data with third parties such as Facebook — the same theory the FTC alleged against BetterHelp.",
+      "contradiction": "Describes the sharing as a pure security incident without addressing the gap between the privacy promise and the actual data flow.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-014": {
+      "statement": "Flag that misrepresentations outside the privacy policy — a falsely displayed HIPAA compliance seal on the telehealth homepage and false claims of adherence to Digital Advertising Alliance principles — independently support Section 5 liability, as alleged against GoodRx.",
+      "contradiction": "Limits the deception analysis to the privacy policy text and ignores compliance seals and self-regulatory certifications.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-015": {
+      "statement": "Record that GoodRx maintained no formal privacy or data-sharing policies until its practices were publicly exposed in February 2020, and treat the absence of written data-handling controls as an aggravating fact requiring immediate documentation in the client's file.",
+      "contradiction": "Asserts that having no written privacy policy reduces exposure because there was nothing to contradict the data-sharing practice.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-016": {
+      "statement": "Describe the conduct concretely: compiling medication- or condition-based audience lists and uploading email addresses, phone numbers, and mobile advertising IDs to Facebook so the platform could match profiles and serve health-related ads.",
+      "contradiction": "Describes the data flow only in generic terms ('we shared data with third parties') without identifying identifiers, match keys, or audience construction.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-017": {
+      "statement": "List the three practices the BetterHelp order targets — disclosing health data for advertising, sharing personal information for re-targeting, and misrepresenting data-sharing practices — and map each to the client's own conduct.",
+      "contradiction": "Mentions only the advertising ban and omits the re-targeting prohibition and the misrepresentation prohibition.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-018": {
+      "statement": "State that the FTC's final order against BetterHelp, announced July 14, 2023, requires the company to pay $7.8 million.",
+      "contradiction": "Attributes the $1.5 million figure to BetterHelp, or states the BetterHelp payment as a civil penalty rather than the amount ordered.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-019": {
+      "statement": "State that GoodRx was required to pay a $1.5 million civil penalty for failing to report its unauthorized disclosure of consumer health data to Facebook, Google, and other companies.",
+      "contradiction": "States the GoodRx exposure as consumer refunds or disgorgement rather than a civil penalty, or misstates the amount.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-020": {
+      "statement": "Record the procedural posture of the BetterHelp order: the Commission voted 3-0 to finalize the order after reviewing 123 public comments.",
+      "contradiction": "Describes the order as a litigated judgment or fails to note the comment period and vote, mischaracterizing the procedural path.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-021": {
+      "statement": "Distinguish the two matters: GoodRx was the first HBNR enforcement ($1.5 million civil penalty, focused on failure to notify), while BetterHelp was a Section 5 action ($7.8 million, focused on deceptive data sharing).",
+      "contradiction": "Treats the two matters as interchangeable or implies that satisfying notification duties resolves the deceptive-sharing exposure.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-022": {
+      "statement": "Explain that the HBNR and Section 5 obligations are independent and cumulative: GoodRx shows penalties attach to the failure to notify, and BetterHelp shows liability attaches to the deceptive sharing itself, so the platform must satisfy both tracks.",
+      "contradiction": "Advises that compliance with the notification rule discharges the platform's exposure, or that a negotiated order would address only one of the two authorities.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-023": {
+      "statement": "Identify the remedy package common to both settlements — a ban on sharing health data for advertising, affirmative express consent, a privacy program, data deletion, and a retention schedule — as the template for any resolution of the client's matter.",
+      "contradiction": "Assumes the client's exposure is limited to a monetary payment with no injunctive or programmatic obligations.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-024": {
+      "statement": "Use the FTC's September 2021 policy statement warning health apps about HBNR compliance as the notice benchmark: the client cannot claim the notification obligation was unclear when it began or continued sharing data after that date.",
+      "contradiction": "Argues the client lacked fair notice of HBNR obligations, or omits the 2021 policy statement from the chronology entirely.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-025": {
+      "statement": "Recommend that the platform permanently stop disclosing user health information to ad platforms for advertising purposes, mirroring the prohibition entered against both GoodRx and BetterHelp.",
+      "contradiction": "Recommends continuing ad-platform sharing behind an opt-out toggle or under a legitimate-interest rationale rather than ending the practice.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-026": {
+      "statement": "Require affirmative express consent before any other disclosure of health information to third parties, with the categories of health information to be disclosed clearly and conspicuously described.",
+      "contradiction": "Relies on an opt-out toggle, pre-checked box, or burying disclosure in a general privacy policy instead of affirmative express consent.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-027": {
+      "statement": "Direct the advertising platforms and other recipients to delete the consumer health and personal data already transmitted, and obtain written confirmation of deletion.",
+      "contradiction": "Leaves already-shared data with the ad platforms on the assumption that stopping future transfers is sufficient.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-028": {
+      "statement": "Adopt a written data retention schedule that limits how long personal and health information may be retained, and applies to data held by vendors and derived ad audiences.",
+      "contradiction": "Recommends indefinite retention of user data 'for analytics' with no schedule or maximum retention period.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-029": {
+      "statement": "Commit the platform to a comprehensive privacy program with strong safeguards protecting consumer data, as ordered against BetterHelp, and assign executive ownership and board reporting.",
+      "contradiction": "Offers only a one-time policy update and staff email in place of an ongoing, auditable privacy program.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-030": {
+      "statement": "Specify the privacy-program components applicable here: risk assessments, data inventory and classification, access controls, encryption and other technical safeguards, employee training, regular auditing and testing, vendor management, and incident response planning.",
+      "contradiction": "Describes the privacy program only at the level of 'implement reasonable security' without naming concrete required components.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-031": {
+      "statement": "Note the analogy to the FTC Safeguards Rule, 16 CFR Part 314, which imposes comparable comprehensive information-security program requirements, and use it as the drafting model for the client's program.",
+      "contradiction": "Invents a bespoke program standard with no reference to any existing FTC rule and asserts that Part 314 applies directly to a non-financial telehealth app without qualification.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-032": {
+      "statement": "Carve out the platform's HIPAA business-associate workstreams: Part 318 does not apply to HIPAA-covered entities or to an entity to the extent it acts as a business associate of a covered entity, so those activities are governed by HIPAA rather than the HBNR.",
+      "contradiction": "Applies Part 318 to the platform's entire data estate, including data it processes as a HIPAA business associate, creating overstated obligations and conflicting notice duties.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-033": {
+      "statement": "If the deliverable discusses expiration, describe the 16 CFR § 318.9 sunset as conditional on new applicable breach-notification legislation and implementing regulations; otherwise no sunset discussion is required.",
+      "contradiction": "States that the Rule automatically expires on February 17, 2026 or that Congress must extend it by that date.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ],
+      "match_criteria": "PASS if the deliverable either omits a sunset discussion or accurately describes § 318.9 as conditional on new applicable legislation and implementing regulations. FAIL if it states that the Rule automatically expires on February 17, 2026 or that Congress must extend it by that date."
+    },
+    "C-034": {
+      "statement": "Confirm that Part 318 applies to breaches of security discovered on or after September 24, 2009, so the Rule covers the client's current incident without any applicability-date defense.",
+      "contradiction": "Raises an applicability-date objection on the theory that the Rule predates or postdates the client's data practices, or misstates the effective date.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-035": {
+      "statement": "Clarify that where there is a risk of harm the platform may provide information by telephone or other appropriate means only as a supplement to written notice — a phone call does not discharge the written-notice obligation.",
+      "contradiction": "Treats a call campaign, email blast, or in-app banner as satisfying the individual notice obligation in full, with no written notice sent.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-036": {
+      "statement": "Recommend as the first action item a comprehensive audit of the platform's data-sharing practices with advertising platforms — SDK and pixel inventory, audience/match-key review, vendor contracts, and data-flow mapping — completed before any public or regulator-facing statement is issued.",
+      "contradiction": "Proceeds directly to notification letters and a press statement without first establishing what data actually reached which ad platforms.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-037": {
+      "statement": "Recommend a sequenced plan: determine and memorialize the discovery date, deliver individual/FTC/media notice within the 60-calendar-day ceiling without unreasonable delay, and only then negotiate the longer-cycle remediation terms (consent architecture, deletion, retention, privacy program).",
+      "contradiction": "Treats the consent and privacy-program build-out as a precondition to notification, allowing the 60-day statutory clock to run out while remediation is designed.",
+      "evidence": [
+        {
+          "source_id": "ecfr-hbnr-2024-08-01",
+          "file": "ecfr-hbnr-source-notes.md",
+          "page": null,
+          "anchor": "Official eCFR 16 CFR Part 318; see subsection cited in criterion"
+        }
+      ]
+    },
+    "C-038": {
+      "statement": "Where the sources differ on scope, adopt the stricter reading: obtain affirmative express consent before disclosing personal information to any third party for any purpose, rather than relying on a narrower reading limited to certain recipient categories.",
+      "contradiction": "Reads the consent obligation narrowly — applying it only to named categories of third parties or only to 'sensitive' data subsets — to preserve ad-platform sharing.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    },
+    "C-039": {
+      "statement": "Flag as a live risk that the platform's prior public representations create sworn-declaration and evidentiary exposure in any FTC inquiry, and recommend an immediate accuracy review of all privacy policies, compliance seals, and public statements, with preservation of prior versions.",
+      "contradiction": "Recommends only prospective policy drafting from this point forward and leaves existing inaccurate representations, seals, and marketing claims in market or unpreserved.",
+      "evidence": [
+        {
+          "source_id": "ftc-enforcement-primary-records",
+          "file": "ftc-enforcement-source-notes.md",
+          "page": null,
+          "anchor": "Official FTC record summary; verify operative language in attached final order or linked FTC record"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "B07-h1b-modernization",
+  "title": "Draft H-1B filing checklist",
+  "operation": "draft",
+  "domain": "immigration",
+  "jurisdiction": "United States; DHS/USCIS federal immigration regulations",
+  "law_as_of": "2025-01-17",
+  "family_id": "h1b-modernization-2023-2025",
+  "lineage": {
+    "authentic_materials_from": "R09-h1b-modernization",
+    "criterion_seed_from": "R09-h1b-modernization",
+    "independent_holdout": false
+  },
+  "instructions": "Draft an employer filing checklist for January 17, 2025. Separate final H-1B modernization requirements from proposals, and cover specialty occupation, owner beneficiaries, work availability, amendments, cap-gap treatment, evidence, and filing dates. Output: `h1b-filing-checklist.docx`.",
+  "deliverables": {
+    "h1b-filing-checklist.docx": "h1b-filing-checklist.docx"
+  },
+  "documents": [
+    "documents/h1b-modernization-final-rule-2024.pdf",
+    "documents/h1b-modernization-proposed-rule-2023.pdf",
+    "documents/h1b-registration-final-rule-2024.pdf"
+  ]
+}

@@ -1,0 +1,1 @@
+Identify what Great Lakes resolves for Raiders Retreat and what coverage facts remain open. Separate the maritime choice-of-law holding from warranty breach, causation, exclusions, and procedural questions; flag unsupported assertions in the briefs. Output: `coverage-open-items.docx`.

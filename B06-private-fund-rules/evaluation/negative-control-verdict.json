@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": false,
+      "reason": "The answer provides no identification or discussion of the Fifth Circuit vacatur."
+    },
+    {
+      "id": "C-002",
+      "pass": false,
+      "reason": "The answer does not address whether the entire challenged package was vacated."
+    },
+    {
+      "id": "C-003",
+      "pass": false,
+      "reason": "The answer does not explain the court's retail-customer reading of section 211(h)."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "The answer does not explain the rejection of the section 206(4) antifraud theory."
+    },
+    {
+      "id": "C-005",
+      "pass": false,
+      "reason": "The answer does not distinguish a private fund client from its investors."
+    },
+    {
+      "id": "C-006",
+      "pass": false,
+      "reason": "The answer does not discuss Congress's differentiated private-fund framework."
+    },
+    {
+      "id": "C-007",
+      "pass": false,
+      "reason": "The answer does not state June 5, 2024 as the operative vacatur date."
+    },
+    {
+      "id": "C-008",
+      "pass": false,
+      "reason": "The answer does not distinguish the November 19, 2024 CFR cleanup from substantive repeal."
+    },
+    {
+      "id": "C-009",
+      "pass": false,
+      "reason": "The answer does not identify quarterly fee, expense, and performance reporting as part of the vacated package."
+    },
+    {
+      "id": "C-010",
+      "pass": false,
+      "reason": "The answer does not separate the new private-fund audit rule from existing custody-rule duties."
+    },
+    {
+      "id": "C-011",
+      "pass": false,
+      "reason": "The answer does not address the vacated adviser-led-secondary fairness-or-valuation opinion requirement."
+    },
+    {
+      "id": "C-012",
+      "pass": false,
+      "reason": "The answer does not address the vacated restricted-activities treatment of investigation fees and expenses."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "The answer does not address the vacated restricted-activities treatment of regulatory, examination, or compliance costs."
+    },
+    {
+      "id": "C-014",
+      "pass": false,
+      "reason": "The answer does not address the vacated treatment of tax-related clawback reductions."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "The answer does not address the vacated non-pro-rata allocation restrictions."
+    },
+    {
+      "id": "C-016",
+      "pass": false,
+      "reason": "The answer does not address the vacated borrowing restriction and consent condition."
+    },
+    {
+      "id": "C-017",
+      "pass": false,
+      "reason": "The answer does not address the vacated preferential-redemption restriction."
+    },
+    {
+      "id": "C-018",
+      "pass": false,
+      "reason": "The answer does not address the vacated restriction on preferential portfolio information."
+    },
+    {
+      "id": "C-019",
+      "pass": false,
+      "reason": "The answer does not address the vacated preferential-treatment disclosure scheme."
+    },
+    {
+      "id": "C-020",
+      "pass": false,
+      "reason": "The answer does not distinguish the vacated written-documentation requirement from the continuing annual review."
+    },
+    {
+      "id": "C-021",
+      "pass": false,
+      "reason": "The answer does not address the specific rule 204-2 amendments and reservations."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "The answer does not map removed rules such as 206(4)-10 and the 211(h) rules to affected obligations."
+    },
+    {
+      "id": "C-023",
+      "pass": false,
+      "reason": "The answer does not address the restored annual review obligation under rule 206(4)-7(b)."
+    },
+    {
+      "id": "C-024",
+      "pass": false,
+      "reason": "The answer does not discuss the 2023 phased compliance dates being superseded by vacatur."
+    },
+    {
+      "id": "C-025",
+      "pass": false,
+      "reason": "The answer does not flag independently applicable custody or audit requirements for separate review."
+    },
+    {
+      "id": "C-026",
+      "pass": false,
+      "reason": "The answer does not distinguish vacated regulatory mandates from continuing LP or side-letter promises."
+    },
+    {
+      "id": "C-027",
+      "pass": false,
+      "reason": "The answer does not preserve independent antifraud or fiduciary analysis."
+    },
+    {
+      "id": "C-028",
+      "pass": false,
+      "reason": "The answer does not request registration, fund structure, or activities before assessing residual obligations."
+    },
+    {
+      "id": "C-029",
+      "pass": false,
+      "reason": "The answer does not distinguish voluntary investor reporting from vacated-rule mandates."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "The answer does not identify policies or calendar entries to revise while retaining independently supported controls."
+    },
+    {
+      "id": "C-031",
+      "pass": false,
+      "reason": "The answer does not map current-status conclusions to both original obligations and later vacatur or restoration instruments."
+    },
+    {
+      "id": "C-032",
+      "pass": false,
+      "reason": "The answer does not use the SEC portion of the Federal Register cleanup or address adjacent unrelated text."
+    }
+  ],
+  "unsupported_material_claims": []
+}

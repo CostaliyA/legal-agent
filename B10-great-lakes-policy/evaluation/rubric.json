@@ -1,0 +1,991 @@
+{
+  "task_id": "B10-great-lakes-policy",
+  "family_id": "great-lakes-raiders-retreat-22-500",
+  "criterion_count": 32,
+  "minimum_criteria": 30,
+  "source": "generated from frozen evidence graph; graph bootstrapped from v3 source-anchored criteria",
+  "status": "candidate; guided independent rollout and counterchecks pending",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Maritime policy",
+      "issue_group": "contract-loss-and-procedure",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:contract-loss-and-procedure",
+        "prop:C-001",
+        "span:C-001:1"
+      ],
+      "pass_condition": "identifies the boat insurance contract as the maritime contract at issue",
+      "fail_condition": "treats the dispute as an ordinary land insurance choice-of-law case",
+      "match_criteria": "PASS if the deliverable identifies the boat insurance contract as the maritime contract at issue. FAIL if omitted, contradicted, or it treats the dispute as an ordinary land insurance choice-of-law case. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4,
+            5
+          ],
+          "anchor": "boat"
+        }
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "Chosen jurisdiction",
+      "issue_group": "contract-loss-and-procedure",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:contract-loss-and-procedure",
+        "prop:C-002",
+        "span:C-002:1"
+      ],
+      "pass_condition": "identifies New York law as the selected state law",
+      "fail_condition": "substitutes Pennsylvania as the contractually chosen law",
+      "match_criteria": "PASS if the deliverable identifies New York law as the selected state law. FAIL if omitted, contradicted, or it substitutes Pennsylvania as the contractually chosen law. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4,
+            5
+          ],
+          "anchor": "New York"
+        }
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "Forum location",
+      "issue_group": "contract-loss-and-procedure",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:contract-loss-and-procedure",
+        "prop:C-003",
+        "span:C-003:1"
+      ],
+      "pass_condition": "identifies the federal litigation in Pennsylvania separately from the contractual choice",
+      "fail_condition": "treats filing location as automatically determining governing substantive law",
+      "match_criteria": "PASS if the deliverable identifies the federal litigation in Pennsylvania separately from the contractual choice. FAIL if omitted, contradicted, or it treats filing location as automatically determining governing substantive law. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4,
+            5
+          ],
+          "anchor": "Pennsylvania"
+        }
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "Loss location",
+      "issue_group": "contract-loss-and-procedure",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:contract-loss-and-procedure",
+        "prop:C-004",
+        "span:C-004:1"
+      ],
+      "pass_condition": "identifies the grounding near Fort Lauderdale, Florida",
+      "fail_condition": "assumes the accident occurred in the litigation forum",
+      "match_criteria": "PASS if the deliverable identifies the grounding near Fort Lauderdale, Florida. FAIL if omitted, contradicted, or it assumes the accident occurred in the litigation forum. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4
+          ],
+          "anchor": "Florida"
+        }
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Alleged warranty breach",
+      "issue_group": "contract-loss-and-procedure",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:contract-loss-and-procedure",
+        "prop:C-005",
+        "span:C-005:1"
+      ],
+      "pass_condition": "identifies the alleged failure to maintain the fire-suppression system",
+      "fail_condition": "substitutes an adjudicated fire as the cause of loss",
+      "match_criteria": "PASS if the deliverable identifies the alleged failure to maintain the fire-suppression system. FAIL if omitted, contradicted, or it substitutes an adjudicated fire as the cause of loss. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4,
+            5
+          ],
+          "anchor": "fire-suppression"
+        }
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "No causal contribution",
+      "issue_group": "contract-loss-and-procedure",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:contract-loss-and-procedure",
+        "prop:C-006",
+        "span:C-006:1"
+      ],
+      "pass_condition": "recognizes the alleged system breach did not contribute to the grounding",
+      "fail_condition": "states the fire system caused the accident",
+      "match_criteria": "PASS if the deliverable recognizes the alleged system breach did not contribute to the grounding. FAIL if omitted, contradicted, or it states the fire system caused the accident. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            5
+          ],
+          "anchor": "did not contribute"
+        }
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "Denial versus judgment",
+      "issue_group": "contract-loss-and-procedure",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:contract-loss-and-procedure",
+        "prop:C-007",
+        "span:C-007:1"
+      ],
+      "pass_condition": "labels complete-policy-voidance as the insurer position rather than a final Supreme Court coverage finding",
+      "fail_condition": "reports Supreme Court adjudication that the policy was void",
+      "match_criteria": "PASS if the deliverable labels complete-policy-voidance as the insurer position rather than a final Supreme Court coverage finding. FAIL if omitted, contradicted, or it reports Supreme Court adjudication that the policy was void. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4
+          ],
+          "anchor": "asserted"
+        }
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "Third Circuit theory",
+      "issue_group": "contract-loss-and-procedure",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:contract-loss-and-procedure",
+        "prop:C-008",
+        "span:C-008:1"
+      ],
+      "pass_condition": "identifies the Third Circuit strong-forum-public-policy exception and remand approach",
+      "fail_condition": "states the Third Circuit applied an unconditional New York rule",
+      "match_criteria": "PASS if the deliverable identifies the Third Circuit strong-forum-public-policy exception and remand approach. FAIL if omitted, contradicted, or it states the Third Circuit applied an unconditional New York rule. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            5
+          ],
+          "anchor": "public policy"
+        }
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "Federal enforceability law",
+      "issue_group": "federal-maritime-framework",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:federal-maritime-framework",
+        "prop:C-009",
+        "span:C-009:1"
+      ],
+      "pass_condition": "applies federal maritime law to enforceability of the choice clause",
+      "fail_condition": "begins and ends with Pennsylvania conflicts law",
+      "match_criteria": "PASS if the deliverable applies federal maritime law to enforceability of the choice clause. FAIL if omitted, contradicted, or it begins and ends with Pennsylvania conflicts law. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            13
+          ],
+          "anchor": "federal maritime law"
+        }
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "Presumption",
+      "issue_group": "federal-maritime-framework",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:federal-maritime-framework",
+        "prop:C-010",
+        "span:C-010:1"
+      ],
+      "pass_condition": "states the federal presumption of enforceability",
+      "fail_condition": "states choice clauses are automatically void in marine insurance",
+      "match_criteria": "PASS if the deliverable states the federal presumption of enforceability. FAIL if omitted, contradicted, or it states choice clauses are automatically void in marine insurance. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            7,
+            11,
+            13
+          ],
+          "anchor": "presumptively"
+        }
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Uniformity rationale",
+      "issue_group": "federal-maritime-framework",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:federal-maritime-framework",
+        "prop:C-011",
+        "span:C-011:1"
+      ],
+      "pass_condition": "explains the maritime uniformity interest",
+      "fail_condition": "substitutes forum-by-forum policy preferences for the federal rule",
+      "match_criteria": "PASS if the deliverable explains the maritime uniformity interest. FAIL if omitted, contradicted, or it substitutes forum-by-forum policy preferences for the federal rule. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            6,
+            7,
+            10,
+            11,
+            12
+          ],
+          "anchor": "uniform"
+        }
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Predictability rationale",
+      "issue_group": "federal-maritime-framework",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:federal-maritime-framework",
+        "prop:C-012",
+        "span:C-012:1"
+      ],
+      "pass_condition": "explains advance certainty for contracting parties in maritime commerce",
+      "fail_condition": "treats governing law as necessarily unknowable until suit",
+      "match_criteria": "PASS if the deliverable explains advance certainty for contracting parties in maritime commerce. FAIL if omitted, contradicted, or it treats governing law as necessarily unknowable until suit. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            12
+          ],
+          "anchor": "predictab"
+        }
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "Contractual expectations",
+      "issue_group": "federal-maritime-framework",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:federal-maritime-framework",
+        "prop:C-013",
+        "span:C-013:1"
+      ],
+      "pass_condition": "addresses freedom of contract and settled expectations supporting enforcement",
+      "fail_condition": "describes the Court as disregarding the parties chosen terms",
+      "match_criteria": "PASS if the deliverable addresses freedom of contract and settled expectations supporting enforcement. FAIL if omitted, contradicted, or it describes the Court as disregarding the parties chosen terms. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "anchor": "contract"
+        }
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "Forum-selection analogy",
+      "issue_group": "federal-maritime-framework",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:federal-maritime-framework",
+        "prop:C-014",
+        "span:C-014:1"
+      ],
+      "pass_condition": "uses the forum-selection cases as support for enforcing negotiated allocations without conflating forum and law clauses",
+      "fail_condition": "states the New York law clause necessarily requires a New York court",
+      "match_criteria": "PASS if the deliverable uses the forum-selection cases as support for enforcing negotiated allocations without conflating forum and law clauses. FAIL if omitted, contradicted, or it states the New York law clause necessarily requires a New York court. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            8,
+            9,
+            12
+          ],
+          "anchor": "forum-selection"
+        }
+      ]
+    },
+    {
+      "id": "C-015",
+      "title": "Wilburn Boat boundary",
+      "issue_group": "federal-maritime-framework",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:federal-maritime-framework",
+        "prop:C-015",
+        "span:C-015:1"
+      ],
+      "pass_condition": "distinguishes lack of an established substantive federal insurance rule from existence of a federal enforceability rule",
+      "fail_condition": "reads Wilburn Boat as requiring state law for every maritime issue",
+      "match_criteria": "PASS if the deliverable distinguishes lack of an established substantive federal insurance rule from existence of a federal enforceability rule. FAIL if omitted, contradicted, or it reads Wilburn Boat as requiring state law for every maritime issue. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            7,
+            10,
+            11,
+            12
+          ],
+          "anchor": "Wilburn"
+        }
+      ]
+    },
+    {
+      "id": "C-016",
+      "title": "State substantive gap filling",
+      "issue_group": "federal-maritime-framework",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:federal-maritime-framework",
+        "prop:C-016",
+        "span:C-016:1"
+      ],
+      "pass_condition": "recognizes state substantive law may still govern matters after the federal choice rule selects it",
+      "fail_condition": "states the decision eliminates every role for state insurance law",
+      "match_criteria": "PASS if the deliverable recognizes state substantive law may still govern matters after the federal choice rule selects it. FAIL if omitted, contradicted, or it states the decision eliminates every role for state insurance law. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            7,
+            10,
+            11,
+            12
+          ],
+          "anchor": "state law"
+        }
+      ]
+    },
+    {
+      "id": "C-017",
+      "title": "Federal statute exception",
+      "issue_group": "exceptions-and-rejected-theories",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:exceptions-and-rejected-theories",
+        "prop:C-017",
+        "span:C-017:1"
+      ],
+      "pass_condition": "identifies conflict with a controlling federal statute as an enforceability exception",
+      "fail_condition": "states contract choice overrides every federal statute",
+      "match_criteria": "PASS if the deliverable identifies conflict with a controlling federal statute as an enforceability exception. FAIL if omitted, contradicted, or it states contract choice overrides every federal statute. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            13
+          ],
+          "anchor": "controlling federal statute"
+        }
+      ]
+    },
+    {
+      "id": "C-018",
+      "title": "Maritime policy exception",
+      "issue_group": "exceptions-and-rejected-theories",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:exceptions-and-rejected-theories",
+        "prop:C-018",
+        "span:C-018:1"
+      ],
+      "pass_condition": "identifies conflict with established federal maritime policy as an exception",
+      "fail_condition": "equates that exception with any forum-state insurance preference",
+      "match_criteria": "PASS if the deliverable identifies conflict with established federal maritime policy as an exception. FAIL if omitted, contradicted, or it equates that exception with any forum-state insurance preference. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            13,
+            14
+          ],
+          "anchor": "established federal maritime policy"
+        }
+      ]
+    },
+    {
+      "id": "C-019",
+      "title": "Reasonable-basis exception",
+      "issue_group": "exceptions-and-rejected-theories",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:exceptions-and-rejected-theories",
+        "prop:C-019",
+        "span:C-019:1"
+      ],
+      "pass_condition": "recognizes the exception where no reasonable basis supports the selected jurisdiction",
+      "fail_condition": "states any selected jurisdiction is automatically reasonable",
+      "match_criteria": "PASS if the deliverable recognizes the exception where no reasonable basis supports the selected jurisdiction. FAIL if omitted, contradicted, or it states any selected jurisdiction is automatically reasonable. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            13,
+            14
+          ],
+          "anchor": "reasonable basis"
+        }
+      ]
+    },
+    {
+      "id": "C-020",
+      "title": "Deference in basis inquiry",
+      "issue_group": "exceptions-and-rejected-theories",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:exceptions-and-rejected-theories",
+        "prop:C-020",
+        "span:C-020:1"
+      ],
+      "pass_condition": "applies substantial deference to the parties in the reasonable-basis inquiry",
+      "fail_condition": "requires a physical party connection to New York as indispensable",
+      "match_criteria": "PASS if the deliverable applies substantial deference to the parties in the reasonable-basis inquiry. FAIL if omitted, contradicted, or it requires a physical party connection to New York as indispensable. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            14
+          ],
+          "anchor": "substantial deference"
+        }
+      ]
+    },
+    {
+      "id": "C-021",
+      "title": "New York rationale",
+      "issue_group": "exceptions-and-rejected-theories",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:exceptions-and-rejected-theories",
+        "prop:C-021",
+        "span:C-021:1"
+      ],
+      "pass_condition": "recognizes well-developed commercial law can supply a rational choice even without a local accident",
+      "fail_condition": "rejects New York solely because the boat grounded in Florida",
+      "match_criteria": "PASS if the deliverable recognizes well-developed commercial law can supply a rational choice even without a local accident. FAIL if omitted, contradicted, or it rejects New York solely because the boat grounded in Florida. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            14
+          ],
+          "anchor": "well-known"
+        }
+      ]
+    },
+    {
+      "id": "C-022",
+      "title": "Actual exception posture",
+      "issue_group": "exceptions-and-rejected-theories",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:exceptions-and-rejected-theories",
+        "prop:C-022",
+        "span:C-022:1"
+      ],
+      "pass_condition": "recognizes Raiders did not assert the recognized federal-conflict or no-reasonable-basis exceptions applied here",
+      "fail_condition": "states the Court found an actual federal statutory conflict",
+      "match_criteria": "PASS if the deliverable recognizes Raiders did not assert the recognized federal-conflict or no-reasonable-basis exceptions applied here. FAIL if omitted, contradicted, or it states the Court found an actual federal statutory conflict. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            14
+          ],
+          "anchor": "does not assert"
+        }
+      ]
+    },
+    {
+      "id": "C-023",
+      "title": "Forum-policy rejection",
+      "issue_group": "exceptions-and-rejected-theories",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:exceptions-and-rejected-theories",
+        "prop:C-023",
+        "span:C-023:1"
+      ],
+      "pass_condition": "explains rejection of the additional fundamental forum-state public-policy exception",
+      "fail_condition": "retains that exception as the governing result",
+      "match_criteria": "PASS if the deliverable explains rejection of the additional fundamental forum-state public-policy exception. FAIL if omitted, contradicted, or it retains that exception as the governing result. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            14
+          ],
+          "anchor": "additional exception"
+        }
+      ]
+    },
+    {
+      "id": "C-024",
+      "title": "Restatement distinction",
+      "issue_group": "exceptions-and-rejected-theories",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:exceptions-and-rejected-theories",
+        "prop:C-024",
+        "span:C-024:1"
+      ],
+      "pass_condition": "explains why section 187(2)(b) greatest-interest/fundamental-policy approach was not adopted for federal maritime law",
+      "fail_condition": "applies that subsection as controlling merely because it is a conflicts Restatement",
+      "match_criteria": "PASS if the deliverable explains why section 187(2)(b) greatest-interest/fundamental-policy approach was not adopted for federal maritime law. FAIL if omitted, contradicted, or it applies that subsection as controlling merely because it is a conflicts Restatement. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            16
+          ],
+          "anchor": "187(2)(b)"
+        }
+      ]
+    },
+    {
+      "id": "C-025",
+      "title": "Supreme Court disposition",
+      "issue_group": "outcome-and-coverage-handoff",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-coverage-handoff",
+        "prop:C-025",
+        "span:C-025:1"
+      ],
+      "pass_condition": "states the Third Circuit judgment was reversed",
+      "fail_condition": "states the Third Circuit exception was affirmed",
+      "match_criteria": "PASS if the deliverable states the Third Circuit judgment was reversed. FAIL if omitted, contradicted, or it states the Third Circuit exception was affirmed. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            16
+          ],
+          "anchor": "reverse"
+        }
+      ]
+    },
+    {
+      "id": "C-026",
+      "title": "No final indemnity award",
+      "issue_group": "outcome-and-coverage-handoff",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-coverage-handoff",
+        "prop:C-026",
+        "span:C-026:1"
+      ],
+      "pass_condition": "separates enforceability of the choice clause from final policy coverage/damages",
+      "fail_condition": "reports an adjudicated indemnity amount",
+      "match_criteria": "PASS if the deliverable separates enforceability of the choice clause from final policy coverage/damages. FAIL if omitted, contradicted, or it reports an adjudicated indemnity amount. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            16
+          ],
+          "anchor": "judgment"
+        }
+      ]
+    },
+    {
+      "id": "C-027",
+      "title": "Thomas concurrence status",
+      "issue_group": "outcome-and-coverage-handoff",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-coverage-handoff",
+        "prop:C-027",
+        "span:C-027:1"
+      ],
+      "pass_condition": "attributes the criticism of Wilburn Boat to the separate concurrence",
+      "fail_condition": "states the majority overruled Wilburn Boat",
+      "match_criteria": "PASS if the deliverable attributes the criticism of Wilburn Boat to the separate concurrence. FAIL if omitted, contradicted, or it states the majority overruled Wilburn Boat. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            17,
+            18,
+            19,
+            20,
+            21,
+            22
+          ],
+          "anchor": "THOMAS"
+        }
+      ]
+    },
+    {
+      "id": "C-028",
+      "title": "Actual insured argument",
+      "issue_group": "outcome-and-coverage-handoff",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-coverage-handoff",
+        "prop:C-028",
+        "span:C-028:1"
+      ],
+      "pass_condition": "fairly presents the insured Pennsylvania-policy contention before explaining its rejection",
+      "fail_condition": "substitutes an unsupported concession for the insured argument",
+      "match_criteria": "PASS if the deliverable fairly presents the insured Pennsylvania-policy contention before explaining its rejection. FAIL if omitted, contradicted, or it substitutes an unsupported concession for the insured argument. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-respondent-brief",
+          "file": "great-lakes-respondent-brief.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4,
+            5,
+            9,
+            12,
+            13,
+            14
+          ],
+          "anchor": "Pennsylvania"
+        }
+      ]
+    },
+    {
+      "id": "C-029",
+      "title": "Complete clause diligence",
+      "issue_group": "outcome-and-coverage-handoff",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-coverage-handoff",
+        "prop:C-029",
+        "span:C-029:1"
+      ],
+      "pass_condition": "requests/verifies the complete policy clause, endorsements and federal-law priority before giving final clause-specific advice",
+      "fail_condition": "assumes the short opinion summary reproduces every policy term",
+      "match_criteria": "PASS if the deliverable requests/verifies the complete policy clause, endorsements and federal-law priority before giving final clause-specific advice. FAIL if omitted, contradicted, or it assumes the short opinion summary reproduces every policy term. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-petitioner-brief",
+          "file": "great-lakes-petitioner-brief.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4,
+            15,
+            16,
+            19,
+            21,
+            22
+          ],
+          "anchor": "policy"
+        }
+      ]
+    },
+    {
+      "id": "C-030",
+      "title": "Coverage record diligence",
+      "issue_group": "outcome-and-coverage-handoff",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-coverage-handoff",
+        "prop:C-030",
+        "span:C-030:1"
+      ],
+      "pass_condition": "requests the warranty text, maintenance evidence, denial grounds and loss facts for the remaining coverage analysis",
+      "fail_condition": "treats the choice-of-law holding as proof of the alleged breach",
+      "match_criteria": "PASS if the deliverable requests the warranty text, maintenance evidence, denial grounds and loss facts for the remaining coverage analysis. FAIL if omitted, contradicted, or it treats the choice-of-law holding as proof of the alleged breach. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4,
+            5
+          ],
+          "anchor": "fire-suppression"
+        }
+      ]
+    },
+    {
+      "id": "C-031",
+      "title": "Exception evidence request",
+      "issue_group": "outcome-and-coverage-handoff",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-coverage-handoff",
+        "prop:C-031",
+        "span:C-031:1"
+      ],
+      "pass_condition": "ties any remaining enforceability challenge to evidence of a recognized federal-conflict or reasonable-basis exception",
+      "fail_condition": "recommends relitigating Pennsylvania public policy as the sole sufficient exception",
+      "match_criteria": "PASS if the deliverable either (a) ties any continuing or brief-asserted enforceability challenge to evidence of a recognized exception (conflict with controlling federal law or absence of any reasonable basis) and notes the evidentiary status, or (b) correctly concludes Great Lakes forecloses further enforceability challenges for this clause. FAIL if it leaves enforceability ambiguously open without referencing recognized exceptions or the foreclosing rationale.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            13,
+            14,
+            16
+          ],
+          "anchor": "exceptions"
+        }
+      ]
+    },
+    {
+      "id": "C-032",
+      "title": "Conditional advice",
+      "issue_group": "outcome-and-coverage-handoff",
+      "deliverables": [
+        "coverage-open-items.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-coverage-handoff",
+        "prop:C-032",
+        "span:C-032:1"
+      ],
+      "pass_condition": "separates likely application of the chosen law from a conditional coverage outcome under the full policy and record",
+      "fail_condition": "guarantees insurer victory on every coverage issue",
+      "match_criteria": "PASS if the deliverable separates likely application of the chosen law from a conditional coverage outcome under the full policy and record. FAIL if omitted, contradicted, or it guarantees insurer victory on every coverage issue. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "great-lakes-opinion",
+          "file": "great-lakes-insurance-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            13,
+            14,
+            15,
+            16,
+            17,
+            18
+          ],
+          "anchor": "choice-of-law"
+        }
+      ]
+    }
+  ]
+}

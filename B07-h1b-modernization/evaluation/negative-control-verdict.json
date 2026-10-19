@@ -1,0 +1,185 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": false,
+      "reason": "No checklist or analysis is provided, so it does not use January 17, 2025 as the effective date."
+    },
+    {
+      "id": "C-002",
+      "pass": false,
+      "reason": "The answer does not state that the final rule applies to petitions filed on or after January 17, 2025."
+    },
+    {
+      "id": "C-003",
+      "pass": false,
+      "reason": "No final-rule text is used to distinguish adopted requirements from proposals."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "The answer does not identify beneficiary-centric registration as a separate earlier final rule."
+    },
+    {
+      "id": "C-005",
+      "pass": false,
+      "reason": "The answer does not identify March 4, 2024 as the registration rule effective date."
+    },
+    {
+      "id": "C-006",
+      "pass": false,
+      "reason": "No operative amended CFR requirements are cited or translated into checklist items."
+    },
+    {
+      "id": "C-007",
+      "pass": false,
+      "reason": "The answer does not explain the logical connection between required degree and job duties."
+    },
+    {
+      "id": "C-008",
+      "pass": false,
+      "reason": "The answer does not allow a range of degree fields where each is directly related."
+    },
+    {
+      "id": "C-009",
+      "pass": false,
+      "reason": "The answer does not address the insufficiency of a general degree without further specialization."
+    },
+    {
+      "id": "C-010",
+      "pass": false,
+      "reason": "The answer does not explain that normally does not mean always."
+    },
+    {
+      "id": "C-011",
+      "pass": false,
+      "reason": "The answer does not distinguish the specialty-occupation definition from satisfying at least one criterion."
+    },
+    {
+      "id": "C-012",
+      "pass": false,
+      "reason": "The answer does not identify parallel positions in similar U.S. industry organizations as an evidence route."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "The answer does not identify the employer or qualifying third-party normal degree requirement route."
+    },
+    {
+      "id": "C-014",
+      "pass": false,
+      "reason": "The answer does not identify specialized, complex, or unique duties as a regulatory route."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "The answer does not recognize deference to a prior eligibility determination involving the same parties and facts."
+    },
+    {
+      "id": "C-016",
+      "pass": false,
+      "reason": "The answer does not identify material error, material change, or new material information as exceptions to deference."
+    },
+    {
+      "id": "C-017",
+      "pass": false,
+      "reason": "The answer does not require evidence of maintained status for extension or amendment requests."
+    },
+    {
+      "id": "C-018",
+      "pass": false,
+      "reason": "The answer does not distinguish DOL LCA certification from USCIS specialty-occupation adjudication."
+    },
+    {
+      "id": "C-019",
+      "pass": false,
+      "reason": "The answer does not address filing an amended or new petition before a material change or portability rules."
+    },
+    {
+      "id": "C-020",
+      "pass": false,
+      "reason": "The answer does not recognize a change requiring a new LCA as a material change."
+    },
+    {
+      "id": "C-021",
+      "pass": false,
+      "reason": "The answer does not recognize the same-area-of-intended-employment exception."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "The answer does not address removal of the itinerary requirement or preservation of work evidence."
+    },
+    {
+      "id": "C-023",
+      "pass": false,
+      "reason": "The answer does not use more than 50% ownership or majority voting rights for owner-beneficiary treatment."
+    },
+    {
+      "id": "C-024",
+      "pass": false,
+      "reason": "The answer does not address owner duties or the requirement that specialty-occupation duties occupy a majority of time."
+    },
+    {
+      "id": "C-025",
+      "pass": false,
+      "reason": "The answer does not identify the 18-month limit for initial beneficiary-owner approval."
+    },
+    {
+      "id": "C-026",
+      "pass": false,
+      "reason": "The answer does not identify the 18-month limit for the first extension or avoid overextending it."
+    },
+    {
+      "id": "C-027",
+      "pass": false,
+      "reason": "The answer does not require proof at filing of a bona fide position available at the requested start date."
+    },
+    {
+      "id": "C-028",
+      "pass": false,
+      "reason": "The answer does not address whether specific day-to-day assignments for the entire period are required."
+    },
+    {
+      "id": "C-029",
+      "pass": false,
+      "reason": "The answer does not recognize that USCIS may request contracts, work orders, or similar evidence."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "The answer does not address third-party staffing into an organizational hierarchy versus mere service provision."
+    },
+    {
+      "id": "C-031",
+      "pass": false,
+      "reason": "The answer does not identify April 1 of the relevant fiscal year or the approved validity start, whichever is earlier."
+    },
+    {
+      "id": "C-032",
+      "pass": false,
+      "reason": "The answer does not preserve timely, nonfrivolous cap-subject petition and change-of-status conditions."
+    },
+    {
+      "id": "C-033",
+      "pass": false,
+      "reason": "The answer does not recognize verification through petitioner or third-party sites, records, and interviews."
+    },
+    {
+      "id": "C-034",
+      "pass": false,
+      "reason": "The answer does not identify inability to verify, including noncooperation, as a possible denial or revocation basis."
+    },
+    {
+      "id": "C-035",
+      "pass": false,
+      "reason": "No concrete intake or document requests are provided for degree-duty, ownership, or worksite requirements."
+    },
+    {
+      "id": "C-036",
+      "pass": false,
+      "reason": "The answer does not distinguish employer-specific eligibility and document gaps from the rule effective date."
+    }
+  ],
+  "unsupported_material_claims": []
+}

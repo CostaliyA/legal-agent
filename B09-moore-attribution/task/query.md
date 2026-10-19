@@ -1,0 +1,1 @@
+Draft a client letter on whether Moore supports a refund claim involving undistributed foreign-corporation earnings. Explain the tax record, attribution holding, constitutional limits, competing opinions, and facts counsel needs before recommending a filing. Output: `refund-advice-letter.docx`.

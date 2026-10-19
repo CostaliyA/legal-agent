@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": false,
+      "reason": "No substantive answer describes conversion or the Plan of Conversion; the criterion is unaddressed."
+    },
+    {
+      "id": "C-002",
+      "pass": false,
+      "reason": "No distinction between the conversion proposal and the 2018 award ratification is provided."
+    },
+    {
+      "id": "C-003",
+      "pass": false,
+      "reason": "No discussion of the Special Committee evaluation or Board recommendation is provided."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "The Musk/Kimbal recusals are not mentioned or analyzed."
+    },
+    {
+      "id": "C-005",
+      "pass": false,
+      "reason": "The Proposal Three outstanding-shares voting threshold is not identified."
+    },
+    {
+      "id": "C-006",
+      "pass": false,
+      "reason": "The non-Musk/Kimbal voting-power requirement is not identified."
+    },
+    {
+      "id": "C-007",
+      "pass": false,
+      "reason": "The proposed status and outstanding approval/filing steps are not addressed."
+    },
+    {
+      "id": "C-008",
+      "pass": false,
+      "reason": "No comparison of proposed Texas documents with current Delaware documents is provided."
+    },
+    {
+      "id": "C-009",
+      "pass": false,
+      "reason": "The Texas two-thirds default and permitted charter variation are not discussed."
+    },
+    {
+      "id": "C-010",
+      "pass": false,
+      "reason": "No proposed-instrument majority standards are analyzed."
+    },
+    {
+      "id": "C-011",
+      "pass": false,
+      "reason": "The current Delaware charter vacancy-filling mechanism is not described."
+    },
+    {
+      "id": "C-012",
+      "pass": false,
+      "reason": "The broader TBOC vacancy methods in the proposed bylaws are not described."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "The Texas limitation on filling newly created seats without shareholder action is not identified."
+    },
+    {
+      "id": "C-014",
+      "pass": false,
+      "reason": "No statement or analysis addresses board classification and conversion effects."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "The proposed charter’s for-cause removal protection is not addressed."
+    },
+    {
+      "id": "C-016",
+      "pass": false,
+      "reason": "Written-consent restrictions under the actual instruments are not compared."
+    },
+    {
+      "id": "C-017",
+      "pass": false,
+      "reason": "Special-meeting mechanisms and thresholds are not compared."
+    },
+    {
+      "id": "C-018",
+      "pass": false,
+      "reason": "Charter-amendment rules and protected provisions are not analyzed."
+    },
+    {
+      "id": "C-019",
+      "pass": false,
+      "reason": "Board and shareholder bylaw-amendment authority is not compared."
+    },
+    {
+      "id": "C-020",
+      "pass": false,
+      "reason": "Committee-action reservations are not identified."
+    },
+    {
+      "id": "C-021",
+      "pass": false,
+      "reason": "The Texas 20% and Delaware 15% thresholds are not distinguished."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "Internal-entity-claim forum provisions are not compared."
+    },
+    {
+      "id": "C-023",
+      "pass": false,
+      "reason": "Delaware demand/futility standards are not described."
+    },
+    {
+      "id": "C-024",
+      "pass": false,
+      "reason": "The Texas written-demand requirement is not identified."
+    },
+    {
+      "id": "C-025",
+      "pass": false,
+      "reason": "The 91st-day rule and its exceptions are not discussed."
+    },
+    {
+      "id": "C-026",
+      "pass": false,
+      "reason": "The new Texas business court is not distinguished from Delaware’s established case-law system."
+    },
+    {
+      "id": "C-027",
+      "pass": false,
+      "reason": "No distinction is made between generic appraisal rights and the absence of appraisal for this conversion."
+    },
+    {
+      "id": "C-028",
+      "pass": false,
+      "reason": "Preservation of preconversion obligations, liabilities, and choice of law is not addressed."
+    },
+    {
+      "id": "C-029",
+      "pass": false,
+      "reason": "The claimed economic neutrality is not attributed to the committee/advisers with appropriate limits."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "Intended tax treatment and holder-specific limitations are not reported."
+    },
+    {
+      "id": "C-031",
+      "pass": false,
+      "reason": "The absence of an obtained tax opinion or IRS ruling is not recognized."
+    },
+    {
+      "id": "C-032",
+      "pass": false,
+      "reason": "Texas long/short-term-interest consideration and fiduciary duties are not analyzed."
+    }
+  ],
+  "unsupported_material_claims": []
+}

@@ -1,0 +1,23 @@
+{
+  "id": "B06-private-fund-rules",
+  "title": "Review private-fund rule tracker",
+  "operation": "review",
+  "domain": "funds-asset-management",
+  "jurisdiction": "United States; Investment Advisers Act, SEC rules, Fifth Circuit judicial review",
+  "law_as_of": "2024-11-19",
+  "family_id": "private-fund-adviser-rule-2023-vacatur-2024",
+  "lineage": {
+    "authentic_materials_from": "R08-private-fund-rules",
+    "criterion_seed_from": "R08-private-fund-rules",
+    "independent_holdout": false
+  },
+  "instructions": "Check our private-fund rule tracker against the Fifth Circuit judgment and the November 2024 amendments. Mark each challenged requirement's status, explain the authority and timing, and identify residual adviser duties that need separate analysis. Output: `rule-status-review.docx`.",
+  "deliverables": {
+    "rule-status-review.docx": "rule-status-review.docx"
+  },
+  "documents": [
+    "documents/private-fund-adviser-rule-federal-register.pdf",
+    "documents/private-fund-adviser-fifth-circuit.pdf",
+    "documents/private-fund-adviser-technical-rescission-2024.pdf"
+  ]
+}

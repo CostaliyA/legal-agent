@@ -1,0 +1,995 @@
+{
+  "task_id": "H-FUSION-01",
+  "task_title": "Telehealth Ad-Tech Data Sharing: HBNR Notification and FTC Section 5 Response Plan",
+  "task_type": "draft",
+  "status": "complete",
+  "solver_model_requested": "deepseek-flash",
+  "judge_model_requested": "deepseek-flash",
+  "solver_model_returned": "deepseek-flash",
+  "hinted": false,
+  "evaluation_method": "Harvey Labs per-criterion rubric_criterion prompt; one Flash judge call per criterion",
+  "criterion_count": 39,
+  "passed": 23,
+  "failed": 16,
+  "errors": 0,
+  "criterion_pass_rate": 0.5897,
+  "all_criteria_pass": false,
+  "evaluated_at_utc": "2026-10-18T15:58:31.603364+00:00",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Identify 16 CFR Part 318 and 42 U.S.C. 17937 as the governing notification regime",
+      "verdict": "fail",
+      "reasoning": "The output identifies 16 C.F.R. Part 318 and the FTC Health Breach Notification Rule, but it does not attribute the rule to 42 U.S.C. § 17937, ARRA section 13407, or an equivalent statutory citation such as § 318.1. Because the criterion requires both the rule and its statutory basis, the answer fails.",
+      "judge_raw": "{\n  \"reasoning\": \"The output identifies 16 C.F.R. Part 318 and the FTC Health Breach Notification Rule, but it does not attribute the rule to 42 U.S.C. § 17937, ARRA section 13407, or an equivalent statutory citation such as § 318.1. Because the criterion requires both the rule and its statutory basis, the answer fails.\",\n  \"verdict\": \"fail\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "89f53bc9-3294-4bc0-a447-0af7951c38db",
+        "usage": {
+          "prompt_tokens": 6483,
+          "completion_tokens": 337,
+          "total_tokens": 6820,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 244
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 6483
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-002",
+      "title": "Apply all three covered-entity categories in Part 318",
+      "verdict": "fail",
+      "reasoning": "The deliverable lists all three Part 318 categories (vendor of personal health records, PHR-related entity, third-party service provider) and applies them to the Company. However, it does not apply those categories to the app's ad-tech vendors; those vendors are treated only as third-party recipients/recipients for deletion and consent purposes, without analysis of whether they are Part 318 covered entities or third-party service providers. The criterion requires category application to both the app and its ad-tech vendors.",
+      "judge_raw": "{\n  \"reasoning\": \"The deliverable lists all three Part 318 categories (vendor of personal health records, PHR-related entity, third-party service provider) and applies them to the Company. However, it does not apply those categories to the app's ad-tech vendors; those vendors are treated only as third-party recipients/recipients for deletion and consent purposes, without analysis of whether they are Part 318 covered entities or third-party service providers. The criterion requires category application to both the app and its ad-tech vendors.\",\n  \"verdict\": \"fail\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "0381dc38-345f-4a59-b4de-1612f96d50ad",
+        "usage": {
+          "prompt_tokens": 6463,
+          "completion_tokens": 2090,
+          "total_tokens": 8553,
+          "prompt_tokens_details": {
+            "cached_tokens": 6272
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1973
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 191
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-003",
+      "title": "Coverage does not depend on an FTC Act jurisdictional test",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the HBNR 'does not import the FTC Act’s jurisdictional tests,' which satisfies the criterion that coverage does not depend on an FTC Act jurisdictional test.",
+      "judge_raw": "{\"reasoning\": \"The deliverable explicitly states that the HBNR 'does not import the FTC Act’s jurisdictional tests,' which satisfies the criterion that coverage does not depend on an FTC Act jurisdictional test.\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "9d8189b2-e3df-494f-af44-55280c4906e3",
+        "usage": {
+          "prompt_tokens": 6440,
+          "completion_tokens": 164,
+          "total_tokens": 6604,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 113
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 6440
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-004",
+      "title": "The app meets the 'vendor of personal health records' definition",
+      "verdict": "fail",
+      "reasoning": "The deliverable identifies HBNR coverage as an open question and lists 'vendor of personal health records' as a possible status, but it does not quote or paraphrase the definition or conclude that the app is a covered vendor or PHR-related entity under Part 318. Instead, it defers coverage determination to counsel.",
+      "judge_raw": "{\n  \"reasoning\": \"The deliverable identifies HBNR coverage as an open question and lists 'vendor of personal health records' as a possible status, but it does not quote or paraphrase the definition or conclude that the app is a covered vendor or PHR-related entity under Part 318. Instead, it defers coverage determination to counsel.\",\n  \"verdict\": \"fail\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "c86c0e28-97ab-4f20-9e6c-be7bbc6e5ca0",
+        "usage": {
+          "prompt_tokens": 6447,
+          "completion_tokens": 305,
+          "total_tokens": 6752,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 224
+          },
+          "prompt_cache_hit_tokens": 0,
+          "prompt_cache_miss_tokens": 6447
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-005",
+      "title": "Shared ad-targeting data is 'PHR identifiable health information'",
+      "verdict": "pass",
+      "reasoning": "The plan applies both prongs to the ad-tech data set: it identifies health-related information such as mental-health treatment/questionnaire/account data and combines it with identifying elements such as email addresses, IP addresses, persistent identifiers, and hashed/encrypted data. It also warns that hashed data should not be treated as anonymous or outside scope because platforms may reidentify it, satisfying the identifiability analysis.",
+      "judge_raw": "{\"reasoning\":\"The plan applies both prongs to the ad-tech data set: it identifies health-related information such as mental-health treatment/questionnaire/account data and combines it with identifying elements such as email addresses, IP addresses, persistent identifiers, and hashed/encrypted data. It also warns that hashed data should not be treated as anonymous or outside scope because platforms may reidentify it, satisfying the identifiability analysis.\",\"verdict\":\"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "69e6774e-028c-4cba-894f-e173c10b7dc9",
+        "usage": {
+          "prompt_tokens": 6460,
+          "completion_tokens": 2703,
+          "total_tokens": 9163,
+          "prompt_tokens_details": {
+            "cached_tokens": 6272
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 2608
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 188
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-006",
+      "title": "60-calendar-day outer limit measured from discovery",
+      "verdict": "pass",
+      "reasoning": "The deliverable expressly states that individual, media, and service-provider notice are due 'without unreasonable delay and no later than 60 calendar days after discovery.' It separately articulates the 'without unreasonable delay' standard and the 60-calendar-day outer limit measured from discovery, satisfying the criterion.",
+      "judge_raw": "{\"reasoning\":\"The deliverable expressly states that individual, media, and service-provider notice are due 'without unreasonable delay and no later than 60 calendar days after discovery.' It separately articulates the 'without unreasonable delay' standard and the 60-calendar-day outer limit measured from discovery, satisfying the criterion.\",\"verdict\":\"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "ecb86340-191e-4176-be96-8964fc5c4b70",
+        "usage": {
+          "prompt_tokens": 6455,
+          "completion_tokens": 133,
+          "total_tokens": 6588,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 62
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 439
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-007",
+      "title": "FTC notice contemporaneous where 500+ individuals affected",
+      "verdict": "pass",
+      "reasoning": "The plan repeatedly states the correct 500-individual threshold for HBNR FTC notice and specifies that FTC notice is contemporaneous with individual notice when 500 or more individuals are affected (e.g., §3.1, §4.4, §7.1, and the §9 timeline). It also correctly notes the annual logged-notice path applies only to incidents involving fewer than 500 individuals, so it does not treat FTC reporting as uniformly annual.",
+      "judge_raw": "{\"reasoning\": \"The plan repeatedly states the correct 500-individual threshold for HBNR FTC notice and specifies that FTC notice is contemporaneous with individual notice when 500 or more individuals are affected (e.g., §3.1, §4.4, §7.1, and the §9 timeline). It also correctly notes the annual logged-notice path applies only to incidents involving fewer than 500 individuals, so it does not treat FTC reporting as uniformly annual.\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "5eb2e804-8cc3-4677-8720-d5db5c0702e8",
+        "usage": {
+          "prompt_tokens": 6434,
+          "completion_tokens": 159,
+          "total_tokens": 6593,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 53
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 418
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-008",
+      "title": "Sub-500 incidents are logged and reported annually to the FTC",
+      "verdict": "pass",
+      "reasoning": "The output states that incidents affecting fewer than 500 people use annual logged notices, submitted within 60 calendar days after calendar year end, and the timeline explicitly says to submit an annual logged FTC notice. It does not exempt sub-500 incidents or convert the deadline to 60 days from discovery.",
+      "judge_raw": "{\"reasoning\": \"The output states that incidents affecting fewer than 500 people use annual logged notices, submitted within 60 calendar days after calendar year end, and the timeline explicitly says to submit an annual logged FTC notice. It does not exempt sub-500 incidents or convert the deadline to 60 days from discovery.\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "47b0da27-de78-4e37-9ac4-b49778109588",
+        "usage": {
+          "prompt_tokens": 6443,
+          "completion_tokens": 283,
+          "total_tokens": 6726,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 211
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 427
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-009",
+      "title": "Media notice triggered at 500+ residents of a State",
+      "verdict": "fail",
+      "reasoning": "The deliverable correctly identifies media notice as mandatory when 500 or more residents of a single State/jurisdiction are affected, but it does not direct the notice to prominent media outlets serving that jurisdiction (or an equivalent like a press release to statewide media).",
+      "judge_raw": "{\n  \"reasoning\": \"The deliverable correctly identifies media notice as mandatory when 500 or more residents of a single State/jurisdiction are affected, but it does not direct the notice to prominent media outlets serving that jurisdiction (or an equivalent like a press release to statewide media).\",\n  \"verdict\": \"fail\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "c639246f-eb0a-4108-b6ba-cff58b63f619",
+        "usage": {
+          "prompt_tokens": 6433,
+          "completion_tokens": 502,
+          "total_tokens": 6935,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 433
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 417
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-010",
+      "title": "Fix and document the discovery date that starts the clock",
+      "verdict": "pass",
+      "reasoning": "The plan expressly states the HBNR notice deadline runs from the 'discovery' date, directs counsel to document the date of discovery for HBNR purposes, and includes a discovery chronology in the incident file. It does not measure the clock from first unauthorized transfer, completion of forensic review, or regulator inquiry.",
+      "judge_raw": "{\"reasoning\":\"The plan expressly states the HBNR notice deadline runs from the 'discovery' date, directs counsel to document the date of discovery for HBNR purposes, and includes a discovery chronology in the incident file. It does not measure the clock from first unauthorized transfer, completion of forensic review, or regulator inquiry.\",\"verdict\":\"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "14a7fd26-6153-48ae-ab82-3fe1f5b5c85d",
+        "usage": {
+          "prompt_tokens": 6444,
+          "completion_tokens": 631,
+          "total_tokens": 7075,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 557
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 428
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-011",
+      "title": "GoodRx is the first HBNR enforcement action",
+      "verdict": "pass",
+      "reasoning": "The deliverable explicitly states that the FTC describes GoodRx as its first HBNR enforcement action and ties it to alleged disclosures of health information and failure to provide required breach notices.",
+      "judge_raw": "{\"reasoning\": \"The deliverable explicitly states that the FTC describes GoodRx as its first HBNR enforcement action and ties it to alleged disclosures of health information and failure to provide required breach notices.\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "0d1d4a70-a83b-42ed-aef5-378c798ef412",
+        "usage": {
+          "prompt_tokens": 6442,
+          "completion_tokens": 159,
+          "total_tokens": 6601,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 110
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 426
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-012",
+      "title": "Section 5 of the FTC Act is the operative deception authority",
+      "verdict": "fail",
+      "reasoning": "The deliverable discusses the FTC Act and HBNR enforcement context, but it never cites Section 5 of the FTC Act with the 15 U.S.C. § 45 codification, nor does it state that Section 5 reaches unfair or deceptive acts or practices. Therefore it does not satisfy the criterion.",
+      "judge_raw": "{\"reasoning\":\"The deliverable discusses the FTC Act and HBNR enforcement context, but it never cites Section 5 of the FTC Act with the 15 U.S.C. § 45 codification, nor does it state that Section 5 reaches unfair or deceptive acts or practices. Therefore it does not satisfy the criterion.\",\"verdict\":\"fail\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "884cf6c4-1bd4-4ce6-9953-ece80978146f",
+        "usage": {
+          "prompt_tokens": 6442,
+          "completion_tokens": 341,
+          "total_tokens": 6783,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 267
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 426
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-013",
+      "title": "Promise-then-share is the core deception theory",
+      "verdict": "pass",
+      "reasoning": "The deliverable expressly ties the ad-platform sharing to potential inconsistency with privacy representations, including 'strictly private,' 'never shared,' 'anonymous,' or HIPAA-related claims, and references privacy misrepresentations as part of the BetterHelp/FTC enforcement theory. It also identifies advertising platforms and ad-tech vendors as recipients, satisfying the 'Facebook or similar ad platforms' requirement. Although it does not name Facebook specifically, the analysis does not treat the issue only as a breach or unauthorized access; it preserves the representation-vs-conduct deception framing.",
+      "judge_raw": "{\"reasoning\": \"The deliverable expressly ties the ad-platform sharing to potential inconsistency with privacy representations, including 'strictly private,' 'never shared,' 'anonymous,' or HIPAA-related claims, and references privacy misrepresentations as part of the BetterHelp/FTC enforcement theory. It also identifies advertising platforms and ad-tech vendors as recipients, satisfying the 'Facebook or similar ad platforms' requirement. Although it does not name Facebook specifically, the analysis does not treat the issue only as a breach or unauthorized access; it preserves the representation-vs-conduct deception framing.\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "f6269f3e-21a2-4917-b07d-5965131f0341",
+        "usage": {
+          "prompt_tokens": 6458,
+          "completion_tokens": 877,
+          "total_tokens": 7335,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 755
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 442
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-014",
+      "title": "False HIPAA seals and ad-industry certifications are separate misrepresentations",
+      "verdict": "pass",
+      "reasoning": "The deliverable separately directs review of 'HIPAA-related statements and seals' and removal/correction of unsupported claims, identifying a non-policy trust-badge/seal representation as a distinct remediation item beyond privacy-policy review.",
+      "judge_raw": "{\"reasoning\": \"The deliverable separately directs review of 'HIPAA-related statements and seals' and removal/correction of unsupported claims, identifying a non-policy trust-badge/seal representation as a distinct remediation item beyond privacy-policy review.\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "5c9e8b54-4fe9-41ab-b37d-cbe68c1cd65b",
+        "usage": {
+          "prompt_tokens": 6461,
+          "completion_tokens": 552,
+          "total_tokens": 7013,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 492
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 445
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-015",
+      "title": "Absence of any privacy or data-sharing policy is an aggravating fact",
+      "verdict": "pass",
+      "reasoning": "The deliverable does not imply that missing written policies avoid Section 5 exposure. It instead recommends prompt remediation through a written privacy program, policy review/updates, and a detailed data-flow/vendor inventory, thereby treating the control gap as a compliance risk.",
+      "judge_raw": "{\n  \"reasoning\": \"The deliverable does not imply that missing written policies avoid Section 5 exposure. It instead recommends prompt remediation through a written privacy program, policy review/updates, and a detailed data-flow/vendor inventory, thereby treating the control gap as a compliance risk.\",\n  \"verdict\": \"pass\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "1e4caf98-c357-46e1-89ff-7bea6288f01f",
+        "usage": {
+          "prompt_tokens": 6443,
+          "completion_tokens": 2162,
+          "total_tokens": 8605,
+          "prompt_tokens_details": {
+            "cached_tokens": 6272
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 2093
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 171
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-016",
+      "title": "Identify the specific ad-targeting mechanics at issue",
+      "verdict": "pass",
+      "reasoning": "The deliverable names specific identifying data elements — email addresses, IP addresses, and persistent identifiers (the class covering device IDs/MAIDs) — in the transmission inventory (§1, §6.1). It also describes the ad-targeting/matching purpose explicitly, referencing custom-audience uploads, conversions APIs, retargeting, and targeting in §§2.2, 5.4, and 6.1. Both prongs of the criterion are met.",
+      "judge_raw": "{\"reasoning\": \"The deliverable names specific identifying data elements — email addresses, IP addresses, and persistent identifiers (the class covering device IDs/MAIDs) — in the transmission inventory (§1, §6.1). It also describes the ad-targeting/matching purpose explicitly, referencing custom-audience uploads, conversions APIs, retargeting, and targeting in §§2.2, 5.4, and 6.1. Both prongs of the criterion are met.\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "4833fc7c-d7c1-489a-9024-8756f914ad91",
+        "usage": {
+          "prompt_tokens": 6448,
+          "completion_tokens": 614,
+          "total_tokens": 7062,
+          "prompt_tokens_details": {
+            "cached_tokens": 6272
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 505
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 176
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-017",
+      "title": "Map the three ordered prohibitions to the client's facts",
+      "verdict": "pass",
+      "reasoning": "The plan covers all three prohibitions—advertising use/disclosure of health data, retargeting/targeting via ad platforms or audiences, and misrepresentations about data-sharing practices or HIPAA status—and ties each to the client's telehealth facts, including mental-health treatment data, email/IP/questionnaire data, and pixels/SDKs/custom audiences. It treats retargeting as part of targeting/advertising rather than as a materially different issue.",
+      "judge_raw": "{\"reasoning\":\"The plan covers all three prohibitions—advertising use/disclosure of health data, retargeting/targeting via ad platforms or audiences, and misrepresentations about data-sharing practices or HIPAA status—and ties each to the client's telehealth facts, including mental-health treatment data, email/IP/questionnaire data, and pixels/SDKs/custom audiences. It treats retargeting as part of targeting/advertising rather than as a materially different issue.\",\"verdict\":\"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "52d27da8-f193-4d1a-81e9-8924b9c21a75",
+        "usage": {
+          "prompt_tokens": 6438,
+          "completion_tokens": 2095,
+          "total_tokens": 8533,
+          "prompt_tokens_details": {
+            "cached_tokens": 6272
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1992
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 166
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-018",
+      "title": "BetterHelp final order required a $7.8 million payment",
+      "verdict": "fail",
+      "reasoning": "The deliverable extensively discusses the BetterHelp final order but never states the $7.8 million payment amount or dates the final order to July 14, 2023/July 2023. It therefore does not make the required point.",
+      "judge_raw": "{\n  \"reasoning\": \"The deliverable extensively discusses the BetterHelp final order but never states the $7.8 million payment amount or dates the final order to July 14, 2023/July 2023. It therefore does not make the required point.\",\n  \"verdict\": \"fail\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "c528cff4-5294-4718-80d2-d2a87ffefe57",
+        "usage": {
+          "prompt_tokens": 6454,
+          "completion_tokens": 227,
+          "total_tokens": 6681,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 161
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 438
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-019",
+      "title": "GoodRx paid a $1.5 million civil penalty for failure to notify",
+      "verdict": "fail",
+      "reasoning": "The deliverable mentions GoodRx as the first HBNR enforcement action and references failure to provide required breach notices, but it does not state the $1.5 million civil penalty amount or characterize such payment as tied to the failure to notify/report.",
+      "judge_raw": "{\"reasoning\": \"The deliverable mentions GoodRx as the first HBNR enforcement action and references failure to provide required breach notices, but it does not state the $1.5 million civil penalty amount or characterize such payment as tied to the failure to notify/report.\", \"verdict\": \"fail\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "96a58f7e-f3f8-4f59-9aad-3aece0c6779d",
+        "usage": {
+          "prompt_tokens": 6457,
+          "completion_tokens": 225,
+          "total_tokens": 6682,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 161
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 441
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-020",
+      "title": "BetterHelp order was finalized 3-0 after 123 public comments",
+      "verdict": "fail",
+      "reasoning": "The deliverable references the BetterHelp final order and public-comment materials but does not state that the order was finalized 3-0 or unanimously, nor does it reference the 123 public comments reviewed before finalization.",
+      "judge_raw": "{\"reasoning\": \"The deliverable references the BetterHelp final order and public-comment materials but does not state that the order was finalized 3-0 or unanimously, nor does it reference the 123 public comments reviewed before finalization.\", \"verdict\": \"fail\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "7cb941fa-d434-4f28-8a40-e0998126283f",
+        "usage": {
+          "prompt_tokens": 6463,
+          "completion_tokens": 315,
+          "total_tokens": 6778,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 258
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 447
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-021",
+      "title": "Distinguish the GoodRx HBNR track from the BetterHelp Section 5 track",
+      "verdict": "fail",
+      "reasoning": "The deliverable notes GoodRx as an HBNR enforcement action and discusses BetterHelp's order as a benchmark, but it does not clearly contrast the two tracks on both legal basis and focus in a side-by-side or equivalent way, and it attaches no dollar figures to either company. Because the criterion requires the correct dollar figure attached to each company, the answer fails.",
+      "judge_raw": "{\n  \"reasoning\": \"The deliverable notes GoodRx as an HBNR enforcement action and discusses BetterHelp's order as a benchmark, but it does not clearly contrast the two tracks on both legal basis and focus in a side-by-side or equivalent way, and it attaches no dollar figures to either company. Because the criterion requires the correct dollar figure attached to each company, the answer fails.\",\n  \"verdict\": \"fail\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "4a11cb97-9862-41c2-aff0-2e4c2a2bfb0a",
+        "usage": {
+          "prompt_tokens": 6442,
+          "completion_tokens": 645,
+          "total_tokens": 7087,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 554
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 426
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-022",
+      "title": "Both tracks are cumulative, not alternative",
+      "verdict": "fail",
+      "reasoning": "The deliverable addresses HBNR notification and discusses BetterHelp misrepresentation/deception issues, but it does not expressly state that the notification duty and the Section 5 deception exposure are separate cumulative obligations that must each be satisfied. It also does not clearly frame GoodRx as the failure-to-notify track and BetterHelp as the deceptive-sharing/Section 5 track in a two-track or parallel-compliance analysis. While it does not treat notification as a cure for deception, the required explicit cumulative framing is missing.",
+      "judge_raw": "{\n  \"reasoning\": \"The deliverable addresses HBNR notification and discusses BetterHelp misrepresentation/deception issues, but it does not expressly state that the notification duty and the Section 5 deception exposure are separate cumulative obligations that must each be satisfied. It also does not clearly frame GoodRx as the failure-to-notify track and BetterHelp as the deceptive-sharing/Section 5 track in a two-track or parallel-compliance analysis. While it does not treat notification as a cure for deception, the required explicit cumulative framing is missing.\",\n  \"verdict\": \"fail\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "9129b271-435e-4388-b61d-020ec195f5ed",
+        "usage": {
+          "prompt_tokens": 6434,
+          "completion_tokens": 1264,
+          "total_tokens": 7698,
+          "prompt_tokens_details": {
+            "cached_tokens": 6272
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1146
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 162
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-023",
+      "title": "Both orders share a common five-part remedy package",
+      "verdict": "pass",
+      "reasoning": "The deliverable lists all five shared remedy elements—advertising/targeting ban, affirmative express consent, privacy program, third-party deletion with confirmation, and retention schedule—and frames them through the BetterHelp final order as a compliance benchmark and remediation baseline. It is not presented as fine-only and includes substantial injunctive-type remedies.",
+      "judge_raw": "{\n  \"reasoning\": \"The deliverable lists all five shared remedy elements—advertising/targeting ban, affirmative express consent, privacy program, third-party deletion with confirmation, and retention schedule—and frames them through the BetterHelp final order as a compliance benchmark and remediation baseline. It is not presented as fine-only and includes substantial injunctive-type remedies.\",\n  \"verdict\": \"pass\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "8c3cbb69-825c-4bb8-bc77-45a56ddd7e6a",
+        "usage": {
+          "prompt_tokens": 6430,
+          "completion_tokens": 930,
+          "total_tokens": 7360,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 846
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 414
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-024",
+      "title": "The 2021 FTC policy statement put health apps on notice",
+      "verdict": "fail",
+      "reasoning": "The deliverable does not reference the September 2021 FTC policy statement on HBNR compliance for health apps, nor does it draw any notice or heightened-expectations consequence from post-2021 conduct. Its HBNR chronology and enforcement discussion omit that policy statement.",
+      "judge_raw": "{\"reasoning\": \"The deliverable does not reference the September 2021 FTC policy statement on HBNR compliance for health apps, nor does it draw any notice or heightened-expectations consequence from post-2021 conduct. Its HBNR chronology and enforcement discussion omit that policy statement.\", \"verdict\": \"fail\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "f7cbb760-a366-42d0-bc8b-da9d2594566f",
+        "usage": {
+          "prompt_tokens": 6443,
+          "completion_tokens": 208,
+          "total_tokens": 6651,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 140
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 427
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-025",
+      "title": "Adopt a permanent bar on sharing health data for advertising",
+      "verdict": "pass",
+      "reasoning": "The output recommends adopting the BetterHelp final order's absolute prohibition and states the Company should implement the same substantive separation: no ad-platform use of treatment information and no targeting based on health information, even if a consent interface is later deployed. It also instructs removing health data from ad platforms and audiences and excluding sensitive health signals from advertising systems. This satisfies the criterion's requirement for an outright, permanent/indefinite bar, equivalent to 'prohibit' or 'no health data in ad audiences.'",
+      "judge_raw": "{\n  \"reasoning\": \"The output recommends adopting the BetterHelp final order's absolute prohibition and states the Company should implement the same substantive separation: no ad-platform use of treatment information and no targeting based on health information, even if a consent interface is later deployed. It also instructs removing health data from ad platforms and audiences and excluding sensitive health signals from advertising systems. This satisfies the criterion's requirement for an outright, permanent/indefinite bar, equivalent to 'prohibit' or 'no health data in ad audiences.'\",\n  \"verdict\": \"pass\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "86a3e2e8-c8ae-4636-b78a-030a0bdabf4b",
+        "usage": {
+          "prompt_tokens": 6434,
+          "completion_tokens": 439,
+          "total_tokens": 6873,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 321
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 418
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-026",
+      "title": "Affirmative express consent, not opt-out, for any residual sharing",
+      "verdict": "pass",
+      "reasoning": "The plan expressly mandates affirmative express consent as the standard: Section 5.1 suspends sharing pending valid, specific, informed, prior consent and forbids inferring consent from continued use or banner closure; Section 5.2 adopts an Affirmative Express Consent standard requiring Clear and Conspicuous disclosure of the categories of information collected/used/disclosed, the specific purposes, and the names or categories of third-party recipients, unbundled from the privacy policy or terms; Section 5.4 requires health-data sharing for advertising to be 'opt-in, not opt-out' and requires re-consent rather than relying on prior privacy-policy acceptance. This satisfies both prongs (opt-in standard for residual third-party disclosure of health data plus required description of data categories).",
+      "judge_raw": "{\"reasoning\": \"The plan expressly mandates affirmative express consent as the standard: Section 5.1 suspends sharing pending valid, specific, informed, prior consent and forbids inferring consent from continued use or banner closure; Section 5.2 adopts an Affirmative Express Consent standard requiring Clear and Conspicuous disclosure of the categories of information collected/used/disclosed, the specific purposes, and the names or categories of third-party recipients, unbundled from the privacy policy or terms; Section 5.4 requires health-data sharing for advertising to be 'opt-in, not opt-out' and requires re-consent rather than relying on prior privacy-policy acceptance. This satisfies both prongs (opt-in standard for residual third-party disclosure of health data plus required description of data categories).\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "4dd6606b-df6c-4c1a-bf9e-b2f64115e45a",
+        "usage": {
+          "prompt_tokens": 6432,
+          "completion_tokens": 318,
+          "total_tokens": 6750,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 147
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 416
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-027",
+      "title": "Direct ad platforms to delete already-shared data",
+      "verdict": "pass",
+      "reasoning": "Section 6.3 expressly directs the Company to send written notices to each ad platform/vendor instructing them to delete all previously shared covered information (including derivatives, copies, and hashed/encrypted forms), to have them pass the instruction downstream, and to 'demand written confirmation of deletion.' Section 6.4 further withholds future sharing until deletion instructions are acknowledged. This satisfies both the affirmative third-party deletion instruction and the verification/confirmation step.",
+      "judge_raw": "{\"reasoning\": \"Section 6.3 expressly directs the Company to send written notices to each ad platform/vendor instructing them to delete all previously shared covered information (including derivatives, copies, and hashed/encrypted forms), to have them pass the instruction downstream, and to 'demand written confirmation of deletion.' Section 6.4 further withholds future sharing until deletion instructions are acknowledged. This satisfies both the affirmative third-party deletion instruction and the verification/confirmation step.\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "cea4f664-d8e3-43f2-8499-12b9291a85fe",
+        "usage": {
+          "prompt_tokens": 6420,
+          "completion_tokens": 193,
+          "total_tokens": 6613,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 86
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 404
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-028",
+      "title": "Adopt a data retention schedule for personal and health information",
+      "verdict": "fail",
+      "reasoning": "The output calls for a written retention schedule and deletion timeframes, but it does not actually define maximum retention periods for personal or health information. It also does not establish maximum vendor-side retention periods; vendor obligations are limited to deletion demands and contract audits. The retention language remains largely necessity-based rather than a defined schedule with specified maximum periods.",
+      "judge_raw": "{\n  \"reasoning\": \"The output calls for a written retention schedule and deletion timeframes, but it does not actually define maximum retention periods for personal or health information. It also does not establish maximum vendor-side retention periods; vendor obligations are limited to deletion demands and contract audits. The retention language remains largely necessity-based rather than a defined schedule with specified maximum periods.\",\n  \"verdict\": \"fail\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "2aaf6c62-b02c-46df-8aaa-b007dbacbfe0",
+        "usage": {
+          "prompt_tokens": 6424,
+          "completion_tokens": 974,
+          "total_tokens": 7398,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 890
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 408
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-029",
+      "title": "Stand up a comprehensive privacy program with strong safeguards",
+      "verdict": "pass",
+      "reasoning": "Section 8 establishes a standing, ongoing privacy program with governance and ownership: written program documentation, board reporting at least annually and after incidents, a designated qualified responsible employee with executive reporting, annual and incident-triggered risk assessments, plus concrete safeguards (data inventory and deletion, technical/procedural controls, third-party contract audits, role-based access, mandatory annual training, retention schedule). This is an ongoing program rather than a one-off policy update or single training session, and it expressly covers safeguards for consumer data.",
+      "judge_raw": "{\"reasoning\": \"Section 8 establishes a standing, ongoing privacy program with governance and ownership: written program documentation, board reporting at least annually and after incidents, a designated qualified responsible employee with executive reporting, annual and incident-triggered risk assessments, plus concrete safeguards (data inventory and deletion, technical/procedural controls, third-party contract audits, role-based access, mandatory annual training, retention schedule). This is an ongoing program rather than a one-off policy update or single training session, and it expressly covers safeguards for consumer data.\",\"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "11650dac-f2c0-4c05-92a3-6e17d3441a54",
+        "usage": {
+          "prompt_tokens": 6430,
+          "completion_tokens": 167,
+          "total_tokens": 6597,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 50
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 414
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-030",
+      "title": "Specify the eight privacy-program components",
+      "verdict": "pass",
+      "reasoning": "The deliverable names at least five required privacy-program components: risk assessments, data inventory, access controls, training, audit/testing, and vendor management. Encryption is not clearly named as a program component, and incident response is addressed elsewhere but not central to Section 8; however, the threshold of five components is met.",
+      "judge_raw": "{\"reasoning\": \"The deliverable names at least five required privacy-program components: risk assessments, data inventory, access controls, training, audit/testing, and vendor management. Encryption is not clearly named as a program component, and incident response is addressed elsewhere but not central to Section 8; however, the threshold of five components is met.\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "8376426a-521b-4213-ad5b-cb1f36cfb622",
+        "usage": {
+          "prompt_tokens": 6427,
+          "completion_tokens": 455,
+          "total_tokens": 6882,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 378
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 411
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-031",
+      "title": "Benchmark the privacy program against the FTC Safeguards Rule",
+      "verdict": "fail",
+      "reasoning": "The deliverable benchmarks the privacy program against the BetterHelp final order, not the FTC Safeguards Rule. It does not cite 16 C.F.R. Part 314 or otherwise reference the GLBA Safeguards Rule as an analogue or benchmark for the privacy/security program.",
+      "judge_raw": "{\n  \"reasoning\": \"The deliverable benchmarks the privacy program against the BetterHelp final order, not the FTC Safeguards Rule. It does not cite 16 C.F.R. Part 314 or otherwise reference the GLBA Safeguards Rule as an analogue or benchmark for the privacy/security program.\",\n  \"verdict\": \"fail\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "cc6be9dc-dddc-40f2-a025-e6de3b2be529",
+        "usage": {
+          "prompt_tokens": 6450,
+          "completion_tokens": 444,
+          "total_tokens": 6894,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 370
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 434
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-032",
+      "title": "Business-associate workstreams fall outside Part 318",
+      "verdict": "pass",
+      "reasoning": "The plan expressly states that the HBNR excludes HIPAA-covered entities and activities performed as a HIPAA business associate, directs separate HIPAA/OCR analysis for such activity, and frames HBNR notification as conditional on first determining the Company’s status and actual data flows. This satisfies the required carve-out and scoping, even without using the phrase 'DTC.'",
+      "judge_raw": "{\"reasoning\":\"The plan expressly states that the HBNR excludes HIPAA-covered entities and activities performed as a HIPAA business associate, directs separate HIPAA/OCR analysis for such activity, and frames HBNR notification as conditional on first determining the Company’s status and actual data flows. This satisfies the required carve-out and scoping, even without using the phrase 'DTC.'\",\"verdict\":\"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "15c7c7ea-1058-4605-9802-febada0d9b37",
+        "usage": {
+          "prompt_tokens": 6449,
+          "completion_tokens": 706,
+          "total_tokens": 7155,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 620
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 433
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-033",
+      "title": "Do not misstate the HBNR's conditional sunset as a fixed 2026 date",
+      "verdict": "pass",
+      "reasoning": "The deliverable does not misstate the HBNR sunset. It expressly notes that 'The sunset is conditional; the regulation does not state an automatic 17 February 2026 expiration date,' and the source key refers to a 'conditional sunset.' No statement claims the Rule automatically expires on Feb. 17, 2026 or that Congress must extend it by that date, so the criterion is satisfied.",
+      "judge_raw": "```json\n{\n  \"reasoning\": \"The deliverable does not misstate the HBNR sunset. It expressly notes that 'The sunset is conditional; the regulation does not state an automatic 17 February 2026 expiration date,' and the source key refers to a 'conditional sunset.' No statement claims the Rule automatically expires on Feb. 17, 2026 or that Congress must extend it by that date, so the criterion is satisfied.\",\n  \"verdict\": \"pass\"\n}\n```",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "ccb0f28d-ed24-4d09-9b43-c1a72696ec2f",
+        "usage": {
+          "prompt_tokens": 6416,
+          "completion_tokens": 230,
+          "total_tokens": 6646,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 127
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 400
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-034",
+      "title": "The Rule reaches breaches discovered on or after September 24, 2009",
+      "verdict": "fail",
+      "reasoning": "The output states the correct applicability date—'The rule applies to breaches discovered on or after 24 September 2009'—but it does not conclude that the current incident is covered. Instead, it repeatedly treats HBNR applicability as unresolved pending counsel's determination of covered-entity status and reportability. Because the criterion requires both the date and a conclusion that the current incident is covered, this is a fail.",
+      "judge_raw": "{\"reasoning\": \"The output states the correct applicability date—'The rule applies to breaches discovered on or after 24 September 2009'—but it does not conclude that the current incident is covered. Instead, it repeatedly treats HBNR applicability as unresolved pending counsel's determination of covered-entity status and reportability. Because the criterion requires both the date and a conclusion that the current incident is covered, this is a fail.\", \"verdict\": \"fail\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "8ac452ae-0aa9-46fc-a28c-17c12ae8465e",
+        "usage": {
+          "prompt_tokens": 6453,
+          "completion_tokens": 379,
+          "total_tokens": 6832,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 282
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 437
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-035",
+      "title": "Telephone notice may only supplement written notice",
+      "verdict": "pass",
+      "reasoning": "The plan expressly states that individual notice must be written, by mail or qualifying email, and that urgent phone or other notice only supplements and does not replace written notice. It also commits to preparing and issuing written individual notice, satisfying the criterion.",
+      "judge_raw": "{\"reasoning\": \"The plan expressly states that individual notice must be written, by mail or qualifying email, and that urgent phone or other notice only supplements and does not replace written notice. It also commits to preparing and issuing written individual notice, satisfying the criterion.\", \"verdict\": \"pass\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "5d2f6611-6e31-43c8-8720-c3b6efe6dfd2",
+        "usage": {
+          "prompt_tokens": 6424,
+          "completion_tokens": 155,
+          "total_tokens": 6579,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 94
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 408
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-036",
+      "title": "Audit ad-tech data flows before drafting any public statement",
+      "verdict": "fail",
+      "reasoning": "The plan includes a detailed third-party/ad-tech inventory in Section 6.1, but it does not sequence that audit ahead of notification and public statements. The notification workstream appears earlier (Section 4), the timeline allows notice preparation concurrently with identifying recipients/data categories, and the plan expressly says not to wait for complete root-cause analysis before preparing notice. This falls short of requiring the ad-platform data-flow audit to be completed or substantially established before notification drafting or public communications.",
+      "judge_raw": "{\n  \"reasoning\": \"The plan includes a detailed third-party/ad-tech inventory in Section 6.1, but it does not sequence that audit ahead of notification and public statements. The notification workstream appears earlier (Section 4), the timeline allows notice preparation concurrently with identifying recipients/data categories, and the plan expressly says not to wait for complete root-cause analysis before preparing notice. This falls short of requiring the ad-platform data-flow audit to be completed or substantially established before notification drafting or public communications.\",\n  \"verdict\": \"fail\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "4ebd1599-9410-4faa-b3da-f6063abc3ed7",
+        "usage": {
+          "prompt_tokens": 6433,
+          "completion_tokens": 1419,
+          "total_tokens": 7852,
+          "prompt_tokens_details": {
+            "cached_tokens": 6272
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 1307
+          },
+          "prompt_cache_hit_tokens": 6272,
+          "prompt_cache_miss_tokens": 161
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-037",
+      "title": "Sequence notification first, then negotiated remediation",
+      "verdict": "pass",
+      "reasoning": "The plan explicitly sequences statutory HBNR notification as an early, independent workstream: it sets individual/FTC/media notice to occur 'no later than 60 calendar days after discovery,' warns 'do not wait for the complete root-cause analysis before preparing notice,' and states that 'Consent is not a cure for past unauthorized disclosures. Notification and deletion must proceed separately.' The Timeline table places notification within the 60-day window while consent/privacy-program remediation is 'Ongoing,' and it expressly cautions the 60-day deadline is an outer limit not a target—satisfying the requirement that parallel workstreams not delay notification.",
+      "judge_raw": "```json\n{\n  \"reasoning\": \"The plan explicitly sequences statutory HBNR notification as an early, independent workstream: it sets individual/FTC/media notice to occur 'no later than 60 calendar days after discovery,' warns 'do not wait for the complete root-cause analysis before preparing notice,' and states that 'Consent is not a cure for past unauthorized disclosures. Notification and deletion must proceed separately.' The Timeline table places notification within the 60-day window while consent/privacy-program remediation is 'Ongoing,' and it expressly cautions the 60-day deadline is an outer limit not a target—satisfying the requirement that parallel workstreams not delay notification.\",\n  \"verdict\": \"pass\"\n}\n```",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "04e311fc-0a40-4134-8c6b-e039b31f7e8b",
+        "usage": {
+          "prompt_tokens": 6429,
+          "completion_tokens": 469,
+          "total_tokens": 6898,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 319
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 413
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-038",
+      "title": "Adopt the strictest reading of the consent scope",
+      "verdict": "fail",
+      "reasoning": "The deliverable recommends an Affirmative Express Consent standard requiring disclosure of specific purposes and third-party names/categories, and it imposes strong ad-tech prohibitions. However, it does not expressly adopt or recommend the 'any third party, any purpose' broader/stricter consent scope, nor does it explain a risk-adjustment rationale for choosing that reading over a narrower interpretation. It instead uses the BetterHelp final order as a benchmark and leaves the precise consent-scope ambiguity unaddressed.",
+      "judge_raw": "{\"reasoning\": \"The deliverable recommends an Affirmative Express Consent standard requiring disclosure of specific purposes and third-party names/categories, and it imposes strong ad-tech prohibitions. However, it does not expressly adopt or recommend the 'any third party, any purpose' broader/stricter consent scope, nor does it explain a risk-adjustment rationale for choosing that reading over a narrower interpretation. It instead uses the BetterHelp final order as a benchmark and leaves the precise consent-scope ambiguity unaddressed.\", \"verdict\": \"fail\"}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "f331ef9d-31f8-45db-8a14-dadd8ff04aa3",
+        "usage": {
+          "prompt_tokens": 6431,
+          "completion_tokens": 662,
+          "total_tokens": 7093,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 550
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 415
+        },
+        "finish_reason": "stop"
+      }
+    },
+    {
+      "id": "C-039",
+      "title": "Audit all privacy policies, seals, and public claims for accuracy",
+      "verdict": "pass",
+      "reasoning": "The deliverable requires retrospective review and correction of existing privacy policies, notices, privacy representations, HIPAA-related statements/seals, and unsupported public claims. It also directs preservation of privacy policies, representations, drafts, and communications under litigation hold and incident documentation, so prior versions/public statements are preserved.",
+      "judge_raw": "{\n  \"reasoning\": \"The deliverable requires retrospective review and correction of existing privacy policies, notices, privacy representations, HIPAA-related statements/seals, and unsupported public claims. It also directs preservation of privacy policies, representations, drafts, and communications under litigation hold and incident documentation, so prior versions/public statements are preserved.\",\n  \"verdict\": \"pass\"\n}",
+      "judge_meta": {
+        "model": "deepseek-flash",
+        "response_id": "4f25cb30-f4eb-4aea-be75-ae59a90c16b5",
+        "usage": {
+          "prompt_tokens": 6432,
+          "completion_tokens": 886,
+          "total_tokens": 7318,
+          "prompt_tokens_details": {
+            "cached_tokens": 6016
+          },
+          "completion_tokens_details": {
+            "reasoning_tokens": 809
+          },
+          "prompt_cache_hit_tokens": 6016,
+          "prompt_cache_miss_tokens": 416
+        },
+        "finish_reason": "stop"
+      }
+    }
+  ]
+}

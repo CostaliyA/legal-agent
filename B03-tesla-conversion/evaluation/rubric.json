@@ -1,0 +1,1010 @@
+{
+  "task_id": "B03-tesla-conversion",
+  "family_id": "tesla-2024-conversion-governance",
+  "criterion_count": 32,
+  "minimum_criteria": 30,
+  "source": "generated from frozen evidence graph; graph bootstrapped from v3 source-anchored criteria",
+  "status": "candidate; guided independent rollout and counterchecks pending",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Conversion continuity",
+      "issue_group": "proposal-and-approval",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:proposal-and-approval",
+        "prop:C-001",
+        "span:C-001:1"
+      ],
+      "pass_condition": "describes corporate continuity through the Plan of Conversion rather than an asset sale",
+      "fail_condition": "describes shareholders as selling all Tesla assets",
+      "match_criteria": "PASS if the deliverable describes corporate continuity through the Plan of Conversion rather than an asset sale. FAIL if omitted, contradicted, or it describes shareholders as selling all Tesla assets. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            31,
+            32,
+            35,
+            36,
+            73
+          ],
+          "anchor": "Plan of Conversion"
+        }
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "Separate pay proposal",
+      "issue_group": "proposal-and-approval",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:proposal-and-approval",
+        "prop:C-002",
+        "span:C-002:1"
+      ],
+      "pass_condition": "distinguishes conversion from ratification of the 2018 award",
+      "fail_condition": "says approval of one automatically approves the other",
+      "match_criteria": "PASS if the deliverable distinguishes conversion from ratification of the 2018 award. FAIL if omitted, contradicted, or it says approval of one automatically approves the other. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28,
+            29,
+            32
+          ],
+          "anchor": "2018"
+        }
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "Board and committee roles",
+      "issue_group": "proposal-and-approval",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:proposal-and-approval",
+        "prop:C-003",
+        "span:C-003:1"
+      ],
+      "pass_condition": "describes the special committee’s evaluation and the board’s recommendation as disclosed",
+      "fail_condition": "presents management’s views as an independent judicial finding",
+      "match_criteria": "PASS if the deliverable describes the special committee’s evaluation and the board’s recommendation as disclosed. FAIL if omitted, contradicted, or it presents management’s views as an independent judicial finding. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28,
+            29,
+            30,
+            31,
+            32,
+            33
+          ],
+          "anchor": "Special Committee"
+        }
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "Musk recusals",
+      "issue_group": "proposal-and-approval",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:proposal-and-approval",
+        "prop:C-004",
+        "span:C-004:1"
+      ],
+      "pass_condition": "recognizes the disclosed Musk/Kimbal recusals for the conversion board decision",
+      "fail_condition": "describes their participation as an undisputed disinterested approval",
+      "match_criteria": "PASS if the deliverable recognizes the disclosed Musk/Kimbal recusals for the conversion board decision. FAIL if omitted, contradicted, or it describes their participation as an undisputed disinterested approval. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            31,
+            36,
+            73
+          ],
+          "anchor": "recusing"
+        }
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Conversion vote requirement",
+      "issue_group": "proposal-and-approval",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:proposal-and-approval",
+        "prop:C-005",
+        "span:C-005:1"
+      ],
+      "pass_condition": "identifies the majority-of-outstanding-shares-entitled-to-vote threshold in the actual Proposal Three voting table",
+      "fail_condition": "substitutes a majority-of-votes-cast rule for the outstanding-share threshold",
+      "match_criteria": "PASS if the deliverable identifies the majority-of-outstanding-shares-entitled-to-vote threshold in the actual Proposal Three voting table. FAIL if omitted, contradicted, or it substitutes a majority-of-votes-cast rule for the outstanding-share threshold. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            171
+          ],
+          "anchor": "Proposal Three"
+        }
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "Non-Musk vote condition",
+      "issue_group": "proposal-and-approval",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:proposal-and-approval",
+        "prop:C-006",
+        "span:C-006:1"
+      ],
+      "pass_condition": "identifies the additional Proposal Three majority of voting power of non-Musk/Kimbal-owned shares present or represented and entitled to vote, distinguishing the committee votes-cast summary",
+      "fail_condition": "substitutes the separate pay-ratification voting denominator for the conversion proposal",
+      "match_criteria": "PASS if the deliverable identifies the additional Proposal Three majority of voting power of non-Musk/Kimbal-owned shares present or represented and entitled to vote, distinguishing the committee votes-cast summary. FAIL if omitted, contradicted, or it substitutes the separate pay-ratification voting denominator for the conversion proposal. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            171
+          ],
+          "anchor": "not owned"
+        }
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "Proposed versus effective",
+      "issue_group": "proposal-and-approval",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:proposal-and-approval",
+        "prop:C-007",
+        "span:C-007:1"
+      ],
+      "pass_condition": "treats the transaction as proposed at the proxy date and identifies outstanding approval/filing steps",
+      "fail_condition": "imports the subsequent annual-meeting result",
+      "match_criteria": "PASS if the deliverable treats the transaction as proposed at the proxy date and identifies outstanding approval/filing steps. FAIL if omitted, contradicted, or it imports the subsequent annual-meeting result. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            31,
+            32,
+            35,
+            36,
+            41,
+            44
+          ],
+          "anchor": "conversion"
+        }
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "Actual charter comparison",
+      "issue_group": "instruments-and-board-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:instruments-and-board-rights",
+        "prop:C-008",
+        "span:C-008:1"
+      ],
+      "pass_condition": "distinguishes proposed Texas provisions from current Delaware provisions and statutory defaults",
+      "fail_condition": "assumes every Texas default is adopted unchanged",
+      "match_criteria": "PASS if the deliverable distinguishes proposed Texas provisions from current Delaware provisions and statutory defaults. FAIL if omitted, contradicted, or it assumes every Texas default is adopted unchanged. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            40,
+            41,
+            42,
+            43,
+            47
+          ],
+          "anchor": "Delaware Charter"
+        }
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "Default transaction vote",
+      "issue_group": "instruments-and-board-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:instruments-and-board-rights",
+        "prop:C-009",
+        "span:C-009:1"
+      ],
+      "pass_condition": "identifies the Texas two-thirds default and permitted charter variation",
+      "fail_condition": "treats two-thirds as an immutable Tesla-specific vote",
+      "match_criteria": "PASS if the deliverable identifies the Texas two-thirds default and permitted charter variation. FAIL if omitted, contradicted, or it treats two-thirds as an immutable Tesla-specific vote. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            53
+          ],
+          "anchor": "two-thirds"
+        }
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "Selected majority provisions",
+      "issue_group": "instruments-and-board-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:instruments-and-board-rights",
+        "prop:C-010",
+        "span:C-010:1"
+      ],
+      "pass_condition": "applies the proposed instruments’ selected majority standards where specified",
+      "fail_condition": "reports only the statutory default despite the proposed instrument",
+      "match_criteria": "PASS if the deliverable applies the proposed instruments’ selected majority standards where specified. FAIL if omitted, contradicted, or it reports only the statutory default despite the proposed instrument. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            40,
+            41,
+            43,
+            48,
+            49,
+            50
+          ],
+          "anchor": "majority"
+        }
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Delaware vacancy mechanism",
+      "issue_group": "instruments-and-board-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:instruments-and-board-rights",
+        "prop:C-011",
+        "span:C-011:1"
+      ],
+      "pass_condition": "identifies the current remaining-board/sole-director vacancy mechanism and exclusion of shareholder filling",
+      "fail_condition": "says shareholders generally fill current charter vacancies",
+      "match_criteria": "PASS if the deliverable identifies the current remaining-board/sole-director vacancy mechanism and exclusion of shareholder filling. FAIL if omitted, contradicted, or it says shareholders generally fill current charter vacancies. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            40,
+            41,
+            43,
+            45,
+            48
+          ],
+          "anchor": "vacancies"
+        }
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Texas vacancy mechanism",
+      "issue_group": "instruments-and-board-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:instruments-and-board-rights",
+        "prop:C-012",
+        "span:C-012:1"
+      ],
+      "pass_condition": "identifies the broader TBOC-permitted vacancy methods used by the proposed bylaws",
+      "fail_condition": "assumes the existing exclusive-board mechanism is copied unchanged",
+      "match_criteria": "PASS if the deliverable identifies the broader TBOC-permitted vacancy methods used by the proposed bylaws. FAIL if omitted, contradicted, or it assumes the existing exclusive-board mechanism is copied unchanged. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            40,
+            41,
+            43,
+            45,
+            48
+          ],
+          "anchor": "vacancies"
+        }
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "New-seat limitation",
+      "issue_group": "instruments-and-board-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:instruments-and-board-rights",
+        "prop:C-013",
+        "span:C-013:1"
+      ],
+      "pass_condition": "recognizes the disclosed Texas limitation on newly created seats filled without shareholder action",
+      "fail_condition": "describes unrestricted board expansion without that limitation",
+      "match_criteria": "PASS if the deliverable recognizes the disclosed Texas limitation on newly created seats filled without shareholder action. FAIL if omitted, contradicted, or it describes unrestricted board expansion without that limitation. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            40,
+            41
+          ],
+          "anchor": "vacancies"
+        }
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "Classified-board continuity",
+      "issue_group": "instruments-and-board-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:instruments-and-board-rights",
+        "prop:C-014",
+        "span:C-014:1"
+      ],
+      "pass_condition": "does not equate conversion with automatic board declassification",
+      "fail_condition": "states all directors become annually elected solely from conversion",
+      "match_criteria": "PASS if the deliverable does not equate conversion with automatic board declassification. FAIL if omitted, contradicted, or it states all directors become annually elected solely from conversion. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            49
+          ],
+          "anchor": "classified"
+        }
+      ]
+    },
+    {
+      "id": "C-015",
+      "title": "Removal for cause",
+      "issue_group": "instruments-and-board-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:instruments-and-board-rights",
+        "prop:C-015",
+        "span:C-015:1"
+      ],
+      "pass_condition": "applies the proposed charter’s for-cause removal protection instead of a generic without-cause default",
+      "fail_condition": "says the proposed charter permits free removal without cause",
+      "match_criteria": "PASS if the deliverable applies the proposed charter’s for-cause removal protection instead of a generic without-cause default. FAIL if omitted, contradicted, or it says the proposed charter permits free removal without cause. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            184
+          ],
+          "anchor": "only for cause"
+        }
+      ]
+    },
+    {
+      "id": "C-016",
+      "title": "Written-consent instruments",
+      "issue_group": "shareholder-and-committee-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:shareholder-and-committee-rights",
+        "prop:C-016",
+        "span:C-016:1"
+      ],
+      "pass_condition": "compares written-consent restrictions in the actual instruments instead of assuming Texas defaults control",
+      "fail_condition": "asserts unrestricted written consent solely from Texas incorporation",
+      "match_criteria": "PASS if the deliverable compares written-consent restrictions in the actual instruments instead of assuming Texas defaults control. FAIL if omitted, contradicted, or it asserts unrestricted written consent solely from Texas incorporation. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            41,
+            42,
+            43,
+            49,
+            50,
+            55
+          ],
+          "anchor": "written consent"
+        }
+      ]
+    },
+    {
+      "id": "C-017",
+      "title": "Special-meeting instruments",
+      "issue_group": "shareholder-and-committee-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:shareholder-and-committee-rights",
+        "prop:C-017",
+        "span:C-017:1"
+      ],
+      "pass_condition": "compares the operative special-meeting mechanisms and thresholds disclosed for the two forms",
+      "fail_condition": "treats an ordinary shareholder request as a board-called meeting",
+      "match_criteria": "PASS if the deliverable compares the operative special-meeting mechanisms and thresholds disclosed for the two forms. FAIL if omitted, contradicted, or it treats an ordinary shareholder request as a board-called meeting. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            41,
+            42,
+            43,
+            48,
+            50,
+            55
+          ],
+          "anchor": "special meeting"
+        }
+      ]
+    },
+    {
+      "id": "C-018",
+      "title": "Charter amendment voting",
+      "issue_group": "shareholder-and-committee-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:shareholder-and-committee-rights",
+        "prop:C-018",
+        "span:C-018:1"
+      ],
+      "pass_condition": "compares the specified charter amendment rules, retaining applicable protected provisions",
+      "fail_condition": "asserts every charter amendment uses one universal threshold",
+      "match_criteria": "PASS only if the deliverable compares the Delaware and proposed Texas charter-amendment approval mechanics, including applicable vote thresholds, board/shareholder amendment authority, and any supermajority or protected-provision consent requirements, and states whether those protections remain. FAIL if omitted, contradicted, or if it asserts every charter amendment uses one universal threshold.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            47,
+            48,
+            52,
+            56,
+            57,
+            69
+          ],
+          "anchor": "amendment"
+        }
+      ]
+    },
+    {
+      "id": "C-019",
+      "title": "Bylaw amendment powers",
+      "issue_group": "shareholder-and-committee-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:shareholder-and-committee-rights",
+        "prop:C-019",
+        "span:C-019:1"
+      ],
+      "pass_condition": "compares actual board/shareholder bylaw-amendment authority and qualifications",
+      "fail_condition": "gives one constituency exclusive power without the stated qualification",
+      "match_criteria": "PASS if the deliverable compares actual board/shareholder bylaw-amendment authority and qualifications. FAIL if omitted, contradicted, or it gives one constituency exclusive power without the stated qualification. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            40,
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
+          "anchor": "bylaws"
+        }
+      ]
+    },
+    {
+      "id": "C-020",
+      "title": "Committee authority limits",
+      "issue_group": "shareholder-and-committee-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:shareholder-and-committee-rights",
+        "prop:C-020",
+        "span:C-020:1"
+      ],
+      "pass_condition": "recognizes matters reserved from committee action in the proposed instruments",
+      "fail_condition": "allows a committee to exercise every board/shareholder power",
+      "match_criteria": "PASS if the deliverable recognizes matters reserved from committee action in the proposed instruments. FAIL if omitted, contradicted, or it allows a committee to exercise every board/shareholder power. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            44
+          ],
+          "anchor": "committees"
+        }
+      ]
+    },
+    {
+      "id": "C-021",
+      "title": "Interested-shareholder statutes",
+      "issue_group": "shareholder-and-committee-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:shareholder-and-committee-rights",
+        "prop:C-021",
+        "span:C-021:1"
+      ],
+      "pass_condition": "distinguishes the disclosed Texas 20% and Delaware 15% ownership thresholds",
+      "fail_condition": "uses the same ownership threshold for both statutes",
+      "match_criteria": "PASS if the deliverable distinguishes the disclosed Texas 20% and Delaware 15% ownership thresholds. FAIL if omitted, contradicted, or it uses the same ownership threshold for both statutes. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            40,
+            55
+          ],
+          "anchor": "20%"
+        }
+      ]
+    },
+    {
+      "id": "C-022",
+      "title": "Internal-claim forum",
+      "issue_group": "litigation-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:litigation-rights",
+        "prop:C-022",
+        "span:C-022:1"
+      ],
+      "pass_condition": "compares the actual internal-entity-claim forum provisions rather than moving all kinds of disputes to Texas",
+      "fail_condition": "says every pending or federal claim must move to Texas",
+      "match_criteria": "PASS if the deliverable compares the actual internal-entity-claim forum provisions rather than moving all kinds of disputes to Texas. FAIL if omitted, contradicted, or it says every pending or federal claim must move to Texas. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            66,
+            67,
+            71
+          ],
+          "anchor": "Internal"
+        }
+      ]
+    },
+    {
+      "id": "C-023",
+      "title": "Delaware demand futility",
+      "issue_group": "litigation-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:litigation-rights",
+        "prop:C-023",
+        "span:C-023:1"
+      ],
+      "pass_condition": "recognizes the disclosed Delaware demand/futility approach to derivative claims",
+      "fail_condition": "states Delaware always requires the Texas waiting process",
+      "match_criteria": "PASS if the deliverable recognizes the disclosed Delaware demand/futility approach to derivative claims. FAIL if omitted, contradicted, or it states Delaware always requires the Texas waiting process. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            67
+          ],
+          "anchor": "futility"
+        }
+      ]
+    },
+    {
+      "id": "C-024",
+      "title": "Texas written demand",
+      "issue_group": "litigation-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:litigation-rights",
+        "prop:C-024",
+        "span:C-024:1"
+      ],
+      "pass_condition": "identifies the Texas written-demand requirement instead of importing Delaware futility wholesale",
+      "fail_condition": "says Texas demand is automatically excused by the Delaware test",
+      "match_criteria": "PASS if the deliverable identifies the Texas written-demand requirement instead of importing Delaware futility wholesale. FAIL if omitted, contradicted, or it says Texas demand is automatically excused by the Delaware test. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            66,
+            67
+          ],
+          "anchor": "demand"
+        }
+      ]
+    },
+    {
+      "id": "C-025",
+      "title": "Texas waiting period",
+      "issue_group": "litigation-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:litigation-rights",
+        "prop:C-025",
+        "span:C-025:1"
+      ],
+      "pass_condition": "identifies the 91st-day rule and the stated rejection/limitations/irreparable-injury exceptions",
+      "fail_condition": "treats the waiting period as absolute in every case",
+      "match_criteria": "PASS if the deliverable identifies the 91st-day rule and the stated rejection/limitations/irreparable-injury exceptions. FAIL if omitted, contradicted, or it treats the waiting period as absolute in every case. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            67
+          ],
+          "anchor": "91st"
+        }
+      ]
+    },
+    {
+      "id": "C-026",
+      "title": "Business-court timing",
+      "issue_group": "litigation-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:litigation-rights",
+        "prop:C-026",
+        "span:C-026:1"
+      ],
+      "pass_condition": "distinguishes the planned business-court opening from a guarantee of an already established identical Delaware case-law system",
+      "fail_condition": "promises identical outcomes in a newly created court",
+      "match_criteria": "PASS if the deliverable distinguishes the planned business-court opening from a guarantee of an already established identical Delaware case-law system. FAIL if omitted, contradicted, or it promises identical outcomes in a newly created court. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            35,
+            38,
+            39
+          ],
+          "anchor": "business court"
+        }
+      ]
+    },
+    {
+      "id": "C-027",
+      "title": "Specific appraisal conclusion",
+      "issue_group": "litigation-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:litigation-rights",
+        "prop:C-027",
+        "span:C-027:1"
+      ],
+      "pass_condition": "distinguishes generic appraisal comparisons from the stated absence of appraisal rights for this conversion",
+      "fail_condition": "promises a cash appraisal remedy for this specific vote",
+      "match_criteria": "PASS if the deliverable distinguishes generic appraisal comparisons from the stated absence of appraisal rights for this conversion. FAIL if omitted, contradicted, or it promises a cash appraisal remedy for this specific vote. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            67,
+            71
+          ],
+          "anchor": "No Appraisal Rights"
+        }
+      ]
+    },
+    {
+      "id": "C-028",
+      "title": "Existing litigation not erased",
+      "issue_group": "litigation-rights",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:litigation-rights",
+        "prop:C-028",
+        "span:C-028:1"
+      ],
+      "pass_condition": "recognizes the preservation of preconversion obligations, personal liability and applicable choice of law rather than asserting conversion erases them",
+      "fail_condition": "describes reincorporation as automatically vacating preconversion liability",
+      "match_criteria": "PASS if the deliverable recognizes the preservation of preconversion obligations, personal liability and applicable choice of law rather than asserting conversion erases them. FAIL if omitted, contradicted, or it describes reincorporation as automatically vacating preconversion liability. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            70
+          ],
+          "anchor": "personal liability"
+        }
+      ]
+    },
+    {
+      "id": "C-029",
+      "title": "Economic-rights attribution",
+      "issue_group": "economic-and-advice-limits",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:economic-and-advice-limits",
+        "prop:C-029",
+        "span:C-029:1"
+      ],
+      "pass_condition": "attributes claimed economic neutrality to the committee/advisers rather than guaranteeing unchanged market value",
+      "fail_condition": "guarantees the stock price cannot change",
+      "match_criteria": "PASS if the deliverable attributes claimed economic neutrality to the committee/advisers rather than guaranteeing unchanged market value. FAIL if omitted, contradicted, or it guarantees the stock price cannot change. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            33,
+            34
+          ],
+          "anchor": "economic"
+        }
+      ]
+    },
+    {
+      "id": "C-030",
+      "title": "Tax treatment qualification",
+      "issue_group": "economic-and-advice-limits",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:economic-and-advice-limits",
+        "prop:C-030",
+        "span:C-030:1"
+      ],
+      "pass_condition": "reports intended tax treatment with holder-specific limitations rather than a universal tax guarantee",
+      "fail_condition": "promises every shareholder a tax-free outcome",
+      "match_criteria": "PASS if the deliverable reports intended tax treatment with holder-specific limitations rather than a universal tax guarantee. FAIL if omitted, contradicted, or it promises every shareholder a tax-free outcome. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            34,
+            55,
+            64,
+            69,
+            70,
+            71
+          ],
+          "anchor": "tax"
+        }
+      ]
+    },
+    {
+      "id": "C-031",
+      "title": "No obtained tax opinion",
+      "issue_group": "economic-and-advice-limits",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:economic-and-advice-limits",
+        "prop:C-031",
+        "span:C-031:1"
+      ],
+      "pass_condition": "recognizes the disclosed absence of an obtained tax opinion/ruling",
+      "fail_condition": "claims counsel or IRS conclusively approved the treatment",
+      "match_criteria": "PASS if the deliverable recognizes the disclosed absence of an obtained tax opinion/ruling. FAIL if omitted, contradicted, or it claims counsel or IRS conclusively approved the treatment. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            71
+          ],
+          "anchor": "tax opinion"
+        }
+      ]
+    },
+    {
+      "id": "C-032",
+      "title": "Constituency-statute nuance",
+      "issue_group": "economic-and-advice-limits",
+      "deliverables": [
+        "rights-comparison.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:economic-and-advice-limits",
+        "prop:C-032",
+        "span:C-032:1"
+      ],
+      "pass_condition": "addresses the disclosed Texas long/short-term-interest consideration without treating it as elimination of fiduciary duties",
+      "fail_condition": "says Texas directors have no shareholder-related duties",
+      "match_criteria": "PASS if the deliverable addresses the disclosed Texas long/short-term-interest consideration without treating it as elimination of fiduciary duties. FAIL if omitted, contradicted, or it says Texas directors have no shareholder-related duties. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "tesla-proxy-2024",
+          "file": "tesla-definitive-proxy-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            39,
+            40,
+            62,
+            66
+          ],
+          "anchor": "long-term"
+        }
+      ]
+    }
+  ]
+}

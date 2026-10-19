@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": false,
+      "reason": "The answer does not identify Lynn Goldsmith as the creator of the Prince photograph or provide any source-supported findings."
+    },
+    {
+      "id": "C-002",
+      "pass": false,
+      "reason": "The answer supplies no chronology and does not state that the 1981 photograph preceded the 1984 commissioned illustration."
+    },
+    {
+      "id": "C-003",
+      "pass": false,
+      "reason": "The answer does not describe the limited artist-reference authorization for the 1984 Vanity Fair commission."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "The answer does not distinguish the broader Prince Series from the particular Orange Prince image licensed in 2016."
+    },
+    {
+      "id": "C-005",
+      "pass": false,
+      "reason": "The answer does not identify the later Condé Nast 2016 license or separate it from the 1984 commission."
+    },
+    {
+      "id": "C-006",
+      "pass": false,
+      "reason": "The answer does not report the $10,000 fee paid to AWF for the challenged 2016 use."
+    },
+    {
+      "id": "C-007",
+      "pass": false,
+      "reason": "The answer does not state that Goldsmith neither authorized nor was compensated for the challenged 2016 use."
+    },
+    {
+      "id": "C-008",
+      "pass": false,
+      "reason": "The answer provides no use-specific assessment of the challenged magazine licensing transaction."
+    },
+    {
+      "id": "C-009",
+      "pass": false,
+      "reason": "The answer does not identify the first fair-use factor, purpose and character, as the issue decided by the Court."
+    },
+    {
+      "id": "C-010",
+      "pass": false,
+      "reason": "The answer does not explain that transformation must be assessed against the specific alleged infringing use."
+    },
+    {
+      "id": "C-011",
+      "pass": false,
+      "reason": "The answer does not identify the overlapping purpose of illustrating magazine stories about Prince."
+    },
+    {
+      "id": "C-012",
+      "pass": false,
+      "reason": "The answer does not account for the commercial licensing character of the challenged transaction."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "The answer provides no discussion of commerciality's role and therefore does not substantively explain that it is not an automatic bar."
+    },
+    {
+      "id": "C-014",
+      "pass": false,
+      "reason": "The answer does not explain how the degree of changed purpose interacts with commerciality and justification."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "The answer does not explain that an overbroad new-expression test would swallow the derivative-work right."
+    },
+    {
+      "id": "C-016",
+      "pass": false,
+      "reason": "The answer does not recognize that creation, display, or other uses may present different first-factor questions."
+    },
+    {
+      "id": "C-017",
+      "pass": false,
+      "reason": "The answer does not acknowledge that new meaning or message may be relevant to the fair-use analysis."
+    },
+    {
+      "id": "C-018",
+      "pass": false,
+      "reason": "The answer does not explain why a new message alone did not justify this overlapping commercial license."
+    },
+    {
+      "id": "C-019",
+      "pass": false,
+      "reason": "The answer does not explain the Campbell parody comparison or its copying-justification reasoning."
+    },
+    {
+      "id": "C-020",
+      "pass": false,
+      "reason": "The answer does not assess the reason for borrowing this photograph in relation to the asserted purpose."
+    },
+    {
+      "id": "C-021",
+      "pass": false,
+      "reason": "The answer does not distinguish the functional software context in Google or explain why it does not mechanically control this portrait license."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "The answer provides no analysis rejecting artistic fame as an independent fair-use entitlement."
+    },
+    {
+      "id": "C-023",
+      "pass": false,
+      "reason": "The answer does not state AWF's transformation/new-meaning argument or explain the majority's response."
+    },
+    {
+      "id": "C-024",
+      "pass": false,
+      "reason": "The answer does not address Goldsmith's competing portrait-licensing purpose while limiting the holding to the challenged use."
+    },
+    {
+      "id": "C-025",
+      "pass": false,
+      "reason": "The answer does not report that the first factor favored Goldsmith for the challenged use."
+    },
+    {
+      "id": "C-026",
+      "pass": false,
+      "reason": "The answer does not state that the Supreme Court affirmed the judgment under review."
+    },
+    {
+      "id": "C-027",
+      "pass": false,
+      "reason": "The answer does not discuss the concurrence's emphasis on the specific challenged use."
+    },
+    {
+      "id": "C-028",
+      "pass": false,
+      "reason": "The answer does not identify or fairly attribute the dissent's concern for artistic transformation as a dissent."
+    },
+    {
+      "id": "C-029",
+      "pass": false,
+      "reason": "The answer provides no substantive discussion of the judgment or record and therefore does not fulfill the required treatment of damages/valuation."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "The answer does not request the original license scope or sublicensing permissions before clearing a new use."
+    },
+    {
+      "id": "C-031",
+      "pass": false,
+      "reason": "The answer does not request the proposed medium, audience, commercial terms, or asserted purpose for a license."
+    },
+    {
+      "id": "C-032",
+      "pass": false,
+      "reason": "The answer gives no conditional options for permission, revised use, or further analysis and does not address clearance at all."
+    }
+  ],
+  "unsupported_material_claims": []
+}

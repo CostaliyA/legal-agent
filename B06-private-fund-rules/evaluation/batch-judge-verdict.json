@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": true,
+      "reason": "Expressly states the Fifth Circuit vacated the Final Rule, citing the opinion’s vacatur at pages 25 and footnote 10."
+    },
+    {
+      "id": "C-002",
+      "pass": true,
+      "reason": "Recognizes the vacatur was categorical, quoting 'no part of it can stand' and treating all challenged rules as vacated/removed."
+    },
+    {
+      "id": "C-003",
+      "pass": true,
+      "reason": "Explains section 211(h) was read as limited to retail customers, not private-fund investors, citing pages 20–22."
+    },
+    {
+      "id": "C-004",
+      "pass": true,
+      "reason": "Explains the court rejected the section 206(4) antifraud rationale as pretextual and lacking definition/close nexus, while preserving separate antifraud duties."
+    },
+    {
+      "id": "C-005",
+      "pass": true,
+      "reason": "Distinguishes the fund as client from investors and notes the court’s fiduciary/client reasoning requires fact-specific analysis."
+    },
+    {
+      "id": "C-006",
+      "pass": true,
+      "reason": "Explains Congress’s differentiated private-fund framework under Dodd-Frank Title IV versus retail-focused Title IX and private-fund governance freedom."
+    },
+    {
+      "id": "C-007",
+      "pass": true,
+      "reason": "Uses June 5, 2024 as the operative vacatur date, not November 19, 2024."
+    },
+    {
+      "id": "C-008",
+      "pass": true,
+      "reason": "Correctly treats November 19, 2024 technical amendments as CFR cleanup implementing the court’s vacatur, not a new substantive regime."
+    },
+    {
+      "id": "C-009",
+      "pass": true,
+      "reason": "Identifies the quarterly statement/fee-expense-performance rule as part of the vacated package."
+    },
+    {
+      "id": "C-010",
+      "pass": true,
+      "reason": "Separates the vacated private-fund audit rule from pre-existing custody-rule obligations and surprise-examination issues."
+    },
+    {
+      "id": "C-011",
+      "pass": true,
+      "reason": "Identifies the fairness/valuation opinion and relationship-disclosure requirements as vacated adviser-led-secondaries requirements."
+    },
+    {
+      "id": "C-012",
+      "pass": true,
+      "reason": "Identifies investigation fees/expenses within the vacated restricted-activities scheme and notes disclosure/consent exceptions."
+    },
+    {
+      "id": "C-013",
+      "pass": true,
+      "reason": "Identifies regulatory/compliance/examination costs as part of the vacated restricted-activities disclosure treatment."
+    },
+    {
+      "id": "C-014",
+      "pass": true,
+      "reason": "Identifies tax-related clawback reductions within the vacated restricted-activities rule."
+    },
+    {
+      "id": "C-015",
+      "pass": true,
+      "reason": "Identifies certain non-pro-rata allocation restrictions as vacated and does not say vacatur authorizes all such allocations."
+    },
+    {
+      "id": "C-016",
+      "pass": true,
+      "reason": "Identifies the borrowing restriction and consent-based exception as part of the vacated restricted-activities rule."
+    },
+    {
+      "id": "C-017",
+      "pass": true,
+      "reason": "Identifies the preferential-redemption prohibition and material-negative-effect standard as vacated."
+    },
+    {
+      "id": "C-018",
+      "pass": true,
+      "reason": "Identifies the restriction on preferential portfolio-holdings/exposure information as vacated."
+    },
+    {
+      "id": "C-019",
+      "pass": true,
+      "reason": "Treats the preferential-treatment disclosure scheme as vacated and separately preserves negotiated side-letter/fiduciary obligations."
+    },
+    {
+      "id": "C-020",
+      "pass": true,
+      "reason": "Correctly distinguishes the vacated written-documentation requirement from the surviving annual-review obligation."
+    },
+    {
+      "id": "C-021",
+      "pass": true,
+      "reason": "Identifies removal of new rule 204-2(a)(7)(v) and reservation of (a)(20)–(24), without claiming rule 204-2 was repealed wholesale."
+    },
+    {
+      "id": "C-022",
+      "pass": true,
+      "reason": "Maps the removed 206(4)-10 and 211(h) rules to the affected vacated obligations and recognizes they are no longer operative."
+    },
+    {
+      "id": "C-023",
+      "pass": true,
+      "reason": "Retains the annual adequacy/effectiveness review under restored rule 206(4)-7(b)."
+    },
+    {
+      "id": "C-024",
+      "pass": true,
+      "reason": "States the 2023 compliance dates are now moot after vacatur and does not order current compliance under them."
+    },
+    {
+      "id": "C-025",
+      "pass": true,
+      "reason": "Flags existing custody/audit requirements for separate review and does not say all audits disappear."
+    },
+    {
+      "id": "C-026",
+      "pass": true,
+      "reason": "Distinguishes vacated regulatory mandates from continuing LPA/side-letter contractual promises."
+    },
+    {
+      "id": "C-027",
+      "pass": true,
+      "reason": "Preserves independent fiduciary/antifraud analysis and does not treat vacatur as a safe harbor."
+    },
+    {
+      "id": "C-028",
+      "pass": false,
+      "reason": "The caveats note fact-specific client/contract review, but the answer does not request registration status, fund structure, and activities before assessing residual obligations."
+    },
+    {
+      "id": "C-029",
+      "pass": true,
+      "reason": "Distinguishes contractual reporting obligations from reporting that would have been required solely by the vacated rule."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "Gives tracker dispositions but does not identify compliance policies/calendar entries based solely on vacated rules for revision; it only implicitly retains independently supported controls."
+    },
+    {
+      "id": "C-031",
+      "pass": true,
+      "reason": "Each current-status conclusion is tied to the original rule and the later vacatur or technical-amendment instrument."
+    },
+    {
+      "id": "C-032",
+      "pass": true,
+      "reason": "Uses only the SEC portion of the November 2024 Federal Register cleanup and does not import adjacent DEA or other agency dates."
+    }
+  ],
+  "unsupported_material_claims": []
+}

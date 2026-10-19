@@ -1,0 +1,25 @@
+{
+  "id": "B09-moore-attribution",
+  "title": "Draft Moore refund advice letter",
+  "operation": "draft",
+  "domain": "tax",
+  "jurisdiction": "United States; Sixteenth Amendment, apportionment and IRC section 965",
+  "law_as_of": "2024-06-20",
+  "family_id": "moore-united-states-22-800",
+  "lineage": {
+    "authentic_materials_from": "R11-moore-attribution",
+    "criterion_seed_from": "R11-moore-attribution",
+    "independent_holdout": false
+  },
+  "instructions": "Draft a client letter on whether Moore supports a refund claim involving undistributed foreign-corporation earnings. Explain the tax record, attribution holding, constitutional limits, competing opinions, and facts counsel needs before recommending a filing. Output: `refund-advice-letter.docx`.",
+  "deliverables": {
+    "refund-advice-letter.docx": "refund-advice-letter.docx"
+  },
+  "documents": [
+    "documents/moore-tax-supreme-court-opinion.pdf",
+    "documents/moore-petitioner-brief.pdf",
+    "documents/moore-respondent-brief.pdf",
+    "documents/moore-reply-brief.pdf",
+    "documents/moore-word-count.pdf"
+  ]
+}

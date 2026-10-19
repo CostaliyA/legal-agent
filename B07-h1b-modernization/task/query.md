@@ -1,0 +1,1 @@
+Draft an employer filing checklist for January 17, 2025. Separate final H-1B modernization requirements from proposals, and cover specialty occupation, owner beneficiaries, work availability, amendments, cap-gap treatment, evidence, and filing dates. Output: `h1b-filing-checklist.docx`.

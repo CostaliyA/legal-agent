@@ -1,0 +1,1 @@
+Extract the SVB purchase-and-assumption terms into a cited transfer schedule. Cover assumed and excluded assets and liabilities, customer duties, QFCs, pricing, and any points the FDIC or First Citizens announcements leave unresolved. Output: `transfer-schedule.docx`.

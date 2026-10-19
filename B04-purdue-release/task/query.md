@@ -1,0 +1,1 @@
+Draft a client update for Purdue creditors after the Supreme Court decision. Explain the proposed releases, the statutory holding, issues the Court left open, adverse arguments, and choices for a revised plan. Use the decision and submissions. Output: `creditor-update.docx`.

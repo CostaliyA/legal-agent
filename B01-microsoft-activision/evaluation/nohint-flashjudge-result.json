@@ -1,0 +1,51 @@
+{
+  "task_id": "B01-microsoft-activision",
+  "solver_model": "deepseek-flash (no hint, reused from run_auto_review.py)",
+  "judge_model": "deepseek-flash",
+  "hint_type": "none",
+  "evaluated_at_utc": "2026-10-18T06:03:53.173012+00:00",
+  "batch_judge_meta": {
+    "model": "deepseek-flash",
+    "response_id": "ad018ccb-2307-45df-8683-f6f332cd4672",
+    "usage": {
+      "prompt_tokens": 24849,
+      "completion_tokens": 11131,
+      "total_tokens": 35980,
+      "prompt_tokens_details": {
+        "cached_tokens": 17664
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 9835
+      },
+      "prompt_cache_hit_tokens": 17664,
+      "prompt_cache_miss_tokens": 7185
+    }
+  },
+  "negative_control_meta": {
+    "model": "deepseek-flash",
+    "response_id": "fb9a34f0-58d1-4af4-8833-098dc867531f",
+    "usage": {
+      "prompt_tokens": 21297,
+      "completion_tokens": 1110,
+      "total_tokens": 22407,
+      "prompt_tokens_details": {
+        "cached_tokens": 17664
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 136
+      },
+      "prompt_cache_hit_tokens": 17664,
+      "prompt_cache_miss_tokens": 3633
+    }
+  },
+  "guided_answer_sha256": "a77d323a6b2c89920459b24ec3ac57a2a9cdbce8a0f87df936aad457b7bc45bf",
+  "solver_packet_sha256": "5abe7294471eeb07acab17cfc296b18a4b217b767fac05e78deec08ad6bcdb09",
+  "batch_judging": {
+    "criteria_passed": 30,
+    "criteria_total": 36,
+    "pass_rate": 0.8333,
+    "unsupported_material_claims": [],
+    "negative_control_passed": 0
+  },
+  "interpretation": "DeepSeek Flash solver (no hint) answers re-judged by DeepSeek Flash. Answers reused from batch10_v1/rollouts/<task>/guided-answer.md. Not legal certification."
+}

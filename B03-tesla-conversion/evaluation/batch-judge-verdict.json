@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": true,
+      "reason": "Describes conversion via DGCL §266/TBOC and Plan of Conversion, not an asset sale."
+    },
+    {
+      "id": "C-002",
+      "pass": true,
+      "reason": "Separates Proposal Three conversion from Proposal Four 2018 award ratification."
+    },
+    {
+      "id": "C-003",
+      "pass": true,
+      "reason": "Describes Special Committee process and Board recommendation as proxy disclosures, not judicial findings."
+    },
+    {
+      "id": "C-004",
+      "pass": true,
+      "reason": "Notes Mr. Musk and Kimbal Musk recused themselves from the Board conversion decision."
+    },
+    {
+      "id": "C-005",
+      "pass": true,
+      "reason": "Identifies Proposal Three’s majority-of-outstanding-shares-entitled-to-vote requirement from p.171."
+    },
+    {
+      "id": "C-006",
+      "pass": true,
+      "reason": "Identifies the additional non-Musk/Kimbal voting-power requirement and distinguishes the committee’s votes-cast recommendation."
+    },
+    {
+      "id": "C-007",
+      "pass": true,
+      "reason": "Treats Texas documents as proposed, notes no vote result/effectiveness shown, and identifies approval/filing steps."
+    },
+    {
+      "id": "C-008",
+      "pass": true,
+      "reason": "Repeatedly distinguishes current Delaware instruments, proposed Texas instruments, and TBOC defaults."
+    },
+    {
+      "id": "C-009",
+      "pass": true,
+      "reason": "States the Texas two-thirds default and that the proposed charter selects a majority standard where permitted."
+    },
+    {
+      "id": "C-010",
+      "pass": true,
+      "reason": "Applies the proposed Texas Charter’s majority standard for fundamental transactions rather than only the statutory default."
+    },
+    {
+      "id": "C-011",
+      "pass": true,
+      "reason": "States current Delaware vacancy filling is by remaining directors or sole director, not stockholders."
+    },
+    {
+      "id": "C-012",
+      "pass": true,
+      "reason": "States proposed Texas Bylaws allow vacancy filling in any TBOC-permitted manner, including broader methods."
+    },
+    {
+      "id": "C-013",
+      "pass": true,
+      "reason": "Notes the TBOC limit on filling more than two newly created seats between annual meetings without shareholder action."
+    },
+    {
+      "id": "C-014",
+      "pass": true,
+      "reason": "Does not assert that conversion by itself declassifies the board or makes all directors annually elected."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "Does not apply the proposed Texas Charter’s for-cause removal protection and instead treats director removal as unresolved."
+    },
+    {
+      "id": "C-016",
+      "pass": true,
+      "reason": "Compares current Delaware prohibition on written consent with proposed Texas Bylaws’ unanimous written-consent standard."
+    },
+    {
+      "id": "C-017",
+      "pass": true,
+      "reason": "Compares Delaware and Texas special-meeting callers, the 50% shareholder threshold, and cancellation rules."
+    },
+    {
+      "id": "C-018",
+      "pass": true,
+      "reason": "Compares charter amendment/authorized-share rules with exceptions and does not assert one universal threshold."
+    },
+    {
+      "id": "C-019",
+      "pass": true,
+      "reason": "Compares Delaware and TBOC bylaw-amendment authority and qualifications, including possible exclusive shareholder reservation."
+    },
+    {
+      "id": "C-020",
+      "pass": true,
+      "reason": "Lists TBOC-reserved matters that committees cannot exercise under the proposed Texas Bylaws."
+    },
+    {
+      "id": "C-021",
+      "pass": true,
+      "reason": "Distinguishes Texas’s 20% business-combination threshold from Delaware’s 15% threshold."
+    },
+    {
+      "id": "C-022",
+      "pass": true,
+      "reason": "Limits the forum discussion to internal entity claims and notes the proposed documents may or may not adopt a Texas forum clause."
+    },
+    {
+      "id": "C-023",
+      "pass": true,
+      "reason": "Describes Delaware demand/futility derivative requirements."
+    },
+    {
+      "id": "C-024",
+      "pass": true,
+      "reason": "Identifies Texas universal written demand rather than importing Delaware futility."
+    },
+    {
+      "id": "C-025",
+      "pass": true,
+      "reason": "Identifies the 91st-day waiting rule and the rejection/irreparable-injury exceptions."
+    },
+    {
+      "id": "C-026",
+      "pass": true,
+      "reason": "Distinguishes the new Texas business court from Delaware’s established business court and case law."
+    },
+    {
+      "id": "C-027",
+      "pass": false,
+      "reason": "Does not state the absence of appraisal rights for this conversion and instead leaves appraisal rights unresolved."
+    },
+    {
+      "id": "C-028",
+      "pass": true,
+      "reason": "Recognizes preservation of preconversion obligations, personal liability, and choice of law."
+    },
+    {
+      "id": "C-029",
+      "pass": true,
+      "reason": "Attributes economic neutrality to the Special Committee’s evaluation rather than guaranteeing stock value."
+    },
+    {
+      "id": "C-030",
+      "pass": true,
+      "reason": "Reports intended tax treatment with holder-specific and jurisdiction-specific limitations."
+    },
+    {
+      "id": "C-031",
+      "pass": true,
+      "reason": "Recognizes that no tax opinion or IRS ruling was obtained."
+    },
+    {
+      "id": "C-032",
+      "pass": true,
+      "reason": "Describes Texas long/short-term-interest consideration without saying fiduciary duties are eliminated."
+    }
+  ],
+  "unsupported_material_claims": []
+}

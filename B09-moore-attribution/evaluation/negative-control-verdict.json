@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": false,
+      "reason": "The answer provides no legal analysis and does not identify the section 965 Mandatory Repatriation Tax."
+    },
+    {
+      "id": "C-002",
+      "pass": false,
+      "reason": "The answer does not explain the one-time backward-looking attribution of accumulated foreign corporate income."
+    },
+    {
+      "id": "C-003",
+      "pass": false,
+      "reason": "The answer does not identify KisanKraft or discuss its earned income."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "The answer does not recognize that the relevant income was undistributed to the Moores before the challenged tax."
+    },
+    {
+      "id": "C-005",
+      "pass": false,
+      "reason": "The answer does not report the Moores' 13% interest."
+    },
+    {
+      "id": "C-006",
+      "pass": false,
+      "reason": "The answer does not mention $132,512 of declared MRT income or distinguish it from the accumulated share."
+    },
+    {
+      "id": "C-007",
+      "pass": false,
+      "reason": "The answer does not report the $14,729 tax paid and sought as a refund."
+    },
+    {
+      "id": "C-008",
+      "pass": false,
+      "reason": "The answer does not discuss section 951A GILTI or distinguish it from the MRT."
+    },
+    {
+      "id": "C-009",
+      "pass": false,
+      "reason": "The answer does not distinguish direct-tax apportionment from the Sixteenth Amendment income-tax power."
+    },
+    {
+      "id": "C-010",
+      "pass": false,
+      "reason": "The answer does not distinguish entity realization from shareholder receipt."
+    },
+    {
+      "id": "C-011",
+      "pass": false,
+      "reason": "The answer does not explain Congress's ability to attribute realized entity income to shareholders in the circumstances decided."
+    },
+    {
+      "id": "C-012",
+      "pass": false,
+      "reason": "The answer does not use partnership taxation as an attribution analogue."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "The answer does not address S-corporation attribution or the limits of shareholder consent."
+    },
+    {
+      "id": "C-014",
+      "pass": false,
+      "reason": "The answer does not explain the longstanding foreign-corporation attribution comparison, including subpart F."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "The answer does not distinguish the stock-dividend realization issue in Macomber from entity-income attribution."
+    },
+    {
+      "id": "C-016",
+      "pass": false,
+      "reason": "The answer does not address the Moores' constructive-realization/control theory or the majority's response."
+    },
+    {
+      "id": "C-017",
+      "pass": false,
+      "reason": "The answer does not identify shareholder taxation as an express boundary of the holding."
+    },
+    {
+      "id": "C-018",
+      "pass": false,
+      "reason": "The answer does not retain the limitation to undistributed income realized by the entity."
+    },
+    {
+      "id": "C-019",
+      "pass": false,
+      "reason": "The answer does not retain the express attribution-to-shareholders feature."
+    },
+    {
+      "id": "C-020",
+      "pass": false,
+      "reason": "The answer does not retain the express feature that the entity itself had not been taxed on the income."
+    },
+    {
+      "id": "C-021",
+      "pass": false,
+      "reason": "The answer does not state that the Court declined to decide whether realization is constitutionally required."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "The answer does not address the reserved hypothetical wealth or net-worth tax issue."
+    },
+    {
+      "id": "C-023",
+      "pass": false,
+      "reason": "The answer does not address the reserved unapportioned appreciation tax issue."
+    },
+    {
+      "id": "C-024",
+      "pass": false,
+      "reason": "The answer does not identify the due-process constraint on arbitrary attribution."
+    },
+    {
+      "id": "C-025",
+      "pass": false,
+      "reason": "The answer does not distinguish reserved hypothetical double taxation from ordinary corporate income tax followed by dividend tax."
+    },
+    {
+      "id": "C-026",
+      "pass": false,
+      "reason": "The answer does not state that the Ninth Circuit judgment was affirmed and the Moores' challenge failed."
+    },
+    {
+      "id": "C-027",
+      "pass": false,
+      "reason": "The answer does not distinguish Justice Jackson's broader concurrence from the majority's narrow resolution."
+    },
+    {
+      "id": "C-028",
+      "pass": false,
+      "reason": "The answer does not distinguish Justice Barrett's concurrence in the judgment from the majority's rationale."
+    },
+    {
+      "id": "C-029",
+      "pass": false,
+      "reason": "The answer does not identify the contrary realization/attribution position as a dissent."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "The answer does not use petitioners' or reply assertions as litigated positions rather than judicial findings."
+    },
+    {
+      "id": "C-031",
+      "pass": false,
+      "reason": "The answer does not request entity realization, ownership, attribution, and prior entity-level tax facts before advising on another tax."
+    },
+    {
+      "id": "C-032",
+      "pass": false,
+      "reason": "The answer does not separate the foreclosed matching MRT theory from reserved questions or independently supportable claims."
+    }
+  ],
+  "unsupported_material_claims": []
+}

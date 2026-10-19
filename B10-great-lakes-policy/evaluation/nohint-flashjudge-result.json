@@ -1,0 +1,51 @@
+{
+  "task_id": "B10-great-lakes-policy",
+  "solver_model": "deepseek-flash (no hint, reused from run_auto_review.py)",
+  "judge_model": "deepseek-flash",
+  "hint_type": "none",
+  "evaluated_at_utc": "2026-10-18T06:05:10.107315+00:00",
+  "batch_judge_meta": {
+    "model": "deepseek-flash",
+    "response_id": "d3a22a68-0e0d-4075-b589-8bfa1291eb1b",
+    "usage": {
+      "prompt_tokens": 29456,
+      "completion_tokens": 11611,
+      "total_tokens": 41067,
+      "prompt_tokens_details": {
+        "cached_tokens": 23040
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 10442
+      },
+      "prompt_cache_hit_tokens": 23040,
+      "prompt_cache_miss_tokens": 6416
+    }
+  },
+  "negative_control_meta": {
+    "model": "deepseek-flash",
+    "response_id": "11d5edde-40ad-446b-af67-890760f1f9c9",
+    "usage": {
+      "prompt_tokens": 26325,
+      "completion_tokens": 1257,
+      "total_tokens": 27582,
+      "prompt_tokens_details": {
+        "cached_tokens": 23040
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 256
+      },
+      "prompt_cache_hit_tokens": 23040,
+      "prompt_cache_miss_tokens": 3285
+    }
+  },
+  "guided_answer_sha256": "4c18bdb52740e4000322a7f44a31688f0c71677289a207569e6ae34b8aeccb8d",
+  "solver_packet_sha256": "20d8b71d4f58f2007779705d919d87a7a90ce67e2bf5b88665b0dfd801a29e24",
+  "batch_judging": {
+    "criteria_passed": 26,
+    "criteria_total": 32,
+    "pass_rate": 0.8125,
+    "unsupported_material_claims": [],
+    "negative_control_passed": 0
+  },
+  "interpretation": "DeepSeek Flash solver (no hint) answers re-judged by DeepSeek Flash. Answers reused from batch10_v1/rollouts/<task>/guided-answer.md. Not legal certification."
+}

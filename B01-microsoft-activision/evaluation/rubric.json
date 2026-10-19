@@ -1,0 +1,1083 @@
+{
+  "task_id": "B01-microsoft-activision",
+  "family_id": "microsoft-activision-2022-2023",
+  "criterion_count": 36,
+  "minimum_criteria": 30,
+  "source": "generated from frozen evidence graph; graph bootstrapped from v3 source-anchored criteria",
+  "status": "candidate; guided independent rollout and counterchecks pending",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Contract parties",
+      "issue_group": "structure-and-consideration",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:structure-and-consideration",
+        "prop:C-001",
+        "span:C-001:1"
+      ],
+      "pass_condition": "identifies Microsoft as Parent, Anchorage as Merger Sub and Activision as Company",
+      "fail_condition": "reverses buyer and target roles",
+      "match_criteria": "PASS if the deliverable identifies Microsoft as Parent, Anchorage as Merger Sub and Activision as Company. FAIL if omitted, contradicted, or it reverses buyer and target roles. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            216
+          ],
+          "anchor": "MICROSOFT"
+        }
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "Surviving entity",
+      "issue_group": "structure-and-consideration",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:structure-and-consideration",
+        "prop:C-002",
+        "span:C-002:1"
+      ],
+      "pass_condition": "states that Merger Sub merges into Activision and Activision survives as the subsidiary",
+      "fail_condition": "describes a sale of operating assets",
+      "match_criteria": "PASS if the deliverable states that Merger Sub merges into Activision and Activision survives as the subsidiary. FAIL if omitted, contradicted, or it describes a sale of operating assets. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            217,
+            219,
+            229,
+            231,
+            232,
+            235
+          ],
+          "anchor": "surviving"
+        }
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "Common-share price",
+      "issue_group": "structure-and-consideration",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:structure-and-consideration",
+        "prop:C-003",
+        "span:C-003:1"
+      ],
+      "pass_condition": "states the original $95 cash per eligible common share consideration",
+      "fail_condition": "substitutes enterprise value for per-share proceeds",
+      "match_criteria": "PASS if the deliverable states the original $95 cash per eligible common share consideration. FAIL if omitted, contradicted, or it substitutes enterprise value for per-share proceeds. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            223
+          ],
+          "anchor": "95.00"
+        }
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "Interest and withholding",
+      "issue_group": "structure-and-consideration",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:structure-and-consideration",
+        "prop:C-004",
+        "span:C-004:1"
+      ],
+      "pass_condition": "recognizes that the cash consideration is without interest and subject to applicable withholding",
+      "fail_condition": "promises interest or tax-free gross receipt",
+      "match_criteria": "PASS if the deliverable recognizes that the cash consideration is without interest and subject to applicable withholding. FAIL if omitted, contradicted, or it promises interest or tax-free gross receipt. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            226,
+            233,
+            235
+          ],
+          "anchor": "withholding"
+        }
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Excluded/cancelled shares",
+      "issue_group": "structure-and-consideration",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:structure-and-consideration",
+        "prop:C-005",
+        "span:C-005:1"
+      ],
+      "pass_condition": "distinguishes shares cancelled under the agreement from shares converted into consideration",
+      "fail_condition": "promises $95 for every treasury or intercompany share",
+      "match_criteria": "PASS if the deliverable distinguishes shares cancelled under the agreement from shares converted into consideration. FAIL if omitted, contradicted, or it promises $95 for every treasury or intercompany share. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            222,
+            223,
+            224,
+            227,
+            232,
+            233
+          ],
+          "anchor": "cancelled"
+        }
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "Appraisal shares",
+      "issue_group": "structure-and-consideration",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:structure-and-consideration",
+        "prop:C-006",
+        "span:C-006:1"
+      ],
+      "pass_condition": "preserves the contractual treatment of valid appraisal shares rather than automatically cashing them out at $95",
+      "fail_condition": "treats appraisal value as fixed at $95",
+      "match_criteria": "PASS if the deliverable preserves the contractual treatment of valid appraisal shares rather than automatically cashing them out at $95. FAIL if omitted, contradicted, or it treats appraisal value as fixed at $95. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            232
+          ],
+          "anchor": "appraisal"
+        }
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "Equity awards",
+      "issue_group": "structure-and-consideration",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:structure-and-consideration",
+        "prop:C-007",
+        "span:C-007:1"
+      ],
+      "pass_condition": "recognizes separate option/stock-award treatment instead of equating all awards with issued common stock",
+      "fail_condition": "applies the common-share payout to every award",
+      "match_criteria": "PASS if the deliverable recognizes separate option/stock-award treatment instead of equating all awards with issued common stock. FAIL if omitted, contradicted, or it applies the common-share payout to every award. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            219,
+            233,
+            234,
+            235,
+            237,
+            240
+          ],
+          "anchor": "Company Options"
+        }
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "Stockholder condition",
+      "issue_group": "closing-conditions",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:closing-conditions",
+        "prop:C-008",
+        "span:C-008:1"
+      ],
+      "pass_condition": "identifies requisite stockholder approval as an express closing condition",
+      "fail_condition": "infers satisfaction from the condition itself",
+      "match_criteria": "PASS if the deliverable identifies requisite stockholder approval as an express closing condition. FAIL if omitted, contradicted, or it infers satisfaction from the condition itself. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            276
+          ],
+          "anchor": "Stockholder Meeting"
+        }
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "Competition approvals",
+      "issue_group": "closing-conditions",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:closing-conditions",
+        "prop:C-009",
+        "span:C-009:1"
+      ],
+      "pass_condition": "identifies the HSR filing/waiting period, any contractual timing commitments or extensions relevant to competition review (including timing agreements with FTC/DOJ), and the specified competition approvals required for closing",
+      "fail_condition": "assumes only expiry of the ordinary HSR clock matters",
+      "match_criteria": "PASS if the deliverable identifies (i) the HSR filing/waiting period, (ii) any contractual timing commitments or extensions relevant to competition review, including any timing agreement or commitment with the FTC/DOJ, and (iii) the specified competition approvals required for closing. FAIL if it mentions only the ordinary HSR clock without addressing the contractual timing commitments or the specified approvals.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            276
+          ],
+          "anchor": "Competition"
+        }
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "Other regulatory approvals",
+      "issue_group": "closing-conditions",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:closing-conditions",
+        "prop:C-010",
+        "span:C-010:1"
+      ],
+      "pass_condition": "recognizes the separate approvals identified through the disclosure letter",
+      "fail_condition": "asserts that every non-U.S. approval is irrelevant",
+      "match_criteria": "PASS if the deliverable recognizes the separate approvals identified through the disclosure letter. FAIL if omitted, contradicted, or it asserts that every non-U.S. approval is irrelevant. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            276
+          ],
+          "anchor": "Other Regulatory"
+        }
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Prohibitory orders",
+      "issue_group": "closing-conditions",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:closing-conditions",
+        "prop:C-011",
+        "span:C-011:1"
+      ],
+      "pass_condition": "recognizes temporary/preliminary restraints as possible closing impediments even though permanent-termination mechanics differ",
+      "fail_condition": "treats only a final permanent injunction as preventing closing",
+      "match_criteria": "PASS if the deliverable recognizes temporary/preliminary restraints as possible closing impediments even though permanent-termination mechanics differ. FAIL if omitted, contradicted, or it treats only a final permanent injunction as preventing closing. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            276
+          ],
+          "anchor": "injunction"
+        }
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Burdensome-condition qualification",
+      "issue_group": "closing-conditions",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:closing-conditions",
+        "prop:C-012",
+        "span:C-012:1"
+      ],
+      "pass_condition": "includes the Burdensome Condition qualification when describing approvals",
+      "fail_condition": "treats any clearance on any terms as satisfying the condition",
+      "match_criteria": "PASS if the deliverable includes the Burdensome Condition qualification when describing approvals. FAIL if omitted, contradicted, or it treats any clearance on any terms as satisfying the condition. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            276
+          ],
+          "anchor": "Burdensome Condition"
+        }
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "Bringdown and covenants",
+      "issue_group": "closing-conditions",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:closing-conditions",
+        "prop:C-013",
+        "span:C-013:1"
+      ],
+      "pass_condition": "separates representation bringdown from covenant performance and applies their materiality qualifications",
+      "fail_condition": "declares any immaterial discrepancy a closing failure",
+      "match_criteria": "PASS if the deliverable separates representation bringdown from covenant performance and applies their materiality qualifications. FAIL if omitted, contradicted, or it declares any immaterial discrepancy a closing failure. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            276,
+            277
+          ],
+          "anchor": "Representations"
+        }
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "Closing certificates/evidence",
+      "issue_group": "closing-conditions",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:closing-conditions",
+        "prop:C-014",
+        "span:C-014:1"
+      ],
+      "pass_condition": "identifies the officer-certification/satisfaction evidence needed before clearing the relevant conditions",
+      "fail_condition": "states that a contractual condition proves delivery of its certificate",
+      "match_criteria": "PASS if the deliverable identifies the officer-certification/satisfaction evidence needed before clearing the relevant conditions. FAIL if omitted, contradicted, or it states that a contractual condition proves delivery of its certificate. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            277
+          ],
+          "anchor": "certificate"
+        }
+      ]
+    },
+    {
+      "id": "C-015",
+      "title": "Original outside dates",
+      "issue_group": "termination-mechanics",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:termination-mechanics",
+        "prop:C-015",
+        "span:C-015:1"
+      ],
+      "pass_condition": "explains the January 18 date and conditional April 18/July 18 extensions under the original bargain",
+      "fail_condition": "describes all extensions as unconditional",
+      "match_criteria": "PASS if the deliverable explains the January 18 date and conditional April 18/July 18 extensions under the original bargain. FAIL if omitted, contradicted, or it describes all extensions as unconditional. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            278
+          ],
+          "anchor": "July 18, 2023"
+        }
+      ]
+    },
+    {
+      "id": "C-016",
+      "title": "Material-breach bar",
+      "issue_group": "termination-mechanics",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:termination-mechanics",
+        "prop:C-016",
+        "span:C-016:1"
+      ],
+      "pass_condition": "applies the primary-cause/material-breach limitation to the outside-date right",
+      "fail_condition": "lets the causative breaching party freely use that right",
+      "match_criteria": "PASS if the deliverable applies the primary-cause/material-breach limitation to the outside-date right. FAIL if omitted, contradicted, or it lets the causative breaching party freely use that right. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            278
+          ],
+          "anchor": "primary cause"
+        }
+      ]
+    },
+    {
+      "id": "C-017",
+      "title": "Final injunction termination",
+      "issue_group": "termination-mechanics",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:termination-mechanics",
+        "prop:C-017",
+        "span:C-017:1"
+      ],
+      "pass_condition": "distinguishes the final/nonappealable restraint termination route from interim closing restraints",
+      "fail_condition": "equates every preliminary order with that final-order termination ground",
+      "match_criteria": "PASS if the deliverable distinguishes the final/nonappealable restraint termination route from interim closing restraints. FAIL if omitted, contradicted, or it equates every preliminary order with that final-order termination ground. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            278
+          ],
+          "anchor": "non-appealable"
+        }
+      ]
+    },
+    {
+      "id": "C-018",
+      "title": "Failed shareholder vote",
+      "issue_group": "termination-mechanics",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:termination-mechanics",
+        "prop:C-018",
+        "span:C-018:1"
+      ],
+      "pass_condition": "identifies the failed-vote termination route and its causative-breach qualification",
+      "fail_condition": "treats a delayed meeting without a vote as the same event",
+      "match_criteria": "PASS if the deliverable identifies the failed-vote termination route and its causative-breach qualification. FAIL if omitted, contradicted, or it treats a delayed meeting without a vote as the same event. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            278
+          ],
+          "anchor": "vote is taken"
+        }
+      ]
+    },
+    {
+      "id": "C-019",
+      "title": "Cure and reciprocal breach",
+      "issue_group": "termination-mechanics",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:termination-mechanics",
+        "prop:C-019",
+        "span:C-019:1"
+      ],
+      "pass_condition": "explains the written notice/cure mechanism and the terminating party’s own compliance limitation",
+      "fail_condition": "permits immediate termination of any curable breach",
+      "match_criteria": "PASS if the deliverable explains the written notice/cure mechanism and the terminating party’s own compliance limitation. FAIL if omitted, contradicted, or it permits immediate termination of any curable breach. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            278,
+            279
+          ],
+          "anchor": "30 days"
+        }
+      ]
+    },
+    {
+      "id": "C-020",
+      "title": "Recommendation change",
+      "issue_group": "termination-mechanics",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:termination-mechanics",
+        "prop:C-020",
+        "span:C-020:1"
+      ],
+      "pass_condition": "identifies Parent’s recommendation-change termination ground",
+      "fail_condition": "gives the Company an unrestricted matching termination right",
+      "match_criteria": "PASS if the deliverable identifies Parent’s recommendation-change termination ground. FAIL if omitted, contradicted, or it gives the Company an unrestricted matching termination right. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            278
+          ],
+          "anchor": "Recommendation Change"
+        }
+      ]
+    },
+    {
+      "id": "C-021",
+      "title": "Superior-proposal exit",
+      "issue_group": "termination-mechanics",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:termination-mechanics",
+        "prop:C-021",
+        "span:C-021:1"
+      ],
+      "pass_condition": "requires the pre-approval superior-proposal process, board action and fee rather than a free alternative-bid exit",
+      "fail_condition": "treats a better offer alone as sufficient",
+      "match_criteria": "PASS if the deliverable requires the pre-approval superior-proposal process, board action and fee rather than a free alternative-bid exit. FAIL if omitted, contradicted, or it treats a better offer alone as sufficient. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            279
+          ],
+          "anchor": "Superior Proposal"
+        }
+      ]
+    },
+    {
+      "id": "C-022",
+      "title": "Effective termination notice",
+      "issue_group": "termination-mechanics",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:termination-mechanics",
+        "prop:C-022",
+        "span:C-022:1"
+      ],
+      "pass_condition": "requires the specified written notice identifying the ground and supporting facts",
+      "fail_condition": "describes the agreement as automatically terminated at the outside date",
+      "match_criteria": "PASS if the deliverable requires the specified written notice identifying the ground and supporting facts. FAIL if omitted, contradicted, or it describes the agreement as automatically terminated at the outside date. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            278,
+            279
+          ],
+          "anchor": "written notice"
+        }
+      ]
+    },
+    {
+      "id": "C-023",
+      "title": "Company fee amount",
+      "issue_group": "fees-and-remedies",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:fees-and-remedies",
+        "prop:C-023",
+        "span:C-023:1"
+      ],
+      "pass_condition": "identifies the original $2,270,100,000 Company Termination Fee",
+      "fail_condition": "equates it with the buyer reverse fee",
+      "match_criteria": "PASS if the deliverable identifies the original $2,270,100,000 Company Termination Fee. FAIL if omitted, contradicted, or it equates it with the buyer reverse fee. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            280
+          ],
+          "anchor": "2,270,100,000"
+        }
+      ]
+    },
+    {
+      "id": "C-024",
+      "title": "Company-fee triggers",
+      "issue_group": "fees-and-remedies",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:fees-and-remedies",
+        "prop:C-024",
+        "span:C-024:1"
+      ],
+      "pass_condition": "distinguishes the recommendation-change/superior-proposal and contingent proposal-tail triggers",
+      "fail_condition": "charges the Company fee for every failed closing",
+      "match_criteria": "PASS if the deliverable distinguishes the recommendation-change/superior-proposal and contingent proposal-tail triggers. FAIL if omitted, contradicted, or it charges the Company fee for every failed closing. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            279,
+            280
+          ],
+          "anchor": "Company Termination Fee"
+        }
+      ]
+    },
+    {
+      "id": "C-025",
+      "title": "First buyer-fee tier",
+      "issue_group": "fees-and-remedies",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:fees-and-remedies",
+        "prop:C-025",
+        "span:C-025:1"
+      ],
+      "pass_condition": "identifies the original $2 billion tier for the first 12 months, subject to the contractual trigger",
+      "fail_condition": "uses $3 billion for every original-contract termination",
+      "match_criteria": "PASS if the deliverable identifies the original $2 billion tier for the first 12 months, subject to the contractual trigger. FAIL if omitted, contradicted, or it uses $3 billion for every original-contract termination. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            280
+          ],
+          "anchor": "2,000,000,000"
+        }
+      ]
+    },
+    {
+      "id": "C-026",
+      "title": "Middle buyer-fee tier",
+      "issue_group": "fees-and-remedies",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:fees-and-remedies",
+        "prop:C-026",
+        "span:C-026:1"
+      ],
+      "pass_condition": "identifies the original $2.5 billion tier after 12 and through 15 months",
+      "fail_condition": "omits or changes the intermediate tier",
+      "match_criteria": "PASS if the deliverable identifies the original $2.5 billion tier after 12 and through 15 months. FAIL if omitted, contradicted, or it omits or changes the intermediate tier. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            280
+          ],
+          "anchor": "2,500,000,000"
+        }
+      ]
+    },
+    {
+      "id": "C-027",
+      "title": "Later buyer-fee tier",
+      "issue_group": "fees-and-remedies",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:fees-and-remedies",
+        "prop:C-027",
+        "span:C-027:1"
+      ],
+      "pass_condition": "identifies the original $3 billion tier after 15 months without inventing later amended terms",
+      "fail_condition": "imports an unavailable amended fee schedule",
+      "match_criteria": "PASS if the deliverable identifies the original $3 billion tier after 15 months without inventing later amended terms. FAIL if omitted, contradicted, or it imports an unavailable amended fee schedule. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            280
+          ],
+          "anchor": "3,000,000,000"
+        }
+      ]
+    },
+    {
+      "id": "C-028",
+      "title": "Buyer-fee conditions",
+      "issue_group": "fees-and-remedies",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:fees-and-remedies",
+        "prop:C-028",
+        "span:C-028:1"
+      ],
+      "pass_condition": "links the reverse fee to the specified regulatory/injunction/outside-date circumstances and other conditions",
+      "fail_condition": "treats nonconsummation alone as an automatic fee trigger",
+      "match_criteria": "PASS if the deliverable links the reverse fee to the specified regulatory/injunction/outside-date circumstances and other conditions. FAIL if omitted, contradicted, or it treats nonconsummation alone as an automatic fee trigger. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            280
+          ],
+          "anchor": "Parent Termination Fee"
+        }
+      ]
+    },
+    {
+      "id": "C-029",
+      "title": "Single-fee limitation",
+      "issue_group": "fees-and-remedies",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:fees-and-remedies",
+        "prop:C-029",
+        "span:C-029:1"
+      ],
+      "pass_condition": "recognizes the contractual limitation against repeated payment of the same termination fee",
+      "fail_condition": "adds multiple full fees for overlapping triggers",
+      "match_criteria": "PASS if the deliverable recognizes the contractual limitation against repeated payment of the same termination fee. FAIL if omitted, contradicted, or it adds multiple full fees for overlapping triggers. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            282
+          ],
+          "anchor": "once"
+        }
+      ]
+    },
+    {
+      "id": "C-030",
+      "title": "Specific performance",
+      "issue_group": "fees-and-remedies",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:fees-and-remedies",
+        "prop:C-030",
+        "span:C-030:1"
+      ],
+      "pass_condition": "addresses the specific-performance framework instead of treating a fee as an unrestricted walk-away option",
+      "fail_condition": "says paying the fee always eliminates the duty to close",
+      "match_criteria": "PASS if the deliverable addresses the specific-performance framework instead of treating a fee as an unrestricted walk-away option. FAIL if omitted, contradicted, or it says paying the fee always eliminates the duty to close. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            283
+          ],
+          "anchor": "specific performance"
+        }
+      ]
+    },
+    {
+      "id": "C-031",
+      "title": "Written waiver/amendment",
+      "issue_group": "fees-and-remedies",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:fees-and-remedies",
+        "prop:C-031",
+        "span:C-031:1"
+      ],
+      "pass_condition": "requires signed written amendment/waiver and does not infer waiver merely from delay",
+      "fail_condition": "treats informal commercial comfort as a valid waiver",
+      "match_criteria": "PASS if the deliverable requires signed written amendment/waiver and does not infer waiver merely from delay. FAIL if omitted, contradicted, or it treats informal commercial comfort as a valid waiver. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            281
+          ],
+          "anchor": "instrument in writing"
+        }
+      ]
+    },
+    {
+      "id": "C-032",
+      "title": "Later outside-date disclosure",
+      "issue_group": "later-disclosures-and-handoff",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:later-disclosures-and-handoff",
+        "prop:C-032",
+        "span:C-032:1"
+      ],
+      "pass_condition": "recognizes the issuer’s disclosure that the merger agreement was extended to October 18 2023",
+      "fail_condition": "presents July 18 as the entire current bargain",
+      "match_criteria": "PASS if the deliverable recognizes the issuer’s disclosure that the merger agreement was extended to October 18 2023. FAIL if omitted, contradicted, or it presents July 18 as the entire current bargain. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-annual-2023",
+          "file": "microsoft-annual-report-2023.html",
+          "locator_type": "extracted_html_line",
+          "locations": [
+            968,
+            2533
+          ],
+          "anchor": "October 18, 2023"
+        }
+      ]
+    },
+    {
+      "id": "C-033",
+      "title": "Missing executed amendment",
+      "issue_group": "later-disclosures-and-handoff",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:later-disclosures-and-handoff",
+        "prop:C-033",
+        "span:C-033:1"
+      ],
+      "pass_condition": "requests the executed extension before representing its complete fee and waiver terms as established",
+      "fail_condition": "fills missing amended terms from memory",
+      "match_criteria": "PASS if the deliverable requests the executed extension before representing its complete fee and waiver terms as established. FAIL if omitted, contradicted, or it fills missing amended terms from memory. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-annual-2023",
+          "file": "microsoft-annual-report-2023.html",
+          "locator_type": "extracted_html_line",
+          "locations": [
+            968,
+            2533
+          ],
+          "anchor": "extend the merger agreement"
+        }
+      ]
+    },
+    {
+      "id": "C-034",
+      "title": "Administrative advocacy",
+      "issue_group": "later-disclosures-and-handoff",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:later-disclosures-and-handoff",
+        "prop:C-034",
+        "span:C-034:1"
+      ],
+      "pass_condition": "distinguishes the FTC pretrial submission from a final merits ruling",
+      "fail_condition": "calls the FTC’s allegations an adjudicated merger prohibition",
+      "match_criteria": "PASS if the deliverable distinguishes the FTC pretrial submission from a final merits ruling. FAIL if omitted, contradicted, or it calls the FTC’s allegations an adjudicated merger prohibition. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            9,
+            10
+          ],
+          "anchor": "preliminary injunction"
+        }
+      ]
+    },
+    {
+      "id": "C-035",
+      "title": "Worldwide clearance gap",
+      "issue_group": "later-disclosures-and-handoff",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:later-disclosures-and-handoff",
+        "prop:C-035",
+        "span:C-035:1"
+      ],
+      "pass_condition": "does not infer worldwide approval from a U.S. procedural result",
+      "fail_condition": "declares the deal globally clear from U.S. litigation alone",
+      "match_criteria": "PASS if the deliverable does not infer worldwide approval from a U.S. procedural result. FAIL if omitted, contradicted, or it declares the deal globally clear from U.S. litigation alone. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            276
+          ],
+          "anchor": "Other Regulatory"
+        }
+      ]
+    },
+    {
+      "id": "C-036",
+      "title": "Disclosure-letter request",
+      "issue_group": "later-disclosures-and-handoff",
+      "deliverables": [
+        "closing-issues.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:later-disclosures-and-handoff",
+        "prop:C-036",
+        "span:C-036:1"
+      ],
+      "pass_condition": "requests the confidential contractual schedules needed to verify qualifications and remaining approvals",
+      "fail_condition": "treats the public proxy as the complete qualified bargain",
+      "match_criteria": "PASS if the deliverable requests the confidential contractual schedules needed to verify qualifications and remaining approvals. FAIL if omitted, contradicted, or it treats the public proxy as the complete qualified bargain. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "microsoft-pretrial-record",
+          "file": "microsoft-activision-pretrial-record.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            180,
+            181,
+            182,
+            183,
+            188,
+            189
+          ],
+          "anchor": "confidential disclosure letter"
+        }
+      ]
+    }
+  ]
+}

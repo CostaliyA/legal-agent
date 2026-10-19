@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": true,
+      "reason": "Identifies the proposed Sackler release as running in favor of the Sackler family and related nondebtor entities."
+    },
+    {
+      "id": "C-002",
+      "pass": true,
+      "reason": "Distinguishes estate-owned fraudulent-transfer claims from victims’ direct opioid claims against the Sacklers."
+    },
+    {
+      "id": "C-003",
+      "pass": true,
+      "reason": "States the release could not be imposed on non-consenting opioid claimants and describes compelled extinguishment without consent."
+    },
+    {
+      "id": "C-004",
+      "pass": true,
+      "reason": "Repeatedly treats the Sacklers as nondebtors/third parties receiving protection, not as debtors obtaining their own discharges."
+    },
+    {
+      "id": "C-005",
+      "pass": true,
+      "reason": "Explains the Sacklers’ proposed contribution was in exchange for extinguishing estate claims and ending opioid litigation, and notes it was a proposal."
+    },
+    {
+      "id": "C-006",
+      "pass": true,
+      "reason": "Contrasts low eligible-creditor participation and thousands of opposing victims with majority support among returned ballots."
+    },
+    {
+      "id": "C-007",
+      "pass": true,
+      "reason": "Recounts bankruptcy-court confirmation, district-court vacatur, Second Circuit revival, and Supreme Court reversal."
+    },
+    {
+      "id": "C-008",
+      "pass": true,
+      "reason": "Uses the respondent brief as plan-proponent advocacy, not as binding law, while correctly identifying its arguments."
+    },
+    {
+      "id": "C-009",
+      "pass": true,
+      "reason": "States § 105(a) only carries out authority conferred elsewhere and does not independently authorize the release."
+    },
+    {
+      "id": "C-010",
+      "pass": true,
+      "reason": "Identifies § 1123(b)(6) as the disputed catchall for “any other appropriate provision.”"
+    },
+    {
+      "id": "C-011",
+      "pass": true,
+      "reason": "Explains the majority’s ejusdem generis reading of the catchall in light of the debtor-related paragraphs (1)–(5)."
+    },
+    {
+      "id": "C-012",
+      "pass": true,
+      "reason": "Separates settlement of estate-owned claims under § 1123(b)(3) from extinguishment of creditors’ direct claims against nondebtors."
+    },
+    {
+      "id": "C-013",
+      "pass": true,
+      "reason": "Explains that labeling the relief a “release” rather than a “discharge” did not avoid discharge limits."
+    },
+    {
+      "id": "C-014",
+      "pass": true,
+      "reason": "Connects the holding to ordinary discharge limitations, including fraud, willful-injury, wrongful-death claims, and failure to place full assets on the table."
+    },
+    {
+      "id": "C-015",
+      "pass": true,
+      "reason": "Explains the majority rejected the contribution/public-interest policy arguments as a basis for statutory authority and left policy choices to Congress."
+    },
+    {
+      "id": "C-016",
+      "pass": true,
+      "reason": "Identifies § 524(g) as the specific asbestos exception and says it does not support a general mass-tort authority under § 1123(b)(6)."
+    },
+    {
+      "id": "C-017",
+      "pass": true,
+      "reason": "States the Supreme Court reversed the Second Circuit and remanded."
+    },
+    {
+      "id": "C-018",
+      "pass": true,
+      "reason": "States the decision does not call consensual third-party releases into question."
+    },
+    {
+      "id": "C-019",
+      "pass": true,
+      "reason": "States the Court did not define what qualifies as a consensual release."
+    },
+    {
+      "id": "C-020",
+      "pass": true,
+      "reason": "Identifies the reservation for plans providing full satisfaction of claims against a third-party nondebtor."
+    },
+    {
+      "id": "C-021",
+      "pass": true,
+      "reason": "Identifies the reservation concerning plans already effective and substantially consummated."
+    },
+    {
+      "id": "C-022",
+      "pass": true,
+      "reason": "Frames the decision as a statutory-authority holding and does not report any Supreme Court damages verdict on the opioid claims."
+    },
+    {
+      "id": "C-023",
+      "pass": true,
+      "reason": "States remand leaves further proceedings and unresolved plan confirmation and negotiation issues."
+    },
+    {
+      "id": "C-024",
+      "pass": true,
+      "reason": "Limits the holding to the challenged nonconsensual nondebtor release and injunction, not all third-party injunctions."
+    },
+    {
+      "id": "C-025",
+      "pass": true,
+      "reason": "Fairly presents the dissent’s practical argument that individual litigation could destroy collective recovery and the settlement fund."
+    },
+    {
+      "id": "C-026",
+      "pass": true,
+      "reason": "Labels the dissent and plan-proponent positions as separate advocacy, not the governing majority rule."
+    },
+    {
+      "id": "C-027",
+      "pass": true,
+      "reason": "Warns that removing the release may cause the Sacklers to contribute less or not at all, affecting recoveries, without inventing a new guaranteed amount."
+    },
+    {
+      "id": "C-028",
+      "pass": true,
+      "reason": "Considers a genuinely consensual release while flagging the unsettled meaning of consent."
+    },
+    {
+      "id": "C-029",
+      "pass": true,
+      "reason": "Considers preserving estate-owned claim settlements while leaving direct claims against the Sacklers outstanding."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "The update distinguishes claim ownership and lists claimant groups, but it does not expressly request an identification of claim owners and release beneficiaries before revising scope."
+    },
+    {
+      "id": "C-031",
+      "pass": true,
+      "reason": "Flags that the consent mechanism, affected claimant populations, future claimants, and representative consent must be addressed before revising the release."
+    },
+    {
+      "id": "C-032",
+      "pass": true,
+      "reason": "Identifies the need to confirm whether the Sacklers will continue funding and on what revised settlement terms after remand."
+    }
+  ],
+  "unsupported_material_claims": []
+}

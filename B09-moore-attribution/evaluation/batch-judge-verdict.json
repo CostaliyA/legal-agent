@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": true,
+      "reason": "Identifies the challenged tax as the section 965 Mandatory Repatriation Tax and cites §§ 965(a), (c), (d)."
+    },
+    {
+      "id": "C-002",
+      "pass": true,
+      "reason": "Explains the MRT as a one-time, backward-looking attribution of accumulated undistributed foreign-corporation income to U.S. shareholders."
+    },
+    {
+      "id": "C-003",
+      "pass": true,
+      "reason": "Identifies KisanKraft as the Indian American-controlled foreign corporation that generated substantial income."
+    },
+    {
+      "id": "C-004",
+      "pass": true,
+      "reason": "States that KisanKraft had not distributed the income to its American shareholders as of 2017."
+    },
+    {
+      "id": "C-005",
+      "pass": true,
+      "reason": "Reports the Moores’ 13-percent ownership interest rather than treating them as sole owners."
+    },
+    {
+      "id": "C-006",
+      "pass": true,
+      "reason": "Reports approximately $508,000 pre-deduction pro rata accumulated income and separately $132,512 in declared MRT income."
+    },
+    {
+      "id": "C-007",
+      "pass": true,
+      "reason": "Reports $14,729 owed and paid, followed by the refund suit."
+    },
+    {
+      "id": "C-008",
+      "pass": true,
+      "reason": "Mentions § 951A only as a possible statutory issue and does not treat Moore as deciding GILTI constitutionality."
+    },
+    {
+      "id": "C-009",
+      "pass": true,
+      "reason": "Frames the dispute as direct-tax/property characterization versus an income tax and notes the Court rejected the unapportioned direct-tax-on-property theory."
+    },
+    {
+      "id": "C-010",
+      "pass": true,
+      "reason": "Distinguishes income realized by KisanKraft from receipt by the shareholder and says the MRT taxes the shareholders’ attributed share of entity income."
+    },
+    {
+      "id": "C-011",
+      "pass": true,
+      "reason": "Explains that, in the decided circumstances, Congress may attribute realized entity income to shareholders and tax them on it."
+    },
+    {
+      "id": "C-012",
+      "pass": true,
+      "reason": "Uses partnership taxation as an attribution analogue in describing the Court’s precedents without asserting all entities are legally identical."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "Mentions S corporations as part of the precedent line but does not address the consent rationale or explain why shareholder consent alone does not establish constitutional authority."
+    },
+    {
+      "id": "C-014",
+      "pass": true,
+      "reason": "Compares the MRT to subpart F and describes foreign-corporation attribution as part of longstanding congressional practice."
+    },
+    {
+      "id": "C-015",
+      "pass": true,
+      "reason": "Explains that Macomber involved a stock dividend and was not an attribution holding prohibiting entity-income attribution."
+    },
+    {
+      "id": "C-016",
+      "pass": true,
+      "reason": "States the Moores’ constructive-realization distinction and the majority’s rejection of it by comparing the MRT to subpart F and pass-through taxes."
+    },
+    {
+      "id": "C-017",
+      "pass": true,
+      "reason": "Lists shareholder taxation as the first express boundary of the narrow holding."
+    },
+    {
+      "id": "C-018",
+      "pass": true,
+      "reason": "Retains the requirement that the attributed income be undistributed income realized by the entity."
+    },
+    {
+      "id": "C-019",
+      "pass": true,
+      "reason": "Retains the requirement that the income be attributed to the shareholders."
+    },
+    {
+      "id": "C-020",
+      "pass": true,
+      "reason": "Retains the condition that the entity itself has not been taxed on that income."
+    },
+    {
+      "id": "C-021",
+      "pass": true,
+      "reason": "States expressly that the Court did not decide whether realization is constitutionally required."
+    },
+    {
+      "id": "C-022",
+      "pass": true,
+      "reason": "Does not present a wealth or net-worth tax as upheld; it notes such taxes were left for another day."
+    },
+    {
+      "id": "C-023",
+      "pass": true,
+      "reason": "Does not treat an unapportioned appreciation tax as resolved and notes the Court left that issue open."
+    },
+    {
+      "id": "C-024",
+      "pass": true,
+      "reason": "Identifies the Due Process Clause constraint on arbitrary attribution."
+    },
+    {
+      "id": "C-025",
+      "pass": false,
+      "reason": "Discusses the reserved same-undistributed-income double-taxation scenario but does not distinguish it from ordinary corporate-level tax followed by shareholder dividend tax."
+    },
+    {
+      "id": "C-026",
+      "pass": true,
+      "reason": "States that the Ninth Circuit was affirmed and that the MRT challenge failed."
+    },
+    {
+      "id": "C-027",
+      "pass": true,
+      "reason": "Labels Justice Jackson’s broad tax-power and anti-realization-requirement views as a concurrence while separately describing the majority’s narrow holding."
+    },
+    {
+      "id": "C-028",
+      "pass": true,
+      "reason": "Describes Justice Barrett’s concurrence in the judgment as disagreeing with the majority’s reasoning and reserving different-tax issues."
+    },
+    {
+      "id": "C-029",
+      "pass": true,
+      "reason": "Identifies Justice Thomas’s realization/attribution position as a dissent, not the controlling opinion."
+    },
+    {
+      "id": "C-030",
+      "pass": true,
+      "reason": "Treats the petitioner brief’s realization arguments as advocacy and contrasts them with the final majority holding."
+    },
+    {
+      "id": "C-031",
+      "pass": true,
+      "reason": "Requests facts on ownership, entity realization, attribution relationship, and prior entity-level tax before evaluating another tax theory."
+    },
+    {
+      "id": "C-032",
+      "pass": true,
+      "reason": "Separates the likely foreclosed no-distribution MRT theory from reserved due-process, double-taxation, and statutory/procedural claims."
+    }
+  ],
+  "unsupported_material_claims": []
+}

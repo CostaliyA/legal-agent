@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": true,
+      "reason": "Memo states Goldsmith photographed Prince in 1981 and holds copyright in the photograph."
+    },
+    {
+      "id": "C-002",
+      "pass": true,
+      "reason": "Memo describes the 1981 Goldsmith photograph and the later 1984 Vanity Fair artist-reference license."
+    },
+    {
+      "id": "C-003",
+      "pass": true,
+      "reason": "Memo quotes the one-time, no-other-usage artist-reference terms of the 1984 Vanity Fair license."
+    },
+    {
+      "id": "C-004",
+      "pass": true,
+      "reason": "Memo distinguishes the 15 additional Prince Series works from the specific Orange Prince image licensed in 2016."
+    },
+    {
+      "id": "C-005",
+      "pass": true,
+      "reason": "Memo separately identifies the 2016 Condé Nast license and does not conflate it with the 1984 commission."
+    },
+    {
+      "id": "C-006",
+      "pass": true,
+      "reason": "Memo reports that Condé Nast paid AWF $10,000 for the 2016 license."
+    },
+    {
+      "id": "C-007",
+      "pass": true,
+      "reason": "Memo states Goldsmith received neither a fee nor source credit for the 2016 use and that the 1984 license did not authorize later use."
+    },
+    {
+      "id": "C-008",
+      "pass": true,
+      "reason": "Memo frames the analysis around the challenged 2016 magazine licensing use, not Warhol's reputation or visual difference alone."
+    },
+    {
+      "id": "C-009",
+      "pass": true,
+      "reason": "Memo correctly says the Supreme Court decided the first fair-use factor and that AWF did not challenge the other factors."
+    },
+    {
+      "id": "C-010",
+      "pass": true,
+      "reason": "Memo repeatedly explains that transformativeness is assessed against the specific use alleged to infringe."
+    },
+    {
+      "id": "C-011",
+      "pass": true,
+      "reason": "Memo identifies the overlapping purpose of depicting Prince in magazine stories and commemorative editions."
+    },
+    {
+      "id": "C-012",
+      "pass": true,
+      "reason": "Memo accounts for the commercial licensing character of the 2016 Condé Nast transaction."
+    },
+    {
+      "id": "C-013",
+      "pass": true,
+      "reason": "Memo notes commerciality is relevant but not dispositive and does not adopt an automatic rule."
+    },
+    {
+      "id": "C-014",
+      "pass": true,
+      "reason": "Memo explains the degree of changed purpose must be weighed with commerciality and justification."
+    },
+    {
+      "id": "C-015",
+      "pass": true,
+      "reason": "Memo explains an overbroad new-expression test would swallow the derivative-work right."
+    },
+    {
+      "id": "C-016",
+      "pass": true,
+      "reason": "Memo recognizes the Court limited its holding to the 2016 licensing use and did not decide creation, display, or sale of the series."
+    },
+    {
+      "id": "C-017",
+      "pass": true,
+      "reason": "Memo acknowledges new meaning or message may be relevant to the first-factor inquiry."
+    },
+    {
+      "id": "C-018",
+      "pass": true,
+      "reason": "Memo explains that a new message alone did not justify the overlapping commercial magazine licensing use."
+    },
+    {
+      "id": "C-019",
+      "pass": false,
+      "reason": "Memo does not explain Campbell v. Acuff-Rose's parody/comment-on-original requirement or its copying justification; it only notes AWF invoked Campbell and was rejected."
+    },
+    {
+      "id": "C-020",
+      "pass": true,
+      "reason": "Memo assesses whether AWF had an independent justification for borrowing the photograph beyond making a new meaning."
+    },
+    {
+      "id": "C-021",
+      "pass": false,
+      "reason": "Memo does not discuss Google's software/functional context or distinguish it from portrait licensing."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "Memo does not expressly reject artistic fame as an independent fair-use entitlement."
+    },
+    {
+      "id": "C-023",
+      "pass": true,
+      "reason": "Memo fairly states AWF's transformation/new-meaning argument before explaining the majority's rejection."
+    },
+    {
+      "id": "C-024",
+      "pass": true,
+      "reason": "Memo addresses Goldsmith's portrait-licensing overlap and notes the other factors were not independently adjudicated by the Supreme Court."
+    },
+    {
+      "id": "C-025",
+      "pass": true,
+      "reason": "Memo reports that the first factor favored Goldsmith for the challenged 2016 use."
+    },
+    {
+      "id": "C-026",
+      "pass": true,
+      "reason": "Memo states the Supreme Court affirmed the judgment under review."
+    },
+    {
+      "id": "C-027",
+      "pass": true,
+      "reason": "Memo distinguishes the concurrence's use-specific focus from any general prohibition on new art."
+    },
+    {
+      "id": "C-028",
+      "pass": true,
+      "reason": "Memo fairly identifies the dissent's artistic-transformation concern and labels it dissenting, not controlling."
+    },
+    {
+      "id": "C-029",
+      "pass": true,
+      "reason": "Memo does not invent damages or a license valuation beyond the $400 and $10,000 record figures."
+    },
+    {
+      "id": "C-030",
+      "pass": true,
+      "reason": "Memo requests the full 1984 and 2016 instruments, including scope and sublicensing terms, before clearance."
+    },
+    {
+      "id": "C-031",
+      "pass": true,
+      "reason": "Memo requires proposed medium, audience, commercial terms, and asserted purpose for use-by-use analysis."
+    },
+    {
+      "id": "C-032",
+      "pass": true,
+      "reason": "Memo offers conditional clearance paths such as obtaining a license or specific fair-use opinion rather than certifying all uses from this holding."
+    }
+  ],
+  "unsupported_material_claims": []
+}

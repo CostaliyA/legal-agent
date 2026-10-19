@@ -1,0 +1,51 @@
+{
+  "task_id": "B06-private-fund-rules",
+  "solver_model": "deepseek-flash (no hint, reused from run_auto_review.py)",
+  "judge_model": "deepseek-flash",
+  "hint_type": "none",
+  "evaluated_at_utc": "2026-10-18T06:04:10.007510+00:00",
+  "batch_judge_meta": {
+    "model": "deepseek-flash",
+    "response_id": "595a0c59-6a5d-4875-b81b-4b05b4fe0dde",
+    "usage": {
+      "prompt_tokens": 41588,
+      "completion_tokens": 7112,
+      "total_tokens": 48700,
+      "prompt_tokens_details": {
+        "cached_tokens": 33536
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 5930
+      },
+      "prompt_cache_hit_tokens": 33536,
+      "prompt_cache_miss_tokens": 8052
+    }
+  },
+  "negative_control_meta": {
+    "model": "deepseek-flash",
+    "response_id": "ab28db20-3942-4dc2-8187-62e53b7bf0af",
+    "usage": {
+      "prompt_tokens": 37080,
+      "completion_tokens": 1110,
+      "total_tokens": 38190,
+      "prompt_tokens_details": {
+        "cached_tokens": 33536
+      },
+      "completion_tokens_details": {
+        "reasoning_tokens": 134
+      },
+      "prompt_cache_hit_tokens": 33536,
+      "prompt_cache_miss_tokens": 3544
+    }
+  },
+  "guided_answer_sha256": "65d8d52a205b9ca68fa9c9707934fa701763eb692fdf67bcf272004527699aa9",
+  "solver_packet_sha256": "4b2e4f1e0a756b85e6c147aa6a4ceee3c7f7e4d887fef6ee5a06fd76a204c961",
+  "batch_judging": {
+    "criteria_passed": 30,
+    "criteria_total": 32,
+    "pass_rate": 0.9375,
+    "unsupported_material_claims": [],
+    "negative_control_passed": 0
+  },
+  "interpretation": "DeepSeek Flash solver (no hint) answers re-judged by DeepSeek Flash. Answers reused from batch10_v1/rollouts/<task>/guided-answer.md. Not legal certification."
+}

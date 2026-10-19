@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": false,
+      "reason": "No substantive analysis; does not identify the Sacklers as beneficiaries."
+    },
+    {
+      "id": "C-002",
+      "pass": false,
+      "reason": "No discussion distinguishing direct creditor claims from estate claims."
+    },
+    {
+      "id": "C-003",
+      "pass": false,
+      "reason": "No discussion of nonconsenting claimants or compelled extinguishment."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "No recognition that the Sacklers did not enter bankruptcy."
+    },
+    {
+      "id": "C-005",
+      "pass": false,
+      "reason": "No explanation of the contribution-for-protection exchange."
+    },
+    {
+      "id": "C-006",
+      "pass": false,
+      "reason": "No discussion of creditor voting versus universal consent."
+    },
+    {
+      "id": "C-007",
+      "pass": false,
+      "reason": "No discussion of district court rejection or Second Circuit approval."
+    },
+    {
+      "id": "C-008",
+      "pass": false,
+      "reason": "No use or characterization of the respondent brief."
+    },
+    {
+      "id": "C-009",
+      "pass": false,
+      "reason": "No discussion of section 105(a)."
+    },
+    {
+      "id": "C-010",
+      "pass": false,
+      "reason": "No discussion of section 1123(b)(6)."
+    },
+    {
+      "id": "C-011",
+      "pass": false,
+      "reason": "No explanation of the catchall’s contextual reading."
+    },
+    {
+      "id": "C-012",
+      "pass": false,
+      "reason": "No distinction between estate-owned claims and direct claims."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "No explanation that the release functions as a nondebtor discharge."
+    },
+    {
+      "id": "C-014",
+      "pass": false,
+      "reason": "No discussion of discharge limits and burdens."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "No explanation that contribution size does not supply statutory authority."
+    },
+    {
+      "id": "C-016",
+      "pass": false,
+      "reason": "No discussion of section 524(g) or the asbestos exception."
+    },
+    {
+      "id": "C-017",
+      "pass": false,
+      "reason": "No statement that the Supreme Court reversed and remanded."
+    },
+    {
+      "id": "C-018",
+      "pass": false,
+      "reason": "No statement preserving consensual third-party releases."
+    },
+    {
+      "id": "C-019",
+      "pass": false,
+      "reason": "No statement that the Court left the consent standard open."
+    },
+    {
+      "id": "C-020",
+      "pass": false,
+      "reason": "No discussion of full satisfaction of third-party claims."
+    },
+    {
+      "id": "C-021",
+      "pass": false,
+      "reason": "No discussion of substantially consummated plans."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "No distinction between release authority and merits of opioid claims."
+    },
+    {
+      "id": "C-023",
+      "pass": false,
+      "reason": "No explanation that remand leaves further negotiations unresolved."
+    },
+    {
+      "id": "C-024",
+      "pass": false,
+      "reason": "No limited statement of the operative holding."
+    },
+    {
+      "id": "C-025",
+      "pass": false,
+      "reason": "No discussion of the dissent’s collective-recovery argument."
+    },
+    {
+      "id": "C-026",
+      "pass": false,
+      "reason": "No labeling or discussion of the dissent."
+    },
+    {
+      "id": "C-027",
+      "pass": false,
+      "reason": "No discussion of funding or recovery risks."
+    },
+    {
+      "id": "C-028",
+      "pass": false,
+      "reason": "No consideration of a consensual revision."
+    },
+    {
+      "id": "C-029",
+      "pass": false,
+      "reason": "No discussion of preserving estate-claim settlements while separating direct claims."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "No request to identify claim owners and release beneficiaries."
+    },
+    {
+      "id": "C-031",
+      "pass": false,
+      "reason": "No request for consent mechanism or affected population."
+    },
+    {
+      "id": "C-032",
+      "pass": false,
+      "reason": "No discussion of confirming continued funding or revised conditions on remand."
+    }
+  ],
+  "unsupported_material_claims": []
+}

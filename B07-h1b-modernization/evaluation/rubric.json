@@ -1,0 +1,1066 @@
+{
+  "task_id": "B07-h1b-modernization",
+  "family_id": "h1b-modernization-2023-2025",
+  "criterion_count": 36,
+  "minimum_criteria": 30,
+  "source": "generated from frozen evidence graph; graph bootstrapped from v3 source-anchored criteria",
+  "status": "candidate; guided independent rollout and counterchecks pending",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Modernization effective date",
+      "issue_group": "effective-instruments",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:effective-instruments",
+        "prop:C-001",
+        "span:C-001:1"
+      ],
+      "pass_condition": "uses January 17, 2025 as the modernization effective date",
+      "fail_condition": "uses the 2023 proposal publication as the effective date",
+      "match_criteria": "PASS if the deliverable uses January 17, 2025 as the modernization effective date. FAIL if omitted, contradicted, or it uses the 2023 proposal publication as the effective date. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            1,
+            105
+          ],
+          "anchor": "January 17, 2025"
+        }
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "Filing applicability",
+      "issue_group": "effective-instruments",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:effective-instruments",
+        "prop:C-002",
+        "span:C-002:1"
+      ],
+      "pass_condition": "applies the new requirements to petitions filed on or after the effective date as specified",
+      "fail_condition": "automatically applies every new requirement retroactively to all earlier filings",
+      "match_criteria": "PASS if the deliverable applies the new requirements to petitions filed on or after the effective date as specified. FAIL if omitted, contradicted, or it automatically applies every new requirement retroactively to all earlier filings. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            17,
+            105
+          ],
+          "anchor": "filed on or after"
+        }
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "Final over proposal",
+      "issue_group": "effective-instruments",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:effective-instruments",
+        "prop:C-003",
+        "span:C-003:1"
+      ],
+      "pass_condition": "uses the final adopted text to resolve differences from the proposal",
+      "fail_condition": "treats all proposed restrictions as adopted",
+      "match_criteria": "PASS if the deliverable uses the final adopted text to resolve differences from the proposal. FAIL if omitted, contradicted, or it treats all proposed restrictions as adopted. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "anchor": "final rule"
+        }
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "Registration separation",
+      "issue_group": "effective-instruments",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:effective-instruments",
+        "prop:C-004",
+        "span:C-004:1"
+      ],
+      "pass_condition": "identifies beneficiary-centric registration as a separate earlier final rule",
+      "fail_condition": "attributes all registration reforms to this January 2025 effective date",
+      "match_criteria": "PASS if the deliverable identifies beneficiary-centric registration as a separate earlier final rule. FAIL if omitted, contradicted, or it attributes all registration reforms to this January 2025 effective date. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            3,
+            105
+          ],
+          "anchor": "beneficiary-centric"
+        }
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Registration clock",
+      "issue_group": "effective-instruments",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:effective-instruments",
+        "prop:C-005",
+        "span:C-005:1"
+      ],
+      "pass_condition": "identifies March 4, 2024 as the separate registration rule effective date",
+      "fail_condition": "uses January 17, 2025 for that separate rule",
+      "match_criteria": "PASS if the deliverable identifies March 4, 2024 as the separate registration rule effective date. FAIL if omitted, contradicted, or it uses January 17, 2025 for that separate rule. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-registration-rule",
+          "file": "h1b-registration-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            1
+          ],
+          "anchor": "March 4, 2024"
+        }
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "Codified text verification",
+      "issue_group": "effective-instruments",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:effective-instruments",
+        "prop:C-006",
+        "span:C-006:1"
+      ],
+      "pass_condition": "supports operative requirements with the amended CFR text rather than only policy commentary",
+      "fail_condition": "mistakes a rejected commenter proposal for codified law",
+      "match_criteria": "PASS if the deliverable supports operative requirements with the amended CFR text rather than only policy commentary. FAIL if omitted, contradicted, or it mistakes a rejected commenter proposal for codified law. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            142
+          ],
+          "anchor": "PART 214"
+        }
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "Direct degree relationship",
+      "issue_group": "specialty-occupation",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:specialty-occupation",
+        "prop:C-007",
+        "span:C-007:1"
+      ],
+      "pass_condition": "uses the logical connection between required degree and job duties",
+      "fail_condition": "requires a matching degree title without considering actual duties",
+      "match_criteria": "PASS if the deliverable uses the logical connection between required degree and job duties. FAIL if omitted, contradicted, or it requires a matching degree title without considering actual duties. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "logical connection"
+        }
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "Multiple degree fields",
+      "issue_group": "specialty-occupation",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:specialty-occupation",
+        "prop:C-008",
+        "span:C-008:1"
+      ],
+      "pass_condition": "allows a range of degree fields if each is directly related",
+      "fail_condition": "categorically disqualifies any position accepting more than one field",
+      "match_criteria": "PASS if the deliverable allows a range of degree fields if each is directly related. FAIL if omitted, contradicted, or it categorically disqualifies any position accepting more than one field. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "range of qualifying degree fields"
+        }
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "General degree limitation",
+      "issue_group": "specialty-occupation",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:specialty-occupation",
+        "prop:C-009",
+        "span:C-009:1"
+      ],
+      "pass_condition": "recognizes a general degree without further specialization is insufficient where it alone qualifies someone for the position",
+      "fail_condition": "states any bachelor degree necessarily establishes specialty occupation",
+      "match_criteria": "PASS if the deliverable recognizes a general degree without further specialization is insufficient where it alone qualifies someone for the position. FAIL if omitted, contradicted, or it states any bachelor degree necessarily establishes specialty occupation. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "general degree"
+        }
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "Normally qualification",
+      "issue_group": "specialty-occupation",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:specialty-occupation",
+        "prop:C-010",
+        "span:C-010:1"
+      ],
+      "pass_condition": "explains normally does not mean always",
+      "fail_condition": "requires proof that no incumbent anywhere lacks the degree",
+      "match_criteria": "PASS if the deliverable explains normally does not mean always. FAIL if omitted, contradicted, or it requires proof that no incumbent anywhere lacks the degree. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "Normally does not mean always"
+        }
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Four criteria structure",
+      "issue_group": "specialty-occupation",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:specialty-occupation",
+        "prop:C-011",
+        "span:C-011:1"
+      ],
+      "pass_condition": "distinguishes the specialty-occupation definition from satisfying at least one listed regulatory criterion",
+      "fail_condition": "says satisfying a listed criterion dispenses with the underlying definition",
+      "match_criteria": "PASS if the deliverable distinguishes the specialty-occupation definition from satisfying at least one listed regulatory criterion. FAIL if omitted, contradicted, or it says satisfying a listed criterion dispenses with the underlying definition. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "at least one"
+        }
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Industry-comparator evidence",
+      "issue_group": "specialty-occupation",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:specialty-occupation",
+        "prop:C-012",
+        "span:C-012:1"
+      ],
+      "pass_condition": "identifies parallel positions in similar US industry organizations as a regulatory evidence route",
+      "fail_condition": "uses unrelated foreign or dissimilar-employer vacancies as conclusive comparators",
+      "match_criteria": "PASS if the deliverable identifies parallel positions in similar US industry organizations as a regulatory evidence route. FAIL if omitted, contradicted, or it uses unrelated foreign or dissimilar-employer vacancies as conclusive comparators. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "parallel positions"
+        }
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "Employer-practice evidence",
+      "issue_group": "specialty-occupation",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:specialty-occupation",
+        "prop:C-013",
+        "span:C-013:1"
+      ],
+      "pass_condition": "identifies the employer/qualifying third-party normal degree requirement route",
+      "fail_condition": "treats an unsupported preferred degree as automatically sufficient",
+      "match_criteria": "PASS if the deliverable identifies the employer/qualifying third-party normal degree requirement route. FAIL if omitted, contradicted, or it treats an unsupported preferred degree as automatically sufficient. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "normally requires"
+        }
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "Specialized duties route",
+      "issue_group": "specialty-occupation",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:specialty-occupation",
+        "prop:C-014",
+        "span:C-014:1"
+      ],
+      "pass_condition": "identifies specialized, complex or unique duties and their normally associated specialized knowledge",
+      "fail_condition": "uses a generic job title alone to establish this route",
+      "match_criteria": "PASS if the deliverable identifies specialized, complex or unique duties and their normally associated specialized knowledge. FAIL if omitted, contradicted, or it uses a generic job title alone to establish this route. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "specialized, complex, or unique"
+        }
+      ]
+    },
+    {
+      "id": "C-015",
+      "title": "Deference baseline",
+      "issue_group": "petition-evidence-and-change",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:petition-evidence-and-change",
+        "prop:C-015",
+        "span:C-015:1"
+      ],
+      "pass_condition": "recognizes deference to a prior eligibility determination involving the same parties and underlying facts",
+      "fail_condition": "states every extension must disregard the prior determination",
+      "match_criteria": "PASS if the deliverable recognizes deference to a prior eligibility determination involving the same parties and underlying facts. FAIL if omitted, contradicted, or it states every extension must disregard the prior determination. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            143
+          ],
+          "anchor": "deference"
+        }
+      ]
+    },
+    {
+      "id": "C-016",
+      "title": "Deference exceptions",
+      "issue_group": "petition-evidence-and-change",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:petition-evidence-and-change",
+        "prop:C-016",
+        "span:C-016:1"
+      ],
+      "pass_condition": "identifies material error, material change or new material information as exceptions",
+      "fail_condition": "treats prior approval as an absolute bar to reconsideration",
+      "match_criteria": "PASS if the deliverable identifies material error, material change or new material information as exceptions. FAIL if omitted, contradicted, or it treats prior approval as an absolute bar to reconsideration. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            143
+          ],
+          "anchor": "material error"
+        }
+      ]
+    },
+    {
+      "id": "C-017",
+      "title": "Status maintenance proof",
+      "issue_group": "petition-evidence-and-change",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:petition-evidence-and-change",
+        "prop:C-017",
+        "span:C-017:1"
+      ],
+      "pass_condition": "requires extension/amendment stay requests to demonstrate maintained status and identifies suitable evidence",
+      "fail_condition": "assumes an unexpired approval alone proves maintenance of status",
+      "match_criteria": "PASS if the deliverable requires extension/amendment stay requests to demonstrate maintained status and identifies suitable evidence. FAIL if omitted, contradicted, or it assumes an unexpired approval alone proves maintenance of status. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            142,
+            143
+          ],
+          "anchor": "maintenance of status"
+        }
+      ]
+    },
+    {
+      "id": "C-018",
+      "title": "LCA not occupation adjudication",
+      "issue_group": "petition-evidence-and-change",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:petition-evidence-and-change",
+        "prop:C-018",
+        "span:C-018:1"
+      ],
+      "pass_condition": "distinguishes DOL LCA certification from USCIS specialty-occupation adjudication",
+      "fail_condition": "treats a certified LCA as conclusive specialty-occupation approval",
+      "match_criteria": "PASS if the deliverable distinguishes DOL LCA certification from USCIS specialty-occupation adjudication. FAIL if omitted, contradicted, or it treats a certified LCA as conclusive specialty-occupation approval. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            144
+          ],
+          "anchor": "does not constitute"
+        }
+      ]
+    },
+    {
+      "id": "C-019",
+      "title": "Material change filing",
+      "issue_group": "petition-evidence-and-change",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:petition-evidence-and-change",
+        "prop:C-019",
+        "span:C-019:1"
+      ],
+      "pass_condition": "requires the amended/new petition before a material change and accounts for approval/portability rules for starting changed work",
+      "fail_condition": "allows all materially changed work immediately without checking portability",
+      "match_criteria": "PASS if the deliverable requires the amended/new petition before a material change and accounts for approval/portability rules for starting changed work. FAIL if omitted, contradicted, or it allows all materially changed work immediately without checking portability. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            143
+          ],
+          "anchor": "before the material"
+        }
+      ]
+    },
+    {
+      "id": "C-020",
+      "title": "Worksite geographic change",
+      "issue_group": "petition-evidence-and-change",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:petition-evidence-and-change",
+        "prop:C-020",
+        "span:C-020:1"
+      ],
+      "pass_condition": "recognizes a change requiring a corresponding new LCA as a material change",
+      "fail_condition": "states every address change is always exempt",
+      "match_criteria": "PASS if the deliverable recognizes a change requiring a corresponding new LCA as a material change. FAIL if omitted, contradicted, or it states every address change is always exempt. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            143
+          ],
+          "anchor": "geographical area"
+        }
+      ]
+    },
+    {
+      "id": "C-021",
+      "title": "Same-area exception",
+      "issue_group": "petition-evidence-and-change",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:petition-evidence-and-change",
+        "prop:C-021",
+        "span:C-021:1"
+      ],
+      "pass_condition": "recognizes the same-area-of-intended-employment exception absent other material changes",
+      "fail_condition": "requires an amended petition for every same-area move",
+      "match_criteria": "PASS if the deliverable recognizes the same-area-of-intended-employment exception absent other material changes. FAIL if omitted, contradicted, or it requires an amended petition for every same-area move. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            143
+          ],
+          "anchor": "same area of intended employment"
+        }
+      ]
+    },
+    {
+      "id": "C-022",
+      "title": "Itinerary elimination",
+      "issue_group": "petition-evidence-and-change",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:petition-evidence-and-change",
+        "prop:C-022",
+        "span:C-022:1"
+      ],
+      "pass_condition": "recognizes removal of the itinerary requirement without treating it as elimination of evidence of real work",
+      "fail_condition": "states no work evidence can ever be requested",
+      "match_criteria": "PASS if the deliverable recognizes removal of the itinerary requirement without treating it as elimination of evidence of real work. FAIL if omitted, contradicted, or it states no work evidence can ever be requested. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            47
+          ],
+          "anchor": "itinerary"
+        }
+      ]
+    },
+    {
+      "id": "C-023",
+      "title": "Controlling ownership",
+      "issue_group": "owners-and-work-availability",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:owners-and-work-availability",
+        "prop:C-023",
+        "span:C-023:1"
+      ],
+      "pass_condition": "uses more than 50% ownership or majority voting rights for beneficiary-owner treatment",
+      "fail_condition": "uses a 50%-or-more equity threshold without the voting alternative",
+      "match_criteria": "PASS if the deliverable uses more than 50% ownership or majority voting rights for beneficiary-owner treatment. FAIL if omitted, contradicted, or it uses a 50%-or-more equity threshold without the voting alternative. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145,
+            146
+          ],
+          "anchor": "more than 50 percent"
+        }
+      ]
+    },
+    {
+      "id": "C-024",
+      "title": "Owner business duties",
+      "issue_group": "owners-and-work-availability",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:owners-and-work-availability",
+        "prop:C-024",
+        "span:C-024:1"
+      ],
+      "pass_condition": "allows directly ownership-related duties only with specialty-occupation duties for a majority of time",
+      "fail_condition": "allows an owner to perform no specialty duties",
+      "match_criteria": "PASS if the deliverable allows directly ownership-related duties only with specialty-occupation duties for a majority of time. FAIL if omitted, contradicted, or it allows an owner to perform no specialty duties. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "majority of the time"
+        }
+      ]
+    },
+    {
+      "id": "C-025",
+      "title": "Initial owner validity",
+      "issue_group": "owners-and-work-availability",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:owners-and-work-availability",
+        "prop:C-025",
+        "span:C-025:1"
+      ],
+      "pass_condition": "identifies the 18-month limit for the initial beneficiary-owner approval",
+      "fail_condition": "gives the ordinary maximum initial period without the owner limit",
+      "match_criteria": "PASS if the deliverable identifies the 18-month limit for the initial beneficiary-owner approval. FAIL if omitted, contradicted, or it gives the ordinary maximum initial period without the owner limit. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            146
+          ],
+          "anchor": "18 months"
+        }
+      ]
+    },
+    {
+      "id": "C-026",
+      "title": "First owner extension",
+      "issue_group": "owners-and-work-availability",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:owners-and-work-availability",
+        "prop:C-026",
+        "span:C-026:1"
+      ],
+      "pass_condition": "identifies the 18-month limit for the first extension and avoids extending that specific cap to every later extension automatically",
+      "fail_condition": "states all future owner extensions are invariably 18 months",
+      "match_criteria": "PASS if the deliverable identifies the 18-month limit for the first extension and avoids extending that specific cap to every later extension automatically. FAIL if omitted, contradicted, or it states all future owner extensions are invariably 18 months. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            146
+          ],
+          "anchor": "18 months"
+        }
+      ]
+    },
+    {
+      "id": "C-027",
+      "title": "Bona fide position timing",
+      "issue_group": "owners-and-work-availability",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:owners-and-work-availability",
+        "prop:C-027",
+        "span:C-027:1"
+      ],
+      "pass_condition": "requires proof at filing of a bona fide position available at the requested validity start",
+      "fail_condition": "allows an entirely speculative position to satisfy the rule",
+      "match_criteria": "PASS if the deliverable requires proof at filing of a bona fide position available at the requested validity start. FAIL if omitted, contradicted, or it allows an entirely speculative position to satisfy the rule. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "as of the start date"
+        }
+      ]
+    },
+    {
+      "id": "C-028",
+      "title": "Day-to-day assignments",
+      "issue_group": "owners-and-work-availability",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:owners-and-work-availability",
+        "prop:C-028",
+        "span:C-028:1"
+      ],
+      "pass_condition": "recognizes no need to establish specific daily assignments for the entire requested period",
+      "fail_condition": "requires a fixed daily assignment schedule for every future day",
+      "match_criteria": "PASS if the deliverable recognizes no need to establish specific daily assignments for the entire requested period. FAIL if omitted, contradicted, or it requires a fixed daily assignment schedule for every future day. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "day-to-day assignments"
+        }
+      ]
+    },
+    {
+      "id": "C-029",
+      "title": "Contract evidence discretion",
+      "issue_group": "owners-and-work-availability",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:owners-and-work-availability",
+        "prop:C-029",
+        "span:C-029:1"
+      ],
+      "pass_condition": "recognizes USCIS may request contracts/work orders and similar evidence",
+      "fail_condition": "states contracts are always mandatory for every petition or can never be requested",
+      "match_criteria": "PASS if the deliverable recognizes USCIS may request contracts/work orders and similar evidence. FAIL if omitted, contradicted, or it states contracts are always mandatory for every petition or can never be requested. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "work orders"
+        }
+      ]
+    },
+    {
+      "id": "C-030",
+      "title": "Third-party staffing test",
+      "issue_group": "owners-and-work-availability",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:owners-and-work-availability",
+        "prop:C-030",
+        "span:C-030:1"
+      ],
+      "pass_condition": "uses the third-party actual position requirements when staffed into its organizational hierarchy, distinguishing mere service provision",
+      "fail_condition": "assumes every customer service engagement is staffing into the customer hierarchy",
+      "match_criteria": "PASS if the deliverable uses the third-party actual position requirements when staffed into its organizational hierarchy, distinguishing mere service provision. FAIL if omitted, contradicted, or it assumes every customer service engagement is staffing into the customer hierarchy. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "organizational hierarchy"
+        }
+      ]
+    },
+    {
+      "id": "C-031",
+      "title": "Cap-gap endpoint",
+      "issue_group": "cap-gap-integrity-and-employer-action",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:cap-gap-integrity-and-employer-action",
+        "prop:C-031",
+        "span:C-031:1"
+      ],
+      "pass_condition": "identifies April 1 of the relevant fiscal year or approved validity start, whichever is earlier",
+      "fail_condition": "describes an unconditional extension through April 1 for every F-1 student",
+      "match_criteria": "PASS if the deliverable identifies April 1 of the relevant fiscal year or approved validity start, whichever is earlier. FAIL if omitted, contradicted, or it describes an unconditional extension through April 1 for every F-1 student. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            143
+          ],
+          "anchor": "whichever is earlier"
+        }
+      ]
+    },
+    {
+      "id": "C-032",
+      "title": "Cap-gap eligibility",
+      "issue_group": "cap-gap-integrity-and-employer-action",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:cap-gap-integrity-and-employer-action",
+        "prop:C-032",
+        "span:C-032:1"
+      ],
+      "pass_condition": "preserves timely, nonfrivolous cap-subject petition/change-of-status conditions",
+      "fail_condition": "extends cap-gap solely because a registration was submitted",
+      "match_criteria": "PASS if the deliverable preserves timely, nonfrivolous cap-subject petition/change-of-status conditions. FAIL if omitted, contradicted, or it extends cap-gap solely because a registration was submitted. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            143
+          ],
+          "anchor": "nonfrivolous"
+        }
+      ]
+    },
+    {
+      "id": "C-033",
+      "title": "Visit scope",
+      "issue_group": "cap-gap-integrity-and-employer-action",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:cap-gap-integrity-and-employer-action",
+        "prop:C-033",
+        "span:C-033:1"
+      ],
+      "pass_condition": "recognizes verification can include petitioner/third-party sites, records and interviews before or after adjudication",
+      "fail_condition": "limits visits to the petitioner headquarters after approval",
+      "match_criteria": "PASS if the deliverable recognizes verification can include petitioner/third-party sites, records and interviews before or after adjudication. FAIL if omitted, contradicted, or it limits visits to the petitioner headquarters after approval. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            144
+          ],
+          "anchor": "on-site inspections"
+        }
+      ]
+    },
+    {
+      "id": "C-034",
+      "title": "Failure-to-cooperate consequence",
+      "issue_group": "cap-gap-integrity-and-employer-action",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:cap-gap-integrity-and-employer-action",
+        "prop:C-034",
+        "span:C-034:1"
+      ],
+      "pass_condition": "identifies inability to verify including noncooperation as a potential denial/revocation basis",
+      "fail_condition": "states noncooperation has no petition consequence",
+      "match_criteria": "PASS if the deliverable identifies inability to verify including noncooperation as a potential denial/revocation basis. FAIL if omitted, contradicted, or it states noncooperation has no petition consequence. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            144
+          ],
+          "anchor": "failure or refusal"
+        }
+      ]
+    },
+    {
+      "id": "C-035",
+      "title": "Employer intake changes",
+      "issue_group": "cap-gap-integrity-and-employer-action",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:cap-gap-integrity-and-employer-action",
+        "prop:C-035",
+        "span:C-035:1"
+      ],
+      "pass_condition": "translates degree-duty, ownership and worksite requirements into concrete intake/document requests",
+      "fail_condition": "offers only an abstract rule summary without employer implementation steps",
+      "match_criteria": "PASS if the deliverable translates degree-duty, ownership and worksite requirements into concrete intake/document requests. FAIL if omitted, contradicted, or it offers only an abstract rule summary without employer implementation steps. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            145
+          ],
+          "anchor": "logical connection"
+        }
+      ]
+    },
+    {
+      "id": "C-036",
+      "title": "No blanket approval promise",
+      "issue_group": "cap-gap-integrity-and-employer-action",
+      "deliverables": [
+        "h1b-filing-checklist.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:cap-gap-integrity-and-employer-action",
+        "prop:C-036",
+        "span:C-036:1"
+      ],
+      "pass_condition": "keeps employer-specific eligibility and document gaps distinct from the rule effective date",
+      "fail_condition": "promises approval solely because a petition is filed after January 17",
+      "match_criteria": "PASS if the deliverable keeps employer-specific eligibility and document gaps distinct from the rule effective date. FAIL if omitted, contradicted, or it promises approval solely because a petition is filed after January 17. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "h1b-modernization-final",
+          "file": "h1b-modernization-final-rule-2024.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            143,
+            144,
+            146
+          ],
+          "anchor": "eligibility"
+        }
+      ]
+    }
+  ]
+}

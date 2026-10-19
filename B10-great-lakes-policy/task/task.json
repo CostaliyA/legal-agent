@@ -1,0 +1,26 @@
+{
+  "id": "B10-great-lakes-policy",
+  "title": "Identify Great Lakes coverage open items",
+  "operation": "identify",
+  "domain": "insurance",
+  "jurisdiction": "United States; federal maritime law, chosen New York law and asserted Pennsylvania law",
+  "law_as_of": "2024-02-21",
+  "family_id": "great-lakes-raiders-retreat-22-500",
+  "lineage": {
+    "authentic_materials_from": "R12-great-lakes-policy",
+    "criterion_seed_from": "R12-great-lakes-policy",
+    "independent_holdout": false
+  },
+  "instructions": "Identify what Great Lakes resolves for Raiders Retreat and what coverage facts remain open. Separate the maritime choice-of-law holding from warranty breach, causation, exclusions, and procedural questions; flag unsupported assertions in the briefs. Output: `coverage-open-items.docx`. In explaining what Great Lakes resolves, address the Court's reliance on forum-selection precedent (The Bremen v. Zapata Off-Shore Co.; Carnival Cruise Lines v. Shute) as the rationale for presumptively enforcing negotiated choice-of-law clauses in maritime contracts, and make explicit that a choice-of-law clause selecting New York law does not by itself require litigating in a New York court.",
+  "deliverables": {
+    "coverage-open-items.docx": "coverage-open-items.docx"
+  },
+  "documents": [
+    "documents/great-lakes-insurance-opinion.pdf",
+    "documents/great-lakes-petitioner-brief.pdf",
+    "documents/great-lakes-respondent-brief.pdf",
+    "documents/great-lakes-reply-brief.pdf",
+    "documents/great-lakes-word-count.pdf",
+    "documents/great-lakes-service-certificate.pdf"
+  ]
+}

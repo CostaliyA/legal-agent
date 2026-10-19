@@ -1,0 +1,1032 @@
+{
+  "task_id": "B02-svb-assumption",
+  "family_id": "svb-first-citizens-resolution-2023",
+  "criterion_count": 34,
+  "minimum_criteria": 30,
+  "source": "generated from frozen evidence graph; graph bootstrapped from v3 source-anchored criteria",
+  "status": "candidate; guided independent rollout and counterchecks pending",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Receiver and corporate capacities",
+      "issue_group": "transaction-and-liabilities",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transaction-and-liabilities",
+        "prop:C-001",
+        "span:C-001:1"
+      ],
+      "pass_condition": "distinguishes the FDIC’s receiver capacity from its corporate capacity and identifies First-Citizens as acquirer",
+      "fail_condition": "treats the FDIC and buyer as the same legal party",
+      "match_criteria": "PASS if the deliverable distinguishes the FDIC’s receiver capacity from its corporate capacity and identifies First-Citizens as acquirer. FAIL if omitted, contradicted, or it treats the FDIC and buyer as the same legal party. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            1,
+            4,
+            8
+          ],
+          "anchor": "FIRST-CITIZENS"
+        }
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "Enumerated assumption",
+      "issue_group": "transaction-and-liabilities",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transaction-and-liabilities",
+        "prop:C-002",
+        "span:C-002:1"
+      ],
+      "pass_condition": "applies enumerated assumed liabilities rather than interpreting whole-bank wording as universal assumption",
+      "fail_condition": "assumes every unknown bank liability transfers",
+      "match_criteria": "PASS if the deliverable applies enumerated assumed liabilities rather than interpreting whole-bank wording as universal assumption. FAIL if omitted, contradicted, or it assumes every unknown bank liability transfers. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            2,
+            9,
+            10,
+            14,
+            16
+          ],
+          "anchor": "Liabilities Assumed"
+        }
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "Deposits and exclusions",
+      "issue_group": "transaction-and-liabilities",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transaction-and-liabilities",
+        "prop:C-003",
+        "span:C-003:1"
+      ],
+      "pass_condition": "recognizes assumed deposits subject to Schedule 2.1(a)",
+      "fail_condition": "ignores the express schedule exception",
+      "match_criteria": "PASS if the deliverable recognizes assumed deposits subject to Schedule 2.1(a). FAIL if omitted, contradicted, or it ignores the express schedule exception. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            5,
+            7,
+            14,
+            17
+          ],
+          "anchor": "Assumed Deposits"
+        }
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "Public deposits collateral",
+      "issue_group": "transaction-and-liabilities",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transaction-and-liabilities",
+        "prop:C-004",
+        "span:C-004:1"
+      ],
+      "pass_condition": "identifies the collateral requirement for assumed public-money deposits",
+      "fail_condition": "treats every deposit obligation as unsecured by definition",
+      "match_criteria": "PASS if the deliverable identifies the collateral requirement for assumed public-money deposits. FAIL if omitted, contradicted, or it treats every deposit obligation as unsecured by definition. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            14
+          ],
+          "anchor": "public money"
+        }
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "Secured debt cap",
+      "issue_group": "transaction-and-liabilities",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transaction-and-liabilities",
+        "prop:C-005",
+        "span:C-005:1"
+      ],
+      "pass_condition": "applies the specified market-value cap to the covered secured indebtedness",
+      "fail_condition": "imports that cap into every liability category",
+      "match_criteria": "PASS if the deliverable applies the specified market-value cap to the covered secured indebtedness. FAIL if omitted, contradicted, or it imports that cap into every liability category. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            8,
+            10,
+            11,
+            15
+          ],
+          "anchor": "market value"
+        }
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "Letters of credit",
+      "issue_group": "transaction-and-liabilities",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transaction-and-liabilities",
+        "prop:C-006",
+        "span:C-006:1"
+      ],
+      "pass_condition": "distinguishes acquired-asset-related standby credits from all possible standby-credit obligations",
+      "fail_condition": "assumes every standby credit without the acquired-asset connection",
+      "match_criteria": "PASS if the deliverable distinguishes acquired-asset-related standby credits from all possible standby-credit obligations. FAIL if omitted, contradicted, or it assumes every standby credit without the acquired-asset connection. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10,
+            15
+          ],
+          "anchor": "standby letters"
+        }
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "Loan commitments",
+      "issue_group": "transaction-and-liabilities",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transaction-and-liabilities",
+        "prop:C-007",
+        "span:C-007:1"
+      ],
+      "pass_condition": "links commitment assumption to loans actually purchased",
+      "fail_condition": "assumes undrawn commitments for every excluded loan",
+      "match_criteria": "PASS if the deliverable links commitment assumption to loans actually purchased. FAIL if omitted, contradicted, or it assumes undrawn commitments for every excluded loan. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            10,
+            15
+          ],
+          "anchor": "Commitments"
+        }
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "Excluded liabilities",
+      "issue_group": "transaction-and-liabilities",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transaction-and-liabilities",
+        "prop:C-008",
+        "span:C-008:1"
+      ],
+      "pass_condition": "identifies excluded contracts and preclosing tax liabilities as outside the general assumption",
+      "fail_condition": "treats the exclusion clause as merely a disclosure statement",
+      "match_criteria": "PASS if the deliverable identifies excluded contracts and preclosing tax liabilities as outside the general assumption. FAIL if omitted, contradicted, or it treats the exclusion clause as merely a disclosure statement. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            3,
+            16
+          ],
+          "anchor": "Excluded Contracts"
+        }
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "QFC categories",
+      "issue_group": "qfcs-and-litigation",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:qfcs-and-litigation",
+        "prop:C-009",
+        "span:C-009:1"
+      ],
+      "pass_condition": "distinguishes Transferred QFCs from Excluded QFCs using the definitions and schedule",
+      "fail_condition": "assumes the label derivative determines transfer by itself",
+      "match_criteria": "PASS if the deliverable distinguishes Transferred QFCs from Excluded QFCs using the definitions and schedule. FAIL if omitted, contradicted, or it assumes the label derivative determines transfer by itself. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            14
+          ],
+          "anchor": "Transferred QFC"
+        }
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "QFC schedule limitation",
+      "issue_group": "qfcs-and-litigation",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:qfcs-and-litigation",
+        "prop:C-010",
+        "span:C-010:1"
+      ],
+      "pass_condition": "applies the underlying-asset/liability qualification in Schedule 3.5(l)",
+      "fail_condition": "states that every QFC transfers without exception",
+      "match_criteria": "PASS if the deliverable applies the underlying-asset/liability qualification in Schedule 3.5(l). FAIL if omitted, contradicted, or it states that every QFC transfers without exception. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            62
+          ],
+          "anchor": "All QFCs"
+        }
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Full QFC liabilities",
+      "issue_group": "qfcs-and-litigation",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:qfcs-and-litigation",
+        "prop:C-011",
+        "span:C-011:1"
+      ],
+      "pass_condition": "recognizes full liability on transferred QFCs rather than the secured-debt cap",
+      "fail_condition": "caps those liabilities at collateral market value",
+      "match_criteria": "PASS if the deliverable recognizes full liability on transferred QFCs rather than the secured-debt cap. FAIL if omitted, contradicted, or it caps those liabilities at collateral market value. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            16,
+            17
+          ],
+          "anchor": "full amount"
+        }
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Servicing obligations",
+      "issue_group": "qfcs-and-litigation",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:qfcs-and-litigation",
+        "prop:C-012",
+        "span:C-012:1"
+      ],
+      "pass_condition": "identifies loan-servicing obligations and GSE-servicer transfer/cooperation qualifications",
+      "fail_condition": "assumes a nonapproved buyer can disregard GSE servicing duties",
+      "match_criteria": "PASS if the deliverable identifies loan-servicing obligations and GSE-servicer transfer/cooperation qualifications. FAIL if omitted, contradicted, or it assumes a nonapproved buyer can disregard GSE servicing duties. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            16
+          ],
+          "anchor": "GSE"
+        }
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "Litigation allocation",
+      "issue_group": "qfcs-and-litigation",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:qfcs-and-litigation",
+        "prop:C-013",
+        "span:C-013:1"
+      ],
+      "pass_condition": "distinguishes the specified shared-loss-asset litigation allocation from retained defensive/class-action liabilities",
+      "fail_condition": "assigns every pending lawsuit to the buyer",
+      "match_criteria": "PASS if the deliverable distinguishes the specified shared-loss-asset litigation allocation from retained defensive/class-action liabilities. FAIL if omitted, contradicted, or it assigns every pending lawsuit to the buyer. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            16
+          ],
+          "anchor": "defensive litigation"
+        }
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "FDIC claims protections",
+      "issue_group": "qfcs-and-litigation",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:qfcs-and-litigation",
+        "prop:C-014",
+        "span:C-014:1"
+      ],
+      "pass_condition": "preserves the excluded receivership claims and statutory defenses instead of treating the agreement as their waiver",
+      "fail_condition": "states that acquisition waives the FDIC claims process",
+      "match_criteria": "PASS if the deliverable preserves the excluded receivership claims and statutory defenses instead of treating the agreement as their waiver. FAIL if omitted, contradicted, or it states that acquisition waives the FDIC claims process. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            16
+          ],
+          "anchor": "administrative claims"
+        }
+      ]
+    },
+    {
+      "id": "C-015",
+      "title": "Insurance assets",
+      "issue_group": "excluded-assets",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:excluded-assets",
+        "prop:C-015",
+        "span:C-015:1"
+      ],
+      "pass_condition": "identifies the retained insurance policies/proceeds category",
+      "fail_condition": "assumes the buyer acquires all D&O insurance proceeds",
+      "match_criteria": "PASS if the deliverable identifies the retained insurance policies/proceeds category. FAIL if omitted, contradicted, or it assumes the buyer acquires all D&O insurance proceeds. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            22,
+            23
+          ],
+          "anchor": "insurance policy"
+        }
+      ]
+    },
+    {
+      "id": "C-016",
+      "title": "Professional/insider claims",
+      "issue_group": "excluded-assets",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:excluded-assets",
+        "prop:C-016",
+        "span:C-016:1"
+      ],
+      "pass_condition": "identifies retained preclosing claims against specified officers, directors and professional counterparties",
+      "fail_condition": "treats every such claim as an ordinary purchased receivable",
+      "match_criteria": "PASS if the deliverable identifies retained preclosing claims against specified officers, directors and professional counterparties. FAIL if omitted, contradicted, or it treats every such claim as an ordinary purchased receivable. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            22,
+            24
+          ],
+          "anchor": "officer"
+        }
+      ]
+    },
+    {
+      "id": "C-017",
+      "title": "Tax receivables",
+      "issue_group": "excluded-assets",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:excluded-assets",
+        "prop:C-017",
+        "span:C-017:1"
+      ],
+      "pass_condition": "identifies excluded tax-refund/receivable interests",
+      "fail_condition": "adds them to the purchased loan book",
+      "match_criteria": "PASS if the deliverable identifies excluded tax-refund/receivable interests. FAIL if omitted, contradicted, or it adds them to the purchased loan book. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            23
+          ],
+          "anchor": "tax receivables"
+        }
+      ]
+    },
+    {
+      "id": "C-018",
+      "title": "Premises and environmental exclusions",
+      "issue_group": "excluded-assets",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:excluded-assets",
+        "prop:C-018",
+        "span:C-018:1"
+      ],
+      "pass_condition": "recognizes excluded/optional premises and hazardous-property qualifications",
+      "fail_condition": "assumes every building transferred automatically",
+      "match_criteria": "PASS if the deliverable recognizes excluded/optional premises and hazardous-property qualifications. FAIL if omitted, contradicted, or it assumes every building transferred automatically. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            23
+          ],
+          "anchor": "hazardous"
+        }
+      ]
+    },
+    {
+      "id": "C-019",
+      "title": "Goodwill distinction",
+      "issue_group": "excluded-assets",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:excluded-assets",
+        "prop:C-019",
+        "span:C-019:1"
+      ],
+      "pass_condition": "recognizes the goodwill/intangibles exclusion and its intellectual-property qualification",
+      "fail_condition": "equates all intangible assets with acquired goodwill",
+      "match_criteria": "PASS if the deliverable recognizes the goodwill/intangibles exclusion and its intellectual-property qualification. FAIL if omitted, contradicted, or it equates all intangible assets with acquired goodwill. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            23
+          ],
+          "anchor": "goodwill"
+        }
+      ]
+    },
+    {
+      "id": "C-020",
+      "title": "Securities and schedule exclusions",
+      "issue_group": "excluded-assets",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:excluded-assets",
+        "prop:C-020",
+        "span:C-020:1"
+      ],
+      "pass_condition": "applies the excluded-securities and other scheduled exclusions instead of relying on a press headline",
+      "fail_condition": "concludes all securities were sold with the loans",
+      "match_criteria": "PASS if the deliverable applies the excluded-securities and other scheduled exclusions instead of relying on a press headline. FAIL if omitted, contradicted, or it concludes all securities were sold with the loans. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            23,
+            24
+          ],
+          "anchor": "Schedule 3.5"
+        }
+      ]
+    },
+    {
+      "id": "C-021",
+      "title": "Deposit interest rates",
+      "issue_group": "customer-and-operational-duties",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:customer-and-operational-duties",
+        "prop:C-021",
+        "span:C-021:1"
+      ],
+      "pass_condition": "describes the buyer’s rate-setting power and the stated nontransaction-deposit floor",
+      "fail_condition": "promises unrestricted rate reductions without the contractual floor",
+      "match_criteria": "PASS if the deliverable describes the buyer’s rate-setting power and the stated nontransaction-deposit floor. FAIL if omitted, contradicted, or it promises unrestricted rate reductions without the contractual floor. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            17
+          ],
+          "anchor": "lowest rate"
+        }
+      ]
+    },
+    {
+      "id": "C-022",
+      "title": "Withdrawal and pledge rights",
+      "issue_group": "customer-and-operational-duties",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:customer-and-operational-duties",
+        "prop:C-022",
+        "span:C-022:1"
+      ],
+      "pass_condition": "recognizes penalty-free withdrawal while preserving pledged-account restrictions",
+      "fail_condition": "says every pledged deposit must be released immediately",
+      "match_criteria": "PASS if the deliverable recognizes penalty-free withdrawal while preserving pledged-account restrictions. FAIL if omitted, contradicted, or it says every pledged deposit must be released immediately. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            17
+          ],
+          "anchor": "without penalty"
+        }
+      ]
+    },
+    {
+      "id": "C-023",
+      "title": "Unclaimed-account timetable",
+      "issue_group": "customer-and-operational-duties",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:customer-and-operational-duties",
+        "prop:C-023",
+        "span:C-023:1"
+      ],
+      "pass_condition": "tracks the 14-month list and receiver-authorized final-notice step with the subsequent 15-day mailing period",
+      "fail_condition": "describes an immediate unclaimed-deposit forfeiture",
+      "match_criteria": "PASS if the deliverable tracks the 14-month list and receiver-authorized final-notice step with the subsequent 15-day mailing period. FAIL if omitted, contradicted, or it describes an immediate unclaimed-deposit forfeiture. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            17
+          ],
+          "anchor": "Fourteen"
+        }
+      ]
+    },
+    {
+      "id": "C-024",
+      "title": "Service continuity",
+      "issue_group": "customer-and-operational-duties",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:customer-and-operational-duties",
+        "prop:C-024",
+        "span:C-024:1"
+      ],
+      "pass_condition": "identifies the 90-day full-service banking commitment and applicable closure requirements",
+      "fail_condition": "treats branch closure as unrestricted on day one",
+      "match_criteria": "PASS if the deliverable identifies the 90-day full-service banking commitment and applicable closure requirements. FAIL if omitted, contradicted, or it treats branch closure as unrestricted on day one. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            26,
+            27,
+            28,
+            31,
+            32
+          ],
+          "anchor": "ninety"
+        }
+      ]
+    },
+    {
+      "id": "C-025",
+      "title": "Existing agreements review",
+      "issue_group": "customer-and-operational-duties",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:customer-and-operational-duties",
+        "prop:C-025",
+        "span:C-025:1"
+      ],
+      "pass_condition": "identifies section 4.8’s agreement-specific assumption/election process",
+      "fail_condition": "assumes every vendor contract transfers merely because it serves the bank",
+      "match_criteria": "PASS if the deliverable identifies section 4.8’s agreement-specific assumption/election process. FAIL if omitted, contradicted, or it assumes every vendor contract transfers merely because it serves the bank. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            32
+          ],
+          "anchor": "Certain Existing Agreements"
+        }
+      ]
+    },
+    {
+      "id": "C-026",
+      "title": "Records and depositor notices",
+      "issue_group": "customer-and-operational-duties",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:customer-and-operational-duties",
+        "prop:C-026",
+        "span:C-026:1"
+      ],
+      "pass_condition": "identifies records custody/retention and depositor-notice obligations for operational handoff",
+      "fail_condition": "treats records access and customer notices as optional",
+      "match_criteria": "PASS if the deliverable identifies records custody/retention and depositor-notice obligations for operational handoff. FAIL if omitted, contradicted, or it treats records access and customer notices as optional. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            37
+          ],
+          "anchor": "Notice to Depositors"
+        }
+      ]
+    },
+    {
+      "id": "C-027",
+      "title": "Actual bid economics",
+      "issue_group": "price-and-receiver-process",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:price-and-receiver-process",
+        "prop:C-027",
+        "span:C-027:1"
+      ],
+      "pass_condition": "states the 0% deposit premium and $16.45 billion asset discount as contractual bid terms",
+      "fail_condition": "uses a rounded headline as the precise signed bid",
+      "match_criteria": "PASS if the deliverable states the 0% deposit premium and $16.45 billion asset discount as contractual bid terms. FAIL if omitted, contradicted, or it uses a rounded headline as the precise signed bid. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            39
+          ],
+          "anchor": "16,450"
+        }
+      ]
+    },
+    {
+      "id": "C-028",
+      "title": "Pro forma adjustment",
+      "issue_group": "price-and-receiver-process",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:price-and-receiver-process",
+        "prop:C-028",
+        "span:C-028:1"
+      ],
+      "pass_condition": "distinguishes bid/initial payment from the pro forma and settlement adjustment process",
+      "fail_condition": "presents the headline discount as a final net settlement amount",
+      "match_criteria": "PASS if the deliverable distinguishes bid/initial payment from the pro forma and settlement adjustment process. FAIL if omitted, contradicted, or it presents the headline discount as a final net settlement amount. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            39,
+            40
+          ],
+          "anchor": "Pro Forma Statement"
+        }
+      ]
+    },
+    {
+      "id": "C-029",
+      "title": "Asset-put eligibility",
+      "issue_group": "price-and-receiver-process",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:price-and-receiver-process",
+        "prop:C-029",
+        "span:C-029:1"
+      ],
+      "pass_condition": "treats the section 3.4 put as an eligibility/notice process rather than a general right to return every asset",
+      "fail_condition": "allows unrestricted asset returns",
+      "match_criteria": "PASS if the deliverable treats the section 3.4 put as an eligibility/notice process rather than a general right to return every asset. FAIL if omitted, contradicted, or it allows unrestricted asset returns. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            21,
+            22
+          ],
+          "anchor": "Put Notice"
+        }
+      ]
+    },
+    {
+      "id": "C-030",
+      "title": "Put completion and payment",
+      "issue_group": "price-and-receiver-process",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:price-and-receiver-process",
+        "prop:C-030",
+        "span:C-030:1"
+      ],
+      "pass_condition": "distinguishes the receiver’s put-transfer timing from the later twentieth-Business-Day payment obligation",
+      "fail_condition": "uses one undifferentiated immediate payment deadline",
+      "match_criteria": "PASS if the deliverable distinguishes the receiver’s put-transfer timing from the later twentieth-Business-Day payment obligation. FAIL if omitted, contradicted, or it uses one undifferentiated immediate payment deadline. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            22,
+            25
+          ],
+          "anchor": "twentieth"
+        }
+      ]
+    },
+    {
+      "id": "C-031",
+      "title": "Loss-sharing instrument gap",
+      "issue_group": "price-and-receiver-process",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:price-and-receiver-process",
+        "prop:C-031",
+        "span:C-031:1"
+      ],
+      "pass_condition": "recognizes the separate Shared-Loss Agreement’s conflict priority and requests its executed terms",
+      "fail_condition": "invents reimbursement percentages from the announcement",
+      "match_criteria": "PASS if the deliverable recognizes the separate Shared-Loss Agreement’s conflict priority and requests its executed terms. FAIL if omitted, contradicted, or it invents reimbursement percentages from the announcement. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            4
+          ],
+          "anchor": "inconsistencies"
+        }
+      ]
+    },
+    {
+      "id": "C-032",
+      "title": "Wrong-stage and wrong-bank materials",
+      "issue_group": "price-and-receiver-process",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:price-and-receiver-process",
+        "prop:C-032",
+        "span:C-032:1"
+      ],
+      "pass_condition": "separates the initial SVB closure and Signature/Flagstar transaction from this executed bridge-bank deal",
+      "fail_condition": "imports Signature’s transaction terms into SVB",
+      "match_criteria": "PASS if the deliverable separates the initial SVB closure and Signature/Flagstar transaction from this executed bridge-bank deal. FAIL if omitted, contradicted, or it imports Signature’s transaction terms into SVB. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "signature-transaction-announcement",
+          "file": "signature-transaction-announcement.html",
+          "locator_type": "extracted_html_line",
+          "locations": [
+            1,
+            104,
+            114,
+            115,
+            116,
+            117
+          ],
+          "anchor": "Signature"
+        }
+      ]
+    },
+    {
+      "id": "C-033",
+      "title": "Conditional transfer matrix",
+      "issue_group": "counsel-handoff",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:counsel-handoff",
+        "prop:C-033",
+        "span:C-033:1"
+      ],
+      "pass_condition": "provides separate assumed, excluded and conditional classifications with clause/schedule support",
+      "fail_condition": "gives one blanket all-assets-and-liabilities classification",
+      "match_criteria": "PASS if the deliverable provides separate assumed, excluded and conditional classifications with clause/schedule support. FAIL if omitted, contradicted, or it gives one blanket all-assets-and-liabilities classification. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            16
+          ],
+          "anchor": "Liabilities Not Assumed"
+        }
+      ]
+    },
+    {
+      "id": "C-034",
+      "title": "Targeted missing documents",
+      "issue_group": "counsel-handoff",
+      "deliverables": [
+        "transfer-schedule.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:counsel-handoff",
+        "prop:C-034",
+        "span:C-034:1"
+      ],
+      "pass_condition": "requests agreement-specific schedules, loan/QFC linkage evidence and the loss-sharing instrument before resolving uncertain items",
+      "fail_condition": "silently supplies facts absent from the public agreement",
+      "match_criteria": "PASS if the deliverable requests agreement-specific schedules, loan/QFC linkage evidence and the loss-sharing instrument before resolving uncertain items. FAIL if omitted, contradicted, or it silently supplies facts absent from the public agreement. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "svb-paa",
+          "file": "svb-purchase-assumption.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            14,
+            16,
+            17,
+            19,
+            23,
+            24
+          ],
+          "anchor": "Schedule"
+        }
+      ]
+    }
+  ]
+}

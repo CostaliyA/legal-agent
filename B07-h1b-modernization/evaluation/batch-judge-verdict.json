@@ -1,0 +1,185 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": true,
+      "reason": "Uses January 17, 2025 as the modernization effective date and filing cutoff, citing pp. 1, 17, and 105."
+    },
+    {
+      "id": "C-002",
+      "pass": true,
+      "reason": "Applies the final rule to petitions filed on or after January 17, 2025, including initial and extension petitions, citing p. 17."
+    },
+    {
+      "id": "C-003",
+      "pass": true,
+      "reason": "Distinguishes the final rule from the 2023 NPRM and warns not to treat proposals as operative law."
+    },
+    {
+      "id": "C-004",
+      "pass": true,
+      "reason": "Identifies beneficiary-centric registration as a separate earlier final rule, not as part of the January 2025 modernization effective date."
+    },
+    {
+      "id": "C-005",
+      "pass": true,
+      "reason": "States that the separate registration final rule was effective March 4, 2024."
+    },
+    {
+      "id": "C-006",
+      "pass": true,
+      "reason": "Uses operative regulatory text from pp. 142-146 for fees, maintenance of status, amendments, specialty occupation, and related requirements."
+    },
+    {
+      "id": "C-007",
+      "pass": true,
+      "reason": "Uses the logical-connection standard between the required degree and job duties from p. 145."
+    },
+    {
+      "id": "C-008",
+      "pass": true,
+      "reason": "Allows a range of qualifying degree fields when each is directly related to the duties, citing p. 145."
+    },
+    {
+      "id": "C-009",
+      "pass": true,
+      "reason": "States that a general degree without further specialization is insufficient where it alone qualifies for the position."
+    },
+    {
+      "id": "C-010",
+      "pass": true,
+      "reason": "Explains that 'normally' does not mean 'always' under the specialty-occupation criteria, citing p. 145."
+    },
+    {
+      "id": "C-011",
+      "pass": true,
+      "reason": "Separates the specialty-occupation definition from the requirement to satisfy at least one listed criterion."
+    },
+    {
+      "id": "C-012",
+      "pass": true,
+      "reason": "Includes the parallel-positions-in-similar-U.S.-industry route as a regulatory criterion."
+    },
+    {
+      "id": "C-013",
+      "pass": true,
+      "reason": "Includes the employer or qualifying third-party normal degree requirement route."
+    },
+    {
+      "id": "C-014",
+      "pass": true,
+      "reason": "Includes the specialized, complex, or unique duties route and associated specialized knowledge."
+    },
+    {
+      "id": "C-015",
+      "pass": true,
+      "reason": "Recognizes deference to a prior eligibility determination involving the same parties and facts, citing p. 143."
+    },
+    {
+      "id": "C-016",
+      "pass": true,
+      "reason": "Lists material error, material change, and new material adverse information as exceptions to deference."
+    },
+    {
+      "id": "C-017",
+      "pass": true,
+      "reason": "Requires evidence of maintained status for extension/amendment requests and identifies paystubs, W-2s, wage reports, tax returns, contracts, and work orders."
+    },
+    {
+      "id": "C-018",
+      "pass": true,
+      "reason": "Distinguishes DOL LCA certification from USCIS specialty-occupation adjudication, citing p. 144."
+    },
+    {
+      "id": "C-019",
+      "pass": true,
+      "reason": "Requires filing the amended or new petition before the material change and notes the approval/portability rules for changed work."
+    },
+    {
+      "id": "C-020",
+      "pass": true,
+      "reason": "Treats a geographic move requiring a corresponding certified LCA as a material change requiring a new or amended petition."
+    },
+    {
+      "id": "C-021",
+      "pass": true,
+      "reason": "Recognizes the same-area-of-intended-employment exception absent other material changes."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "The answer does not mention the itinerary requirement or its removal; its general evidence points do not make this specific point."
+    },
+    {
+      "id": "C-023",
+      "pass": true,
+      "reason": "Uses more than 50% ownership or majority voting rights as the controlling-interest test."
+    },
+    {
+      "id": "C-024",
+      "pass": true,
+      "reason": "Allows ownership-related duties only if specialty-occupation duties occupy a majority of the beneficiary's time."
+    },
+    {
+      "id": "C-025",
+      "pass": true,
+      "reason": "Identifies the up-to-18-month limit for initial approval of a controlling-interest beneficiary's petition."
+    },
+    {
+      "id": "C-026",
+      "pass": true,
+      "reason": "Identifies the up-to-18-month limit for the first extension and does not assert that all later extensions are invariably capped."
+    },
+    {
+      "id": "C-027",
+      "pass": true,
+      "reason": "Requires proof at filing of a bona fide position available as of the requested validity start date."
+    },
+    {
+      "id": "C-028",
+      "pass": true,
+      "reason": "Recognizes that specific day-to-day assignments need not be established for the entire requested period."
+    },
+    {
+      "id": "C-029",
+      "pass": true,
+      "reason": "Recognizes that USCIS may request contracts, work orders, or similar evidence; it does not treat them as always mandatory."
+    },
+    {
+      "id": "C-030",
+      "pass": true,
+      "reason": "Uses the third-party organizational-hierarchy staffing test and applies the third party's requirements."
+    },
+    {
+      "id": "C-031",
+      "pass": true,
+      "reason": "States the cap-gap extension runs to April 1 of the relevant fiscal year or the approved validity start, whichever is earlier."
+    },
+    {
+      "id": "C-032",
+      "pass": true,
+      "reason": "Preserves the timely-filed, nonfrivolous, cap-subject, change-of-status, and fiscal-year start-date conditions."
+    },
+    {
+      "id": "C-033",
+      "pass": false,
+      "reason": "Mentions inspections and interviews generally but omits third-party sites, records review, and before/after adjudication detail required by p. 144."
+    },
+    {
+      "id": "C-034",
+      "pass": true,
+      "reason": "States that inability to verify facts, including failure or refusal to cooperate, may result in denial or revocation."
+    },
+    {
+      "id": "C-035",
+      "pass": true,
+      "reason": "Translates degree-duty, ownership, and worksite rules into concrete checklist and document-gathering steps."
+    },
+    {
+      "id": "C-036",
+      "pass": true,
+      "reason": "Keeps employer-specific eligibility and document gaps separate from the January 17 effective date and does not promise approval based on filing date alone."
+    }
+  ],
+  "unsupported_material_claims": []
+}

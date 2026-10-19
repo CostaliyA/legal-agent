@@ -1,0 +1,175 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not distinguish FDIC receiver/corporate capacities or identify First-Citizens as acquirer."
+    },
+    {
+      "id": "C-002",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not apply the enumerated Liabilities Assumed or the Section 2.2 exclusions."
+    },
+    {
+      "id": "C-003",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not recognize Assumed Deposits as subject to Schedule 2.1(a)."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not address public-money deposit collateral requirements."
+    },
+    {
+      "id": "C-005",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not apply the market-value cap to covered secured indebtedness."
+    },
+    {
+      "id": "C-006",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not distinguish acquired-asset-related standby credits from other standby credits."
+    },
+    {
+      "id": "C-007",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not link assumed Commitments to purchased Loans."
+    },
+    {
+      "id": "C-008",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not identify Excluded Contracts or preclosing tax liabilities as excluded."
+    },
+    {
+      "id": "C-009",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not distinguish Transferred QFCs from Excluded QFCs."
+    },
+    {
+      "id": "C-010",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not apply Schedule 3.5(l)'s underlying-asset/liability qualification."
+    },
+    {
+      "id": "C-011",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not recognize full liability on Transferred QFCs rather than a collateral cap."
+    },
+    {
+      "id": "C-012",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not address loan-servicing or GSE-servicer transfer/cooperation qualifications."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not distinguish shared-loss-asset litigation from retained defensive/class-action liabilities."
+    },
+    {
+      "id": "C-014",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not preserve excluded receivership claims and statutory defenses."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not identify retained insurance policies or proceeds."
+    },
+    {
+      "id": "C-016",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not identify retained preclosing claims against officers, directors, and professionals."
+    },
+    {
+      "id": "C-017",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not identify excluded tax-refund or receivable interests."
+    },
+    {
+      "id": "C-018",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not recognize excluded/optional premises and hazardous-property qualifications."
+    },
+    {
+      "id": "C-019",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not recognize the goodwill/intangibles exclusion and intellectual-property qualification."
+    },
+    {
+      "id": "C-020",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not apply excluded-securities and scheduled exclusions."
+    },
+    {
+      "id": "C-021",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not describe rate-setting power or the nontransaction-deposit floor."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not address penalty-free withdrawal subject to pledged-account restrictions."
+    },
+    {
+      "id": "C-023",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not track the unclaimed-deposit notice process or timing."
+    },
+    {
+      "id": "C-024",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not identify the 90-day full-service banking commitment or closure requirements."
+    },
+    {
+      "id": "C-025",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not identify Section 4.8's agreement-specific assumption/election process."
+    },
+    {
+      "id": "C-026",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not address records custody/retention or depositor-notice obligations."
+    },
+    {
+      "id": "C-027",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not state the 0% deposit premium and $16.45 billion asset discount bid terms."
+    },
+    {
+      "id": "C-028",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not distinguish bid/initial payment from pro forma settlement adjustments."
+    },
+    {
+      "id": "C-029",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not describe the Section 3.4 put as an eligibility/notice process."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not distinguish put-transfer timing from the later twentieth-Business-Day payment obligation."
+    },
+    {
+      "id": "C-031",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not address the Shared-Loss Agreement's conflict priority or request its executed terms."
+    },
+    {
+      "id": "C-032",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not separate the SVB bridge-bank deal from the Signature/Flagstar transaction or initial SVB closure."
+    },
+    {
+      "id": "C-033",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not provide separate assumed, excluded, and conditional classifications."
+    },
+    {
+      "id": "C-034",
+      "pass": false,
+      "reason": "No analysis provided; the answer does not request missing schedules, QFC/loan linkage evidence, or the loss-sharing instrument."
+    }
+  ],
+  "unsupported_material_claims": []
+}

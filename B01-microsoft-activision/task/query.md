@@ -1,0 +1,1 @@
+We're updating the Activision closing checklist. Identify the deal structure, closing conditions, termination triggers, fee exposure, and unresolved items from the merger record and later disclosure. Give the deal team a cited issue register. Output: `closing-issues.docx`.

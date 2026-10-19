@@ -1,0 +1,1061 @@
+{
+  "task_id": "B05-warhol-license",
+  "family_id": "warhol-goldsmith-21-869",
+  "criterion_count": 32,
+  "minimum_criteria": 30,
+  "source": "generated from frozen evidence graph; graph bootstrapped from v3 source-anchored criteria",
+  "status": "candidate; guided independent rollout and counterchecks pending",
+  "criteria": [
+    {
+      "id": "C-001",
+      "title": "Underlying photographer",
+      "issue_group": "license-chain",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:license-chain",
+        "prop:C-001",
+        "span:C-001:1"
+      ],
+      "pass_condition": "identifies Goldsmith as the creator of the underlying Prince photograph",
+      "fail_condition": "attributes the photograph to Warhol",
+      "match_criteria": "PASS if the deliverable identifies Goldsmith as the creator of the underlying Prince photograph. FAIL if omitted, contradicted, or it attributes the photograph to Warhol. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "anchor": "Goldsmith"
+        }
+      ]
+    },
+    {
+      "id": "C-002",
+      "title": "Photograph chronology",
+      "issue_group": "license-chain",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:license-chain",
+        "prop:C-002",
+        "span:C-002:1"
+      ],
+      "pass_condition": "identifies the 1981 photograph as preceding the 1984 commissioned illustration",
+      "fail_condition": "describes the photograph as copied from the later Warhol work",
+      "match_criteria": "PASS if the deliverable identifies the 1981 photograph as preceding the 1984 commissioned illustration. FAIL if omitted, contradicted, or it describes the photograph as copied from the later Warhol work. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            9,
+            10,
+            12
+          ],
+          "anchor": "1981"
+        }
+      ]
+    },
+    {
+      "id": "C-003",
+      "title": "1984 limited license",
+      "issue_group": "license-chain",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:license-chain",
+        "prop:C-003",
+        "span:C-003:1"
+      ],
+      "pass_condition": "identifies the limited artist-reference authorization for the Vanity Fair commission",
+      "fail_condition": "describes that license as unrestricted permission for future commercial licensing",
+      "match_criteria": "PASS if the deliverable identifies the limited artist-reference authorization for the Vanity Fair commission. FAIL if omitted, contradicted, or it describes that license as unrestricted permission for future commercial licensing. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            7,
+            9,
+            10,
+            11
+          ],
+          "anchor": "1984"
+        }
+      ]
+    },
+    {
+      "id": "C-004",
+      "title": "Series versus licensed image",
+      "issue_group": "license-chain",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:license-chain",
+        "prop:C-004",
+        "span:C-004:1"
+      ],
+      "pass_condition": "distinguishes the broader Prince Series from the particular Orange Prince image licensed in 2016",
+      "fail_condition": "states all series images were separately licensed in the challenged transaction",
+      "match_criteria": "PASS if the deliverable distinguishes the broader Prince Series from the particular Orange Prince image licensed in 2016. FAIL if omitted, contradicted, or it states all series images were separately licensed in the challenged transaction. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            11,
+            14
+          ],
+          "anchor": "Orange Prince"
+        }
+      ]
+    },
+    {
+      "id": "C-005",
+      "title": "2016 licensee",
+      "issue_group": "license-chain",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:license-chain",
+        "prop:C-005",
+        "span:C-005:1"
+      ],
+      "pass_condition": "identifies the later Condé Nast publication/license transaction",
+      "fail_condition": "conflates the challenged transaction with the original 1984 commission",
+      "match_criteria": "PASS if the deliverable identifies the later Condé Nast publication/license transaction. FAIL if omitted, contradicted, or it conflates the challenged transaction with the original 1984 commission. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            11,
+            12,
+            13,
+            14
+          ],
+          "anchor": "2016"
+        }
+      ]
+    },
+    {
+      "id": "C-006",
+      "title": "AWF fee",
+      "issue_group": "license-chain",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:license-chain",
+        "prop:C-006",
+        "span:C-006:1"
+      ],
+      "pass_condition": "reports the $10,000 fee paid to AWF for the challenged use",
+      "fail_condition": "attributes that fee to Goldsmith",
+      "match_criteria": "PASS if the deliverable reports the $10,000 fee paid to AWF for the challenged use. FAIL if omitted, contradicted, or it attributes that fee to Goldsmith. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            8,
+            12
+          ],
+          "anchor": "$10,000"
+        }
+      ]
+    },
+    {
+      "id": "C-007",
+      "title": "Goldsmith nonpayment",
+      "issue_group": "license-chain",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:license-chain",
+        "prop:C-007",
+        "span:C-007:1"
+      ],
+      "pass_condition": "recognizes Goldsmith did not authorize or receive compensation for the challenged 2016 use",
+      "fail_condition": "asserts the 1984 payment compensated her for the later license",
+      "match_criteria": "PASS if the deliverable recognizes Goldsmith did not authorize or receive compensation for the challenged 2016 use. FAIL if omitted, contradicted, or it asserts the 1984 payment compensated her for the later license. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "anchor": "Goldsmith"
+        }
+      ]
+    },
+    {
+      "id": "C-008",
+      "title": "Decision-time use",
+      "issue_group": "license-chain",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:license-chain",
+        "prop:C-008",
+        "span:C-008:1"
+      ],
+      "pass_condition": "defines the work product assessment around the actual challenged magazine use rather than artistic reputation alone",
+      "fail_condition": "assesses only whether the painting looks different",
+      "match_criteria": "PASS if the deliverable defines the work product assessment around the actual challenged magazine use rather than artistic reputation alone. FAIL if omitted, contradicted, or it assesses only whether the painting looks different. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "anchor": "license"
+        }
+      ]
+    },
+    {
+      "id": "C-009",
+      "title": "Statutory factor",
+      "issue_group": "first-factor-framework",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:first-factor-framework",
+        "prop:C-009",
+        "span:C-009:1"
+      ],
+      "pass_condition": "identifies purpose and character under the first fair-use factor as the question decided",
+      "fail_condition": "says the Court decided all four factors in the first instance",
+      "match_criteria": "PASS if the deliverable identifies purpose and character under the first fair-use factor as the question decided. FAIL if omitted, contradicted, or it says the Court decided all four factors in the first instance. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            15,
+            16,
+            18,
+            21,
+            22,
+            23
+          ],
+          "anchor": "first factor"
+        }
+      ]
+    },
+    {
+      "id": "C-010",
+      "title": "Use-specific inquiry",
+      "issue_group": "first-factor-framework",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:first-factor-framework",
+        "prop:C-010",
+        "span:C-010:1"
+      ],
+      "pass_condition": "explains transformation must be assessed against the specific use alleged to infringe",
+      "fail_condition": "treats transformation as a permanent status applying to every use of an artwork",
+      "match_criteria": "PASS if the deliverable explains transformation must be assessed against the specific use alleged to infringe. FAIL if omitted, contradicted, or it treats transformation as a permanent status applying to every use of an artwork. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            18,
+            27
+          ],
+          "anchor": "specific use"
+        }
+      ]
+    },
+    {
+      "id": "C-011",
+      "title": "Shared publication purpose",
+      "issue_group": "first-factor-framework",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:first-factor-framework",
+        "prop:C-011",
+        "span:C-011:1"
+      ],
+      "pass_condition": "identifies the overlapping purpose of illustrating magazine stories about Prince",
+      "fail_condition": "states the two licenses served categorically unrelated purposes",
+      "match_criteria": "PASS if the deliverable identifies the overlapping purpose of illustrating magazine stories about Prince. FAIL if omitted, contradicted, or it states the two licenses served categorically unrelated purposes. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            14,
+            17,
+            19,
+            28,
+            29,
+            30
+          ],
+          "anchor": "magazine"
+        }
+      ]
+    },
+    {
+      "id": "C-012",
+      "title": "Commercial use",
+      "issue_group": "first-factor-framework",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:first-factor-framework",
+        "prop:C-012",
+        "span:C-012:1"
+      ],
+      "pass_condition": "accounts for the commercial licensing character of the challenged transaction",
+      "fail_condition": "describes the transaction as noncommercial museum scholarship",
+      "match_criteria": "PASS if the deliverable accounts for the commercial licensing character of the challenged transaction. FAIL if omitted, contradicted, or it describes the transaction as noncommercial museum scholarship. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            17,
+            18,
+            19,
+            20,
+            24,
+            26
+          ],
+          "anchor": "commercial"
+        }
+      ]
+    },
+    {
+      "id": "C-013",
+      "title": "Commerciality weight",
+      "issue_group": "first-factor-framework",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:first-factor-framework",
+        "prop:C-013",
+        "span:C-013:1"
+      ],
+      "pass_condition": "does not turn commerciality into an automatic rule against every fair use",
+      "fail_condition": "states commercial works can never qualify as fair use",
+      "match_criteria": "PASS if the deliverable does not turn commerciality into an automatic rule against every fair use. FAIL if omitted, contradicted, or it states commercial works can never qualify as fair use. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            17,
+            18,
+            19,
+            20,
+            24,
+            26
+          ],
+          "anchor": "commercial"
+        }
+      ]
+    },
+    {
+      "id": "C-014",
+      "title": "Degree of purpose difference",
+      "issue_group": "first-factor-framework",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:first-factor-framework",
+        "prop:C-014",
+        "span:C-014:1"
+      ],
+      "pass_condition": "explains that the degree of changed purpose interacts with commerciality and justification",
+      "fail_condition": "uses a binary new-message test as the complete analysis",
+      "match_criteria": "PASS if the deliverable explains that the degree of changed purpose interacts with commerciality and justification. FAIL if omitted, contradicted, or it uses a binary new-message test as the complete analysis. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            18,
+            21,
+            22,
+            24,
+            25,
+            29
+          ],
+          "anchor": "degree"
+        }
+      ]
+    },
+    {
+      "id": "C-015",
+      "title": "Derivative right",
+      "issue_group": "first-factor-framework",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:first-factor-framework",
+        "prop:C-015",
+        "span:C-015:1"
+      ],
+      "pass_condition": "explains why a broad new-expression test would swallow the copyright owner derivative-work right",
+      "fail_condition": "states any adaptation with a new style is necessarily fair use",
+      "match_criteria": "PASS if the deliverable explains why a broad new-expression test would swallow the copyright owner derivative-work right. FAIL if omitted, contradicted, or it states any adaptation with a new style is necessarily fair use. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            17,
+            22,
+            23,
+            24,
+            25,
+            28
+          ],
+          "anchor": "derivative"
+        }
+      ]
+    },
+    {
+      "id": "C-016",
+      "title": "Distinct uses remain open",
+      "issue_group": "first-factor-framework",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:first-factor-framework",
+        "prop:C-016",
+        "span:C-016:1"
+      ],
+      "pass_condition": "recognizes creation, display or other uses may present different first-factor questions",
+      "fail_condition": "declares every display and every series work unlawful",
+      "match_criteria": "PASS if the deliverable recognizes creation, display or other uses may present different first-factor questions. FAIL if omitted, contradicted, or it declares every display and every series work unlawful. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            19,
+            27
+          ],
+          "anchor": "display"
+        }
+      ]
+    },
+    {
+      "id": "C-017",
+      "title": "Meaning evidence",
+      "issue_group": "transformation-and-adverse-cases",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transformation-and-adverse-cases",
+        "prop:C-017",
+        "span:C-017:1"
+      ],
+      "pass_condition": "acknowledges new meaning or message may be relevant",
+      "fail_condition": "states meaning and message are legally irrelevant in all cases",
+      "match_criteria": "PASS if the deliverable acknowledges new meaning or message may be relevant. FAIL if omitted, contradicted, or it states meaning and message are legally irrelevant in all cases. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            33,
+            34,
+            35,
+            36,
+            37,
+            38
+          ],
+          "anchor": "meaning"
+        }
+      ]
+    },
+    {
+      "id": "C-018",
+      "title": "Meaning not dispositive",
+      "issue_group": "transformation-and-adverse-cases",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transformation-and-adverse-cases",
+        "prop:C-018",
+        "span:C-018:1"
+      ],
+      "pass_condition": "explains why a new message alone did not justify this overlapping commercial license",
+      "fail_condition": "treats a new message as automatically sufficient",
+      "match_criteria": "PASS if the deliverable explains why a new message alone did not justify this overlapping commercial license. FAIL if omitted, contradicted, or it treats a new message as automatically sufficient. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            29,
+            33,
+            34,
+            35,
+            36,
+            37
+          ],
+          "anchor": "message"
+        }
+      ]
+    },
+    {
+      "id": "C-019",
+      "title": "Campbell parody",
+      "issue_group": "transformation-and-adverse-cases",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transformation-and-adverse-cases",
+        "prop:C-019",
+        "span:C-019:1"
+      ],
+      "pass_condition": "explains the Campbell comparison through parody commenting on the original and its copying justification",
+      "fail_condition": "cites Campbell as blanket approval of every commercial adaptation",
+      "match_criteria": "PASS if the deliverable explains the Campbell comparison through parody commenting on the original and its copying justification. FAIL if omitted, contradicted, or it cites Campbell as blanket approval of every commercial adaptation. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34
+          ],
+          "anchor": "Campbell"
+        }
+      ]
+    },
+    {
+      "id": "C-020",
+      "title": "Need to copy",
+      "issue_group": "transformation-and-adverse-cases",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transformation-and-adverse-cases",
+        "prop:C-020",
+        "span:C-020:1"
+      ],
+      "pass_condition": "assesses the reason for borrowing this photograph in relation to the asserted purpose",
+      "fail_condition": "assumes any artist preference necessarily justifies copying",
+      "match_criteria": "PASS if the deliverable assesses the reason for borrowing this photograph in relation to the asserted purpose. FAIL if omitted, contradicted, or it assumes any artist preference necessarily justifies copying. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            31,
+            33,
+            36,
+            40,
+            41,
+            43
+          ],
+          "anchor": "justification"
+        }
+      ]
+    },
+    {
+      "id": "C-021",
+      "title": "Google context",
+      "issue_group": "transformation-and-adverse-cases",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transformation-and-adverse-cases",
+        "prop:C-021",
+        "span:C-021:1"
+      ],
+      "pass_condition": "distinguishes the functional software context and purpose in Google rather than importing its outcome mechanically",
+      "fail_condition": "states Google conclusively controls this portrait license",
+      "match_criteria": "PASS if the deliverable distinguishes the functional software context and purpose in Google rather than importing its outcome mechanically. FAIL if omitted, contradicted, or it states Google conclusively controls this portrait license. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            29,
+            32,
+            34,
+            35,
+            36,
+            40
+          ],
+          "anchor": "Google"
+        }
+      ]
+    },
+    {
+      "id": "C-022",
+      "title": "Fame neutrality",
+      "issue_group": "transformation-and-adverse-cases",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transformation-and-adverse-cases",
+        "prop:C-022",
+        "span:C-022:1"
+      ],
+      "pass_condition": "rejects artistic fame as an independent fair-use entitlement",
+      "fail_condition": "grants broader copying rights merely because Warhol is famous",
+      "match_criteria": "PASS if the deliverable rejects artistic fame as an independent fair-use entitlement. FAIL if omitted, contradicted, or it grants broader copying rights merely because Warhol is famous. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            44
+          ],
+          "anchor": "famous"
+        }
+      ]
+    },
+    {
+      "id": "C-023",
+      "title": "AWF argument audit",
+      "issue_group": "transformation-and-adverse-cases",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transformation-and-adverse-cases",
+        "prop:C-023",
+        "span:C-023:1"
+      ],
+      "pass_condition": "fairly states AWF asserted transformation/new meaning before explaining the majority response",
+      "fail_condition": "attributes an argument to AWF unsupported by its brief",
+      "match_criteria": "PASS if the deliverable fairly states AWF asserted transformation/new meaning before explaining the majority response. FAIL if omitted, contradicted, or it attributes an argument to AWF unsupported by its brief. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-petitioner-brief",
+          "file": "warhol-petitioner-brief.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            2,
+            4,
+            5,
+            16,
+            17,
+            23
+          ],
+          "anchor": "meaning"
+        }
+      ]
+    },
+    {
+      "id": "C-024",
+      "title": "Goldsmith market position",
+      "issue_group": "transformation-and-adverse-cases",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:transformation-and-adverse-cases",
+        "prop:C-024",
+        "span:C-024:1"
+      ],
+      "pass_condition": "addresses Goldsmith competing portrait-licensing purpose without deciding all fourth-factor issues",
+      "fail_condition": "omits the licensing overlap or treats it as a complete adjudication of every factor",
+      "match_criteria": "PASS if the deliverable addresses Goldsmith competing portrait-licensing purpose without deciding all fourth-factor issues. FAIL if omitted, contradicted, or it omits the licensing overlap or treats it as a complete adjudication of every factor. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            28,
+            30,
+            33,
+            40,
+            44
+          ],
+          "anchor": "license"
+        }
+      ]
+    },
+    {
+      "id": "C-025",
+      "title": "First-factor outcome",
+      "issue_group": "outcome-and-clearance",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-clearance",
+        "prop:C-025",
+        "span:C-025:1"
+      ],
+      "pass_condition": "reports the first factor favored Goldsmith for the challenged use",
+      "fail_condition": "reports the Supreme Court held this use transformative in AWF favor",
+      "match_criteria": "PASS if the deliverable reports the first factor favored Goldsmith for the challenged use. FAIL if omitted, contradicted, or it reports the Supreme Court held this use transformative in AWF favor. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            40,
+            44,
+            46,
+            47,
+            50,
+            51
+          ],
+          "anchor": "affirm"
+        }
+      ]
+    },
+    {
+      "id": "C-026",
+      "title": "Appellate disposition",
+      "issue_group": "outcome-and-clearance",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-clearance",
+        "prop:C-026",
+        "span:C-026:1"
+      ],
+      "pass_condition": "states the Court affirmed the judgment under review",
+      "fail_condition": "reports a reversal in AWF favor",
+      "match_criteria": "PASS if the deliverable states the Court affirmed the judgment under review. FAIL if omitted, contradicted, or it reports a reversal in AWF favor. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            40,
+            44,
+            46,
+            47,
+            50,
+            51
+          ],
+          "anchor": "affirm"
+        }
+      ]
+    },
+    {
+      "id": "C-027",
+      "title": "Concurrence scope",
+      "issue_group": "outcome-and-clearance",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-clearance",
+        "prop:C-027",
+        "span:C-027:1"
+      ],
+      "pass_condition": "distinguishes the concurrence emphasis on the specific challenged use from a general prohibition on new art",
+      "fail_condition": "describes the concurrence as deciding legality of creating the whole series",
+      "match_criteria": "PASS if the deliverable distinguishes the concurrence emphasis on the specific challenged use from a general prohibition on new art. FAIL if omitted, contradicted, or it describes the concurrence as deciding legality of creating the whole series. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            40,
+            46,
+            47,
+            48,
+            49,
+            50
+          ],
+          "anchor": "concurring"
+        }
+      ]
+    },
+    {
+      "id": "C-028",
+      "title": "Dissent treatment",
+      "issue_group": "outcome-and-clearance",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-clearance",
+        "prop:C-028",
+        "span:C-028:1"
+      ],
+      "pass_condition": "fairly identifies the dissent concern for artistic transformation and attributes it as dissent",
+      "fail_condition": "presents the dissent as the controlling rule",
+      "match_criteria": "PASS if the deliverable fairly identifies the dissent concern for artistic transformation and attributes it as dissent. FAIL if omitted, contradicted, or it presents the dissent as the controlling rule. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            49,
+            50,
+            52,
+            53,
+            54,
+            55
+          ],
+          "anchor": "dissenting"
+        }
+      ]
+    },
+    {
+      "id": "C-029",
+      "title": "No invented damages",
+      "issue_group": "outcome-and-clearance",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-clearance",
+        "prop:C-029",
+        "span:C-029:1"
+      ],
+      "pass_condition": "does not invent a Supreme Court damages award or license valuation beyond the record",
+      "fail_condition": "reports an awarded damages sum absent from the judgment",
+      "match_criteria": "PASS if the deliverable does not invent a Supreme Court damages award or license valuation beyond the record. FAIL if omitted, contradicted, or it reports an awarded damages sum absent from the judgment. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            44,
+            50,
+            55
+          ],
+          "anchor": "judgment"
+        }
+      ]
+    },
+    {
+      "id": "C-030",
+      "title": "Rights-chain request",
+      "issue_group": "outcome-and-clearance",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-clearance",
+        "prop:C-030",
+        "span:C-030:1"
+      ],
+      "pass_condition": "requests the original license scope and sublicensing permissions before clearing a new use",
+      "fail_condition": "assumes possession of the image includes unrestricted rights",
+      "match_criteria": "PASS if the deliverable requests the original license scope and sublicensing permissions before clearing a new use. FAIL if omitted, contradicted, or it assumes possession of the image includes unrestricted rights. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "anchor": "license"
+        }
+      ]
+    },
+    {
+      "id": "C-031",
+      "title": "Use-context request",
+      "issue_group": "outcome-and-clearance",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-clearance",
+        "prop:C-031",
+        "span:C-031:1"
+      ],
+      "pass_condition": "requests medium, audience, commercial terms and asserted purpose for the proposed license",
+      "fail_condition": "issues universal clearance without knowing the proposed use",
+      "match_criteria": "PASS if the deliverable requests medium, audience, commercial terms and asserted purpose for the proposed license. FAIL if omitted, contradicted, or it issues universal clearance without knowing the proposed use. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            18,
+            27
+          ],
+          "anchor": "specific use"
+        }
+      ]
+    },
+    {
+      "id": "C-032",
+      "title": "Clearance recommendation",
+      "issue_group": "outcome-and-clearance",
+      "deliverables": [
+        "licensing-clearance.docx"
+      ],
+      "required": true,
+      "graph_path": [
+        "task",
+        "kp:outcome-and-clearance",
+        "prop:C-032",
+        "span:C-032:1"
+      ],
+      "pass_condition": "offers permission, revised use or further supported analysis as conditional options without certifying all fair-use factors from this holding alone",
+      "fail_condition": "treats a stylistic change as sufficient clearance for the requested commercial license",
+      "match_criteria": "PASS if the deliverable offers permission, revised use or further supported analysis as conditional options without certifying all fair-use factors from this holding alone. FAIL if omitted, contradicted, or it treats a stylistic change as sufficient clearance for the requested commercial license. Accept substantively equivalent, source-supported analysis; do not require fixed prose. Score only against the frozen materials and law-as-of date.",
+      "evidence": [
+        {
+          "source_id": "warhol-opinion",
+          "file": "warhol-goldsmith-supreme-court-opinion.pdf",
+          "locator_type": "pdf_page",
+          "locations": [
+            15,
+            16,
+            18,
+            21,
+            22
+          ],
+          "anchor": "first factor"
+        }
+      ]
+    }
+  ]
+}

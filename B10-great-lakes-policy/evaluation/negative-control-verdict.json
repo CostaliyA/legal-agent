@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": false,
+      "reason": "Candidate provides no substantive analysis and does not identify the boat insurance contract as the maritime contract at issue."
+    },
+    {
+      "id": "C-002",
+      "pass": false,
+      "reason": "Candidate does not identify New York law as the contractually selected law."
+    },
+    {
+      "id": "C-003",
+      "pass": false,
+      "reason": "Candidate does not distinguish the Pennsylvania federal litigation from the contractual choice of New York law."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "Candidate does not identify the grounding near Fort Lauderdale, Florida."
+    },
+    {
+      "id": "C-005",
+      "pass": false,
+      "reason": "Candidate does not identify the alleged failure to maintain the fire-suppression system."
+    },
+    {
+      "id": "C-006",
+      "pass": false,
+      "reason": "Candidate does not recognize that the alleged fire-suppression breach did not contribute to the grounding."
+    },
+    {
+      "id": "C-007",
+      "pass": false,
+      "reason": "Candidate does not label complete-policy voidance as Great Lakes’ asserted position rather than a Supreme Court coverage holding."
+    },
+    {
+      "id": "C-008",
+      "pass": false,
+      "reason": "Candidate does not identify the Third Circuit’s forum-public-policy exception and remand approach."
+    },
+    {
+      "id": "C-009",
+      "pass": false,
+      "reason": "Candidate does not apply federal maritime law to the enforceability of the choice-of-law clause."
+    },
+    {
+      "id": "C-010",
+      "pass": false,
+      "reason": "Candidate does not state the federal maritime presumption of enforceability for choice-of-law clauses."
+    },
+    {
+      "id": "C-011",
+      "pass": false,
+      "reason": "Candidate does not explain the maritime uniformity interest."
+    },
+    {
+      "id": "C-012",
+      "pass": false,
+      "reason": "Candidate does not explain advance certainty and predictability for maritime contracting parties."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "Candidate does not address freedom of contract or settled expectations supporting enforcement."
+    },
+    {
+      "id": "C-014",
+      "pass": false,
+      "reason": "Candidate does not use the forum-selection cases while keeping forum and law clauses distinct."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "Candidate does not distinguish Wilburn Boat’s lack of a substantive federal warranty rule from the federal enforceability rule for choice-of-law clauses."
+    },
+    {
+      "id": "C-016",
+      "pass": false,
+      "reason": "Candidate does not recognize that state substantive law may govern after the federal choice rule selects it."
+    },
+    {
+      "id": "C-017",
+      "pass": false,
+      "reason": "Candidate does not identify conflict with a controlling federal statute as an enforceability exception."
+    },
+    {
+      "id": "C-018",
+      "pass": false,
+      "reason": "Candidate does not identify conflict with established federal maritime policy as an enforceability exception."
+    },
+    {
+      "id": "C-019",
+      "pass": false,
+      "reason": "Candidate does not recognize the no-reasonable-basis exception."
+    },
+    {
+      "id": "C-020",
+      "pass": false,
+      "reason": "Candidate does not address the substantial deference owed to the parties in the reasonable-basis inquiry."
+    },
+    {
+      "id": "C-021",
+      "pass": false,
+      "reason": "Candidate does not recognize that well-developed commercial law may provide a rational basis for choosing New York law."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "Candidate does not recognize that Raiders failed to assert the recognized federal-conflict or no-reasonable-basis exceptions."
+    },
+    {
+      "id": "C-023",
+      "pass": false,
+      "reason": "Candidate does not explain the rejection of an additional fundamental forum-state public-policy exception."
+    },
+    {
+      "id": "C-024",
+      "pass": false,
+      "reason": "Candidate does not explain why Restatement §187(2)(b) was not adopted for federal maritime law."
+    },
+    {
+      "id": "C-025",
+      "pass": false,
+      "reason": "Candidate does not state that the Third Circuit judgment was reversed."
+    },
+    {
+      "id": "C-026",
+      "pass": false,
+      "reason": "Candidate does not separate enforceability of the choice clause from final policy coverage or damages."
+    },
+    {
+      "id": "C-027",
+      "pass": false,
+      "reason": "Candidate does not attribute criticism of Wilburn Boat to Justice Thomas’s separate concurrence."
+    },
+    {
+      "id": "C-028",
+      "pass": false,
+      "reason": "Candidate does not fairly present the insured’s Pennsylvania-policy contention before its rejection."
+    },
+    {
+      "id": "C-029",
+      "pass": false,
+      "reason": "Candidate does not request or verify the full policy, endorsements, or federal-law priority before clause-specific advice."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "Candidate does not request the warranty text, maintenance evidence, denial grounds, and loss facts for remaining coverage analysis."
+    },
+    {
+      "id": "C-031",
+      "pass": false,
+      "reason": "Candidate does not tie any remaining enforceability challenge to evidence of a recognized federal-conflict or reasonable-basis exception."
+    },
+    {
+      "id": "C-032",
+      "pass": false,
+      "reason": "Candidate does not separate likely application of New York law from a conditional coverage outcome under the full policy and record."
+    }
+  ],
+  "unsupported_material_claims": []
+}

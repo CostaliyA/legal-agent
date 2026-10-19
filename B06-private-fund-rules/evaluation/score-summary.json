@@ -1,0 +1,23 @@
+{
+  "task_id": "B06-private-fund-rules",
+  "title": "Review private-fund rule tracker",
+  "operation": "review",
+  "domain": "funds-asset-management",
+  "source_batch": "batch10_v1",
+  "source_family": "private-fund-adviser-rule-2023-vacatur-2024",
+  "solver_model": "deepseek-flash (no hint, reused from run_auto_review.py)",
+  "judge_model": "deepseek-flash",
+  "hint_type": "none",
+  "criteria_passed": 30,
+  "criteria_total": 32,
+  "criterion_pass_rate": 0.9375,
+  "task_all_criteria_pass": false,
+  "answer_file": "output.md",
+  "evaluation_files": [
+    "rubric.json",
+    "nohint-flashjudge-result.json",
+    "batch-judge-verdict.json",
+    "negative-control-verdict.json"
+  ],
+  "trajectory_included": false
+}

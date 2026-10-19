@@ -1,0 +1,22 @@
+{
+  "id": "B01-microsoft-activision",
+  "title": "Identify Activision closing issues",
+  "operation": "identify",
+  "domain": "corporate-ma",
+  "jurisdiction": "United States; Delaware merger contract; U.S. federal antitrust proceedings",
+  "law_as_of": "2023-10-02",
+  "family_id": "microsoft-activision-2022-2023",
+  "lineage": {
+    "authentic_materials_from": "R01-microsoft-activision",
+    "criterion_seed_from": "R01-microsoft-activision",
+    "independent_holdout": false
+  },
+  "instructions": "We're updating the Activision closing checklist. Identify the deal structure, closing conditions, termination triggers, fee exposure, and unresolved items from the merger record and later disclosure. Give the deal team a cited issue register. Output: `closing-issues.docx`.",
+  "deliverables": {
+    "closing-issues.docx": "closing-issues.docx"
+  },
+  "documents": [
+    "documents/microsoft-activision-pretrial-record.pdf",
+    "documents/microsoft-annual-report-2023.html"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "B03-tesla-conversion",
+  "title": "Compare Tesla conversion rights",
+  "operation": "compare",
+  "domain": "corporate-governance",
+  "jurisdiction": "United States; Delaware DGCL and Texas TBOC as addressed in the 2024 conversion record",
+  "law_as_of": "2024-04-29",
+  "family_id": "tesla-2024-conversion-governance",
+  "lineage": {
+    "authentic_materials_from": "R03-tesla-conversion",
+    "criterion_seed_from": "R03-tesla-conversion",
+    "independent_holdout": false
+  },
+  "instructions": "Compare Tesla's proposed Texas governing documents with its current Delaware instruments as of April 29, 2024. Show the approval mechanics and changes to director, shareholder, litigation, and economic rights; distinguish proposals from effective terms. Output: `rights-comparison.docx`.",
+  "deliverables": {
+    "rights-comparison.docx": "rights-comparison.docx"
+  },
+  "documents": [
+    "documents/tesla-definitive-proxy-2024.pdf",
+    "documents/tesla-q4-2023-update.pdf"
+  ]
+}

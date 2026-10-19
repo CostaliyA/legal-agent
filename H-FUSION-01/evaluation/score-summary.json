@@ -1,0 +1,21 @@
+{
+  "task_id": "H-FUSION-01",
+  "title": "Telehealth Ad-Tech Data Sharing: HBNR Notification and FTC Section 5 Response Plan",
+  "operation": "draft",
+  "domain": "data-privacy",
+  "source_batch": "batch15_web_v1",
+  "source_family": null,
+  "solver_model": "deepseek-flash",
+  "judge_model": "deepseek-flash",
+  "hint_type": "none",
+  "criteria_passed": 23,
+  "criteria_total": 39,
+  "criterion_pass_rate": 0.5897435897435898,
+  "task_all_criteria_pass": false,
+  "answer_file": "output.md",
+  "evaluation_files": [
+    "rubric.json",
+    "per-criterion-result.json"
+  ],
+  "trajectory_included": false
+}

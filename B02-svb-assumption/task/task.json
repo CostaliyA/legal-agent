@@ -1,0 +1,25 @@
+{
+  "id": "B02-svb-assumption",
+  "title": "Extract SVB transfer and assumption terms",
+  "operation": "extract",
+  "domain": "banking-finance",
+  "jurisdiction": "United States; FDIC receivership and executed purchase-and-assumption contract",
+  "law_as_of": "2023-03-27",
+  "family_id": "svb-first-citizens-resolution-2023",
+  "lineage": {
+    "authentic_materials_from": "R02-svb-assumption",
+    "criterion_seed_from": "R02-svb-assumption",
+    "independent_holdout": false
+  },
+  "instructions": "Extract the SVB purchase-and-assumption terms into a cited transfer schedule. Cover assumed and excluded assets and liabilities, customer duties, QFCs, pricing, and any points the FDIC or First Citizens announcements leave unresolved. Output: `transfer-schedule.docx`.",
+  "deliverables": {
+    "transfer-schedule.docx": "transfer-schedule.docx"
+  },
+  "documents": [
+    "documents/svb-purchase-assumption.pdf",
+    "documents/svb-fdic-announcement.html",
+    "documents/first-citizens-svb-announcement.html",
+    "documents/svb-closure-announcement.html",
+    "documents/signature-transaction-announcement.html"
+  ]
+}

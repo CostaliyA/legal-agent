@@ -1,0 +1,25 @@
+{
+  "id": "B04-purdue-release",
+  "title": "Draft Purdue creditor update",
+  "operation": "draft",
+  "domain": "bankruptcy-restructuring",
+  "jurisdiction": "United States; federal Bankruptcy Code and Supreme Court review",
+  "law_as_of": "2024-06-27",
+  "family_id": "purdue-harrington-23-124",
+  "lineage": {
+    "authentic_materials_from": "R04-purdue-release",
+    "criterion_seed_from": "R04-purdue-release",
+    "independent_holdout": false
+  },
+  "instructions": "Draft a client update for Purdue creditors after the Supreme Court decision. Explain the proposed releases, the statutory holding, issues the Court left open, adverse arguments, and choices for a revised plan. Use the decision and submissions. Output: `creditor-update.docx`.",
+  "deliverables": {
+    "creditor-update.docx": "creditor-update.docx"
+  },
+  "documents": [
+    "documents/purdue-supreme-court-opinion.pdf",
+    "documents/purdue-petitioner-brief.pdf",
+    "documents/purdue-respondent-brief.pdf",
+    "documents/purdue-reply-brief.pdf",
+    "documents/purdue-service-certificate.pdf"
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": false,
+      "reason": "The answer provides no deal-role analysis and does not identify Microsoft, Anchorage, or Activision."
+    },
+    {
+      "id": "C-002",
+      "pass": false,
+      "reason": "The answer does not describe the merger structure or the surviving corporation."
+    },
+    {
+      "id": "C-003",
+      "pass": false,
+      "reason": "The answer does not state the $95.00 per-share cash consideration."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "The answer does not address interest or withholding treatment."
+    },
+    {
+      "id": "C-005",
+      "pass": false,
+      "reason": "The answer does not distinguish cancelled shares from converted shares."
+    },
+    {
+      "id": "C-006",
+      "pass": false,
+      "reason": "The answer does not address appraisal-share treatment."
+    },
+    {
+      "id": "C-007",
+      "pass": false,
+      "reason": "The answer does not address option or stock-award treatment."
+    },
+    {
+      "id": "C-008",
+      "pass": false,
+      "reason": "The answer does not identify stockholder approval as a closing condition."
+    },
+    {
+      "id": "C-009",
+      "pass": false,
+      "reason": "The answer does not identify HSR or competition approvals."
+    },
+    {
+      "id": "C-010",
+      "pass": false,
+      "reason": "The answer does not address separate regulatory approvals through the disclosure letter."
+    },
+    {
+      "id": "C-011",
+      "pass": false,
+      "reason": "The answer does not address interim restraints as closing impediments."
+    },
+    {
+      "id": "C-012",
+      "pass": false,
+      "reason": "The answer does not mention the Burdensome Condition qualification."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "The answer does not address representation bringdown or covenant performance."
+    },
+    {
+      "id": "C-014",
+      "pass": false,
+      "reason": "The answer does not identify officer certification or satisfaction evidence."
+    },
+    {
+      "id": "C-015",
+      "pass": false,
+      "reason": "The answer does not explain the original termination date or conditional extensions."
+    },
+    {
+      "id": "C-016",
+      "pass": false,
+      "reason": "The answer does not address the primary-cause limitation on the outside-date right."
+    },
+    {
+      "id": "C-017",
+      "pass": false,
+      "reason": "The answer does not distinguish final restraints from interim restraints."
+    },
+    {
+      "id": "C-018",
+      "pass": false,
+      "reason": "The answer does not identify the failed-vote termination route."
+    },
+    {
+      "id": "C-019",
+      "pass": false,
+      "reason": "The answer does not explain notice, cure, or the terminating party’s compliance limitation."
+    },
+    {
+      "id": "C-020",
+      "pass": false,
+      "reason": "The answer does not identify the recommendation-change termination ground."
+    },
+    {
+      "id": "C-021",
+      "pass": false,
+      "reason": "The answer does not address the superior-proposal process, board action, or fee."
+    },
+    {
+      "id": "C-022",
+      "pass": false,
+      "reason": "The answer does not address written termination notice identifying the ground and facts."
+    },
+    {
+      "id": "C-023",
+      "pass": false,
+      "reason": "The answer does not identify the $2,270,100,000 Company Termination Fee."
+    },
+    {
+      "id": "C-024",
+      "pass": false,
+      "reason": "The answer does not distinguish Company Termination Fee triggers."
+    },
+    {
+      "id": "C-025",
+      "pass": false,
+      "reason": "The answer does not identify the original $2 billion reverse-fee tier."
+    },
+    {
+      "id": "C-026",
+      "pass": false,
+      "reason": "The answer does not identify the $2.5 billion intermediate reverse-fee tier."
+    },
+    {
+      "id": "C-027",
+      "pass": false,
+      "reason": "The answer does not identify the original $3 billion reverse-fee tier."
+    },
+    {
+      "id": "C-028",
+      "pass": false,
+      "reason": "The answer does not link the reverse fee to specified regulatory or outside-date circumstances."
+    },
+    {
+      "id": "C-029",
+      "pass": false,
+      "reason": "The answer does not address the single-payment limitation on termination fees."
+    },
+    {
+      "id": "C-030",
+      "pass": false,
+      "reason": "The answer does not address specific performance."
+    },
+    {
+      "id": "C-031",
+      "pass": false,
+      "reason": "The answer does not address written amendment or waiver requirements."
+    },
+    {
+      "id": "C-032",
+      "pass": false,
+      "reason": "The answer does not recognize the disclosed extension to October 18, 2023."
+    },
+    {
+      "id": "C-033",
+      "pass": false,
+      "reason": "The answer does not request the executed extension or identify missing amended terms."
+    },
+    {
+      "id": "C-034",
+      "pass": false,
+      "reason": "The answer does not distinguish the FTC pretrial filing from a final merits ruling."
+    },
+    {
+      "id": "C-035",
+      "pass": false,
+      "reason": "The answer does not address worldwide approval or avoid inferring it from U.S. litigation."
+    },
+    {
+      "id": "C-036",
+      "pass": false,
+      "reason": "The answer does not request confidential schedules or identify unresolved qualifications."
+    }
+  ],
+  "unsupported_material_claims": []
+}

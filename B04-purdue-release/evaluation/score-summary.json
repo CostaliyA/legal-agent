@@ -1,0 +1,23 @@
+{
+  "task_id": "B04-purdue-release",
+  "title": "Draft Purdue creditor update",
+  "operation": "draft",
+  "domain": "bankruptcy-restructuring",
+  "source_batch": "batch10_v1",
+  "source_family": "purdue-harrington-23-124",
+  "solver_model": "deepseek-flash (no hint, reused from run_auto_review.py)",
+  "judge_model": "deepseek-flash",
+  "hint_type": "none",
+  "criteria_passed": 31,
+  "criteria_total": 32,
+  "criterion_pass_rate": 0.96875,
+  "task_all_criteria_pass": false,
+  "answer_file": "output.md",
+  "evaluation_files": [
+    "rubric.json",
+    "nohint-flashjudge-result.json",
+    "batch-judge-verdict.json",
+    "negative-control-verdict.json"
+  ],
+  "trajectory_included": false
+}

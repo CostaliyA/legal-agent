@@ -1,0 +1,165 @@
+{
+  "verdicts": [
+    {
+      "id": "C-001",
+      "pass": true,
+      "reason": "Identifies the boat/yacht insurance policy and dispute as a maritime insurance matter, consistent with the opinion's framing at pages 4–5."
+    },
+    {
+      "id": "C-002",
+      "pass": true,
+      "reason": "Correctly identifies New York law as the law selected by the policy's choice-of-law clause."
+    },
+    {
+      "id": "C-003",
+      "pass": true,
+      "reason": "Separates the Eastern District of Pennsylvania litigation from the contractual selection of New York law and does not treat the filing forum as controlling."
+    },
+    {
+      "id": "C-004",
+      "pass": false,
+      "reason": "The answer discusses the grounding generally but never identifies it as occurring near Fort Lauderdale, Florida, as required by the opinion at page 4."
+    },
+    {
+      "id": "C-005",
+      "pass": true,
+      "reason": "Identifies Great Lakes' alleged breach theory as failure to maintain the fire-suppression system."
+    },
+    {
+      "id": "C-006",
+      "pass": true,
+      "reason": "Recognizes that the opinion recites the fire-suppression system did not contribute to the accident and treats causation as unresolved rather than finding fire caused the grounding."
+    },
+    {
+      "id": "C-007",
+      "pass": true,
+      "reason": "Properly labels complete-policy voidance as Great Lakes' assertion/position, not a Supreme Court coverage holding."
+    },
+    {
+      "id": "C-008",
+      "pass": true,
+      "reason": "Correctly describes the Third Circuit's strong forum-state public-policy exception and remand approach, and notes the Supreme Court reversed it."
+    },
+    {
+      "id": "C-009",
+      "pass": true,
+      "reason": "Correctly applies federal maritime law to the enforceability of the choice-of-law clause."
+    },
+    {
+      "id": "C-010",
+      "pass": true,
+      "reason": "States the federal maritime presumption that choice-of-law clauses are presumptively enforceable."
+    },
+    {
+      "id": "C-011",
+      "pass": false,
+      "reason": "Recites the federal rule and result but does not explain the maritime uniformity interest emphasized in the opinion at pages 6–7, 10–12."
+    },
+    {
+      "id": "C-012",
+      "pass": false,
+      "reason": "Does not explain the advance certainty/predictability rationale for enforcing maritime choice-of-law clauses."
+    },
+    {
+      "id": "C-013",
+      "pass": false,
+      "reason": "Mentions substantial deference but does not address freedom of contract or settled expectations as supporting enforcement."
+    },
+    {
+      "id": "C-014",
+      "pass": false,
+      "reason": "Does not use the forum-selection cases as support or explain their analogy to choice-of-law clauses."
+    },
+    {
+      "id": "C-015",
+      "pass": true,
+      "reason": "Correctly distinguishes Wilburn Boat's substantive warranty/state-law gap-filling issue from the existence of a federal enforceability rule for choice-of-law clauses."
+    },
+    {
+      "id": "C-016",
+      "pass": true,
+      "reason": "Recognizes that New York substantive law may govern remaining coverage issues after the federal choice-of-law rule selects it."
+    },
+    {
+      "id": "C-017",
+      "pass": true,
+      "reason": "Identifies conflict with a controlling federal statute as a recognized enforceability exception."
+    },
+    {
+      "id": "C-018",
+      "pass": true,
+      "reason": "Identifies conflict with established federal maritime policy as a recognized enforceability exception."
+    },
+    {
+      "id": "C-019",
+      "pass": true,
+      "reason": "Recognizes the no-reasonable-basis exception for the selected jurisdiction."
+    },
+    {
+      "id": "C-020",
+      "pass": true,
+      "reason": "Correctly states that the reasonable-basis inquiry is applied with substantial deference to the contracting parties."
+    },
+    {
+      "id": "C-021",
+      "pass": true,
+      "reason": "Recognizes New York's well-developed commercial law as a reasonable choice and does not reject it merely because the loss occurred elsewhere."
+    },
+    {
+      "id": "C-022",
+      "pass": true,
+      "reason": "Correctly states Raiders did not assert the recognized federal-conflict or no-reasonable-basis exceptions applied here."
+    },
+    {
+      "id": "C-023",
+      "pass": true,
+      "reason": "Identifies Raiders' proposed fundamental forum-state public-policy/greatest-interest exception and states that the Court rejected it rather than retaining it as the governing result."
+    },
+    {
+      "id": "C-024",
+      "pass": false,
+      "reason": "States that the Court declined to adopt Restatement §187(2)(b) but does not explain why, such as the majority's federal-state conflict and disuniformity reasoning."
+    },
+    {
+      "id": "C-025",
+      "pass": true,
+      "reason": "Correctly states that the Third Circuit judgment was reversed."
+    },
+    {
+      "id": "C-026",
+      "pass": true,
+      "reason": "Separates enforceability of the choice clause from final policy coverage or damages and reports no adjudicated indemnity amount."
+    },
+    {
+      "id": "C-027",
+      "pass": true,
+      "reason": "Attributes criticism of Wilburn Boat to Justice Thomas's concurrence and does not say the majority overruled it."
+    },
+    {
+      "id": "C-028",
+      "pass": true,
+      "reason": "Fairly presents Raiders' Pennsylvania public-policy position before explaining that the Supreme Court rejected that approach."
+    },
+    {
+      "id": "C-029",
+      "pass": true,
+      "reason": "Requests the complete policy, endorsements, and warranty/exclusion terms and flags unresolved federal-law priority questions before final clause-specific advice."
+    },
+    {
+      "id": "C-030",
+      "pass": true,
+      "reason": "Requests the warranty text, maintenance records, denial grounds, claim file, and loss/causation evidence for the remaining coverage analysis."
+    },
+    {
+      "id": "C-031",
+      "pass": true,
+      "reason": "Limits remaining enforceability challenges to the recognized federal-conflict or reasonable-basis exceptions and flags the Pennsylvania public-policy/Restatement theory as rejected."
+    },
+    {
+      "id": "C-032",
+      "pass": true,
+      "reason": "Treats New York law as likely governing but keeps the ultimate coverage outcome conditional on the full policy and record."
+    }
+  ],
+  "unsupported_material_claims": []
+}
